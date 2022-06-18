@@ -1,0 +1,12 @@
+<RCC>
+<!--
+SPDX-FileCopyrightText: None
+SPDX-License-Identifier: CC0-1.0
+-->
+    <qresource prefix="/">
+        <file alias="main.qml">ui/main.qml</file>
+        <file alias="PageHeader.qml">ui/PageHeader.qml</file>
+        <file alias="About.qml">ui/About.qml</file>
+        <file alias="GlobalMenu.qml">ui/GlobalMenu.qml</file>
+    </qresource>
+</RCC>
