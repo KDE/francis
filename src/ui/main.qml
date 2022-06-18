@@ -127,9 +127,10 @@ Kirigami.ApplicationWindow {
 
                 background: Item {
                     QQC2.Label {
-                        anchors.centerIn: parent
-
+                        enabled: false
                         visible: !goalText.text && !goalText.activeFocus
+
+                        anchors.centerIn: parent
 
                         Layout.alignment: Qt.AlignCenter
 
@@ -138,6 +139,10 @@ Kirigami.ApplicationWindow {
 
                         color: Kirigami.Theme.disabledTextColor
                     }
+
+//                     HoverHandler {
+//                         cursorShape: Qt.IBeamCursor
+//                     }
                 }
             }
 
