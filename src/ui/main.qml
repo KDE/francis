@@ -21,9 +21,6 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 15
     minimumHeight: Kirigami.Units.gridUnit * 15
 
-    //onWidthChanged: console.info(Math.floor(width / 17))
-    //onHeightChanged: console.info(Math.floor(height / 17))
-
     Timer {
         id: saveWindowGeometryTimer
         interval: 1000
