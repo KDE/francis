@@ -78,7 +78,6 @@ void Controller::update()
         m_pomodoros++;
 
         m_onBreak = !m_onBreak;
-        qDebug() << m_pomodoros;
         Q_EMIT onBreakChanged();
 
         int breakTime = m_pomodoros > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
