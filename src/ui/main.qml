@@ -69,6 +69,7 @@ Kirigami.ApplicationWindow {
                 color: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
                 font.pointSize: Kirigami.Theme.defaultFont.pointSize * 5
                 font.bold: true
+                font.family: "monospace"
             }
 
             QQC2.Label {
