@@ -16,9 +16,9 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Francis")
 
-    width: Kirigami.Units.gridUnit * 32
+    width: Kirigami.Units.gridUnit * 28
     height: Kirigami.Units.gridUnit * 15
-    minimumWidth: Kirigami.Units.gridUnit * 15
+    minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 15
 
     Timer {
