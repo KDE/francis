@@ -77,6 +77,7 @@ Kirigami.ApplicationWindow {
 
                 Layout.fillWidth: true
                 Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
+                Layout.preferredHeight: goalText.implicitHeight
                 Layout.alignment: Qt.AlignCenter
 
                 text: i18n("On Break")
