@@ -14,17 +14,14 @@ RowLayout {
     Layout.fillWidth: true
     spacing: 0
 
-    //QQC2.ToolButton {
-        //action: Kirigami.Action {
-            //text: timer.running ? i18n("Stop Pomodoro") : i18n("Start Pomodoro")
-            //icon.name: timer.running ? "chronometer-pause" : "chronometer-start"
-            //onTriggered: timer.running ? timer.stop() : timer.start()
-        //}
-
-        //QQC2.ToolTip.visible: hovered
-        //QQC2.ToolTip.text: text
-        //QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-    //}
+    QQC2.ToolButton {
+        action: Kirigami.Action {
+            text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start Pomodoro"))
+            icon.name: Controller.running ? "chronometer-pause" : "chronometer-start"
+            shortcut: "Space"
+            onTriggered: Controller.hasStarted ? Controller.toggle() : Controller.start()
+        }
+    }
 
     Item {
         Layout.fillWidth: true

@@ -8,9 +8,17 @@ SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 SPDX-License-Identifier: LGPL-2.0-or-later
 -->
     <group name="General">
-        <entry name="configuration" type="Bool">
-            <label>.</label>
-            <default>true</default>
+        <entry name="IntervalTime" type="Int">
+            <label>How long is the interval.</label>
+            <default>25</default>
+        </entry>
+        <entry name="BreakTime" type="Int">
+            <label>How long is the break.</label>
+            <default>5</default>
+        </entry>
+        <entry name="LongBreakTime" type="Int">
+            <label>How long is the long break.</label>
+            <default>20</default>
         </entry>
     </group>
 </kcfg>

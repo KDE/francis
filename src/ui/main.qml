@@ -47,49 +47,11 @@ Kirigami.ApplicationWindow {
         sourceComponent: GlobalMenu {}
     }
 
-    function startTimer() {
-        page.diff = page.duration - (((Date.now() - page.start) / 1000) | 0)
-
-        page.minutes = (page.diff / 60) | 0
-        page.seconds = (page.diff % 60) | 0
-
-        page.minutes = page.minutes < 10 ? "0" + page.minutes : page.minutes
-        page.seconds = page.seconds < 10 ? "0" + page.seconds : page.seconds
-
-        timeText.text = `${page.minutes}:${page.seconds}`
-
-        if (page.diff <= 0) {
-            page.breaking = !page.breaking
-
-            page.start = Date.now() + 100
-        }
-    }
-
     pageStack.initialPage: Kirigami.Page {
         id: page
 
-        property bool breaking: false
-
-        property int duration: page.breaking ? 60 * 15 : 60 * 25
-        property var start: Date.now()
-        property int diff
-        property string minutes
-        property string seconds
-
         padding: 0
         titleDelegate: PageHeader {}
-
-        Timer {
-            id: timer
-            interval: 1000
-            repeat: true
-            running: true
-
-            onTriggered: {
-                startTimer()
-                timeText.color = page.breaking ? Kirigami.Theme.textColor : Kirigami.Theme.highlightColor
-            }
-        }
 
         ColumnLayout {
             anchors.fill: parent
@@ -103,14 +65,29 @@ Kirigami.ApplicationWindow {
 
                 Layout.alignment: Qt.AlignCenter
 
-                text: "25:00"
-                color: Kirigami.Theme.highlightColor
+                text: Controller.text
+                color: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
                 font.pointSize: Kirigami.Theme.defaultFont.pointSize * 5
                 font.bold: true
             }
 
+            QQC2.Label {
+                visible: Controller.onBreak
+
+                Layout.fillWidth: true
+                Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
+                Layout.alignment: Qt.AlignCenter
+
+                text: i18n("On Break")
+                wrapMode: Text.Wrap
+                horizontalAlignment: Qt.AlignHCenter
+                font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
+            }
+
             QQC2.TextField {
                 id: goalText
+
+                visible: !Controller.onBreak
 
                 Layout.fillWidth: true
                 Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
@@ -139,10 +116,6 @@ Kirigami.ApplicationWindow {
 
                         color: Kirigami.Theme.disabledTextColor
                     }
-
-//                     HoverHandler {
-//                         cursorShape: Qt.IBeamCursor
-//                     }
                 }
             }
 
