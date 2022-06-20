@@ -43,7 +43,7 @@ private:
     QTimer *m_timer;
     QString m_text;
 
-    int m_pomodoros { 0 };
+    int m_changes { 0 };
     int m_seconds { Config::self()->intervalTime() * 60 };
     bool m_running { false };
     bool m_hasStarted { false };

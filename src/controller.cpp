@@ -63,8 +63,8 @@ void Controller::toggle()
 void Controller::update()
 {
     if (m_seconds == 0) {
-        if (m_pomodoros == 7) {
-            m_pomodoros = 0;
+        if (m_changes == 7) {
+            m_changes = 0;
 
             m_hasStarted = false;
             Q_EMIT hasStartedChanged();
@@ -75,12 +75,12 @@ void Controller::update()
             m_timer->stop();
         }
 
-        m_pomodoros++;
+        m_changes++;
 
         m_onBreak = !m_onBreak;
         Q_EMIT onBreakChanged();
 
-        int breakTime = m_pomodoros > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
+        int breakTime = m_changes > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
 
         m_seconds = m_onBreak ? breakTime * 60 : Config::self()->intervalTime() * 60;
     }
