@@ -58,6 +58,29 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.Label {
+                Layout.alignment: Qt.AlignCenter
+
+                text: {
+                    switch (Controller.pomodoros) {
+                        case 1:
+                            return i18n("Lap 2")
+                            break
+                        case 2:
+                            return i18n("Lap 3")
+                            break
+                        case 3:
+                            return i18n("Lap 4")
+                            break
+                        default:
+                            return i18n("Lap 1")
+                            break
+                    }
+                }
+                font.pointSize: Math.floor(Kirigami.Theme.defaultFont.pointSize * 1.5)
+                color: Kirigami.Theme.disabledTextColor
+            }
+
+            QQC2.Label {
                 id: timeText
 
                 Layout.alignment: Qt.AlignCenter

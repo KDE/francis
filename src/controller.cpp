@@ -23,6 +23,11 @@ QString Controller::text()
     return m_text;
 }
 
+int Controller::pomodoros()
+{
+    return m_pomodoros;
+}
+
 bool Controller::running()
 {
     return m_running;
@@ -76,6 +81,11 @@ void Controller::update()
         }
 
         m_changes++;
+
+        if (m_onBreak) {
+            m_pomodoros++;
+            Q_EMIT pomodorosChanged();
+        }
 
         m_onBreak = !m_onBreak;
         Q_EMIT onBreakChanged();
