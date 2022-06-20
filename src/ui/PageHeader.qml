@@ -18,7 +18,7 @@ RowLayout {
         action: Kirigami.Action {
             text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start Pomodoro"))
             icon.name: Controller.running ? "chronometer-pause" : "chronometer-start"
-            shortcut: "Space"
+            shortcut: "F5"
             onTriggered: Controller.hasStarted ? Controller.toggle() : Controller.start()
         }
     }
