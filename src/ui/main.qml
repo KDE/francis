@@ -117,7 +117,7 @@ Kirigami.ApplicationWindow {
 
                 wrapMode: Text.Wrap
                 horizontalAlignment: Qt.AlignHCenter
-                maximumLength: 270
+                maximumLength: 78
                 font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
 
                 onEditingFinished: {
