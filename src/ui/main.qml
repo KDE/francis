@@ -100,7 +100,7 @@ Kirigami.ApplicationWindow {
                 Layout.preferredHeight: goalText.implicitHeight
                 Layout.alignment: Qt.AlignCenter
 
-                text: i18n("On Break")
+                text: i18n("Taking a Break")
                 wrapMode: Text.Wrap
                 horizontalAlignment: Qt.AlignHCenter
                 font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
