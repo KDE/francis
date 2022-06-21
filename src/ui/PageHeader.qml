@@ -23,7 +23,7 @@ RowLayout {
         }
 
         QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Start Pomodoro (F5)")
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (F5)")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
