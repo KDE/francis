@@ -27,6 +27,22 @@ RowLayout {
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
+    QQC2.ToolButton {
+        visible: Controller.hasStarted
+
+        action: Kirigami.Action {
+            text: i18n("Reset")
+            icon.name: "chronometer-reset"
+            shortcut: "Backspace"
+            enabled: Controller.hasStarted
+            onTriggered: Controller.reset()
+        }
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (F5)")
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+    }
+
     Item {
         Layout.fillWidth: true
     }

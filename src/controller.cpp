@@ -68,6 +68,23 @@ void Controller::toggle()
     }
 }
 
+void Controller::reset()
+{
+    m_seconds = Config::self()->intervalTime() * 60;
+    m_changes = 0;
+    m_pomodoros = 0;
+
+    m_hasStarted = false;
+    Q_EMIT hasStartedChanged();
+
+    m_running = false;
+    Q_EMIT runningChanged();
+
+    m_timer->stop();
+
+    generateText();
+}
+
 void Controller::update()
 {
     if (m_seconds == 0) {

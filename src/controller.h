@@ -38,6 +38,7 @@ public:
 
     Q_INVOKABLE void start();
     Q_INVOKABLE void toggle();
+    Q_INVOKABLE void reset();
 
     void update();
 
