@@ -121,6 +121,7 @@ Kirigami.ApplicationWindow {
                 font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
 
                 onEditingFinished: {
+                    text = text.trim()
                     goalText.focus = false
                 }
 
