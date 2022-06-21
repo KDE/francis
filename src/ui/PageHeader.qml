@@ -18,12 +18,12 @@ RowLayout {
         action: Kirigami.Action {
             text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start Pomodoro"))
             icon.name: Controller.running ? "chronometer-pause" : "chronometer-start"
-            shortcut: "F5"
+            shortcut: "S"
             onTriggered: Controller.hasStarted ? Controller.toggle() : Controller.start()
         }
 
         QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (F5)")
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (S)")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
@@ -33,13 +33,13 @@ RowLayout {
         action: Kirigami.Action {
             text: i18n("Reset")
             icon.name: "chronometer-reset"
-            shortcut: "Backspace"
+            shortcut: "R"
             enabled: Controller.hasStarted
             onTriggered: Controller.reset()
         }
 
         QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (F5)")
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (R)")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
