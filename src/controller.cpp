@@ -47,9 +47,12 @@ void Controller::start()
 {
     m_seconds = Config::self()->intervalTime() * 60;
     m_timer->start(1000);
+
     m_running = true;
-    m_hasStarted = true;
     Q_EMIT runningChanged();
+
+    m_hasStarted = true;
+    Q_EMIT hasStartedChanged();
 }
 
 void Controller::toggle()
