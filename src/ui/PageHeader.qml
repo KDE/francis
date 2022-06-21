@@ -16,14 +16,14 @@ RowLayout {
 
     QQC2.ToolButton {
         action: Kirigami.Action {
-            text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start Pomodoro"))
+            text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start"))
             icon.name: Controller.running ? "chronometer-pause" : "chronometer-start"
             shortcut: "S"
             onTriggered: Controller.hasStarted ? Controller.toggle() : Controller.start()
         }
 
         QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (S)")
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Timer (S)")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
