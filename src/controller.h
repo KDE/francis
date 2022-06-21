@@ -15,7 +15,7 @@ class Controller : public QObject
     Q_PROPERTY(int pomodoros MEMBER m_pomodoros NOTIFY pomodorosChanged)
     Q_PROPERTY(bool running MEMBER m_running NOTIFY runningChanged)
     Q_PROPERTY(bool hasStarted MEMBER m_hasStarted NOTIFY hasStartedChanged)
-    Q_PROPERTY(bool onBreak MEMBER m_onBreak NOTIFY onBreakChanged)
+    Q_PROPERTY(bool onBreak MEMBER m_onBreak NOTIFY breakChanged)
 
 public:
     explicit Controller(QObject* parent = nullptr);
@@ -34,7 +34,7 @@ public:
     Q_SIGNAL void hasStartedChanged();
 
     bool onBreak();
-    Q_SIGNAL void onBreakChanged();
+    Q_SIGNAL void breakChanged();
 
     Q_INVOKABLE void start();
     Q_INVOKABLE void toggle();

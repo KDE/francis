@@ -8,6 +8,7 @@ import QtQuick.Shapes 1.14
 import QtQml 2.14
 
 import org.kde.kirigami 2.19 as Kirigami
+import org.kde.notification 1.0
 
 import org.kde.francis 1.0
 
@@ -39,9 +40,41 @@ Kirigami.ApplicationWindow {
         function onYChanged() { saveWindowGeometryTimer.restart(); }
     }
 
+    Connections {
+        target: Controller
+
+        function onBreakChanged() {
+            if (Controller.onBreak) {
+                intervalEndedNotification.sendEvent()
+            } else {
+                breakEndedNotification.sendEvent()
+            }
+        }
+    }
+
     Loader {
         active: !Kirigami.Settings.isMobile
         sourceComponent: GlobalMenu {}
+    }
+
+    Notification {
+        id: intervalEndedNotification
+        componentName: "plasma_workspace"
+        eventId: "notification"
+        urgency: Notification.LowUrgency
+        title: i18n("Interval Ended")
+        text: i18n("Enjoy your break, drink some water.")
+        iconName: "appointment-reminder"
+    }
+
+    Notification {
+        id: breakEndedNotification
+        componentName: "plasma_workspace"
+        eventId: "notification"
+        urgency: Notification.LowUrgency
+        title: i18n("Break Ended")
+        text: i18n("Get back to work.")
+        iconName: "appointment-reminder"
     }
 
     pageStack.initialPage: Kirigami.Page {

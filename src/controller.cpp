@@ -108,7 +108,7 @@ void Controller::update()
         }
 
         m_onBreak = !m_onBreak;
-        Q_EMIT onBreakChanged();
+        Q_EMIT breakChanged();
 
         int breakTime = m_changes > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
 
