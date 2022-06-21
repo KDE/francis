@@ -60,6 +60,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalizedString::setApplicationDomain("francis");
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
