@@ -5,7 +5,7 @@
 Name=Francis
 Comment=Track your time
 Exec=francis
-#Icon=org.kde.francis
+Icon=org.kde.francis
 Type=Application
 Terminal=false
 Categories=Qt;KDE;Utility;
