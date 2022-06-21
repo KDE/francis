@@ -39,7 +39,7 @@ RowLayout {
         }
 
         QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Toggle Pomodoro (R)")
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Reset (R)")
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
