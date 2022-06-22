@@ -14,6 +14,12 @@ RowLayout {
     Layout.fillWidth: true
     spacing: 0
 
+    Shortcut {
+        sequence: StandardKey.Cancel
+        enabled: Controller.running
+        onActivated: Controller.toggle()
+    }
+
     QQC2.ToolButton {
         action: Kirigami.Action {
             text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start"))
