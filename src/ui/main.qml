@@ -30,7 +30,7 @@ Kirigami.ApplicationWindow {
 
     Connections {
         id: saveWindowGeometryConnections
-        enabled: false // Disable on startup to avoid writing wrong values if the window is hidden
+        enabled: root.visible
         target: root
 
         function onClosing() { App.saveWindowGeometry(root); }
@@ -178,12 +178,6 @@ Kirigami.ApplicationWindow {
             Item {
                 Layout.fillHeight: true
             }
-        }
-    }
-
-    Component.onCompleted: {
-        if (!Kirigami.Settings.isMobile) {
-            saveWindowGeometryConnections.enabled = true
         }
     }
 }
