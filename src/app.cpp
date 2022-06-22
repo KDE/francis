@@ -14,10 +14,6 @@ App::App(QObject *parent)
 {
 }
 
-App::~App()
-{
-}
-
 void App::restoreWindowGeometry(QQuickWindow *window)
 {
     KConfig dataResource("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);

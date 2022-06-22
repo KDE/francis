@@ -13,10 +13,7 @@ class App : public QObject
 
 public:
     explicit App(QObject* parent = nullptr);
-    ~App() override;
 
     Q_INVOKABLE void restoreWindowGeometry(QQuickWindow* window);
     Q_INVOKABLE void saveWindowGeometry(QQuickWindow* window);
-
-private:
 };
