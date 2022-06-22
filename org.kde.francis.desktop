@@ -8,5 +8,5 @@ Exec=francis
 Icon=org.kde.francis
 Type=Application
 Terminal=false
-Categories=Qt;KDE;Utility;
+Categories=Utility;
 SingleMainWindow=true
