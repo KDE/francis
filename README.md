@@ -5,6 +5,8 @@
 
 # Francis
 
+Track your time.
+
 ![francis window](.gitlab/francis.png)
 
 ## Build Flatpak
