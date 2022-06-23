@@ -14,6 +14,22 @@ Labs.MenuBar {
         title: i18nc("@menu", "File")
 
         Labs.MenuItem {
+            text: Controller.running ? i18n("Pause") : (Controller.hasStarted ? i18n("Resume") : i18n("Start"))
+            icon.name: Controller.running ? "chronometer-pause" : "chronometer-start"
+            shortcut: "S"
+            onTriggered: Controller.hasStarted ? Controller.toggle() : Controller.start()
+        }
+
+        Labs.MenuItem {
+            visible: Controller.hasStarted
+            text: i18n("Reset")
+            icon.name: "chronometer-reset"
+            shortcut: "R"
+            enabled: Controller.hasStarted
+            onTriggered: Controller.reset()
+        }
+
+        Labs.MenuItem {
             text: i18nc("@menu-action", "Quit")
             icon.name: "application-exit"
             onTriggered: Qt.quit()
