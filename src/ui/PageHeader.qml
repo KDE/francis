@@ -56,7 +56,7 @@ RowLayout {
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
         action: Kirigami.Action {
-            text: i18n("About Francis")
+            text: i18nc("keyboard shortcut", "About Francis (F1)")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents
             onTriggered: pageStack.layers.push("About.qml")
