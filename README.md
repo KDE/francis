@@ -9,6 +9,8 @@ Track your time.
 
 ![francis window](.gitlab/francis.png)
 
+Francis uses the well-known pomodoro technique to help you get more productive.
+
 ## Build Flatpak
 
 To build a flatpak bundle of Francis use the following instructions:
