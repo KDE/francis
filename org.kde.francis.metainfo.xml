@@ -6,17 +6,57 @@
   -->
   <id>org.kde.francis</id>
   <name>Francis</name>
+  <name xml:lang="ca">Francis</name>
+  <name xml:lang="ca-valencia">Francis</name>
+  <name xml:lang="es">Francis</name>
+  <name xml:lang="nl">Francis</name>
+  <name xml:lang="pt">Francis</name>
+  <name xml:lang="tr">Francis</name>
+  <name xml:lang="uk">Francis</name>
+  <name xml:lang="x-test">xxFrancisxx</name>
   <summary>Track your time</summary>
+  <summary xml:lang="ca">Seguiment del vostre temps</summary>
+  <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
+  <summary xml:lang="es">Seguimiento de su tiempo</summary>
+  <summary xml:lang="nl">Tijd schrijven</summary>
+  <summary xml:lang="pt">Registe o seu tempo</summary>
+  <summary xml:lang="tr">Zamanınızı izleyin</summary>
+  <summary xml:lang="uk">Керуйте вашим часом</summary>
+  <summary xml:lang="x-test">xxTrack your timexx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Francis uses the well-known pomodoro technique to help you get more productive.</p>
+    <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
+    <p xml:lang="ca-valencia">Francis utilitza la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
+    <p xml:lang="es">Francis usa la ampliamente conocida técnica «pomodoro» para ayudarle a ser más productivo.</p>
+    <p xml:lang="nl">Francis gebruikt de welbekende pomodoro techniek om u te helpen productiever te worden.</p>
+    <p xml:lang="pt">O Francis usa a famosa técnica 'pomodoro' para o ajudar a tornar mais produtivo.</p>
+    <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
+    <p xml:lang="uk">У Francis використано добре відому методику pomodoro, яка допоможе вам у підвищенні продуктивності.</p>
+    <p xml:lang="x-test">xxFrancis uses the well-known pomodoro technique to help you get more productive.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
       <image>https://invent.kde.org/fhek/francis/-/raw/master/.gitlab/francis.png</image>
       <caption>Main View</caption>
+      <caption xml:lang="ca">Vista principal</caption>
+      <caption xml:lang="ca-valencia">Vista principal</caption>
+      <caption xml:lang="es">Vista principal</caption>
+      <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="tr">Ana Görünüm</caption>
+      <caption xml:lang="uk">Основне вікно</caption>
+      <caption xml:lang="x-test">xxMain Viewxx</caption>
     </screenshot>
   </screenshots>
   <requires>
