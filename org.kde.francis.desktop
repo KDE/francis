@@ -3,7 +3,21 @@
 
 [Desktop Entry]
 Name=Francis
+Name[ca]=Francis
+Name[ca@valencia]=Francis
+Name[es]=Francis
+Name[nl]=Francis
+Name[tr]=Francis
+Name[uk]=Francis
+Name[x-test]=xxFrancisxx
 Comment=Track your time
+Comment[ca]=Seguiment del vostre temps
+Comment[ca@valencia]=Seguiment del vostre temps
+Comment[es]=Seguimiento de su tiempo
+Comment[nl]=Tijd schrijven
+Comment[tr]=Zamanınızı izleyin
+Comment[uk]=Керуйте вашим часом
+Comment[x-test]=xxTrack your timexx
 Exec=francis
 Icon=org.kde.francis
 Type=Application
