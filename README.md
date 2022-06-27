@@ -18,7 +18,7 @@ To build a flatpak bundle of Francis use the following instructions:
 ```bash
 $ git clone https://invent.kde.org/fhek/francis.git
 $ cd francis
-$ flatpak-builder --repo=repo build-dir --force-clean org.kde.francis.json
+$ flatpak-builder --repo=repo build-dir --force-clean org.kde.francis.json --install-deps-from=flathub
 $ flatpak build-bundle repo francis.flatpak org.kde.francis
 ```
 
