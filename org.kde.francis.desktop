@@ -35,5 +35,6 @@ Exec=francis
 Icon=org.kde.francis
 Type=Application
 Terminal=false
+Keywords=pomodoro;timer;productivity;
 Categories=Utility;
 SingleMainWindow=true
