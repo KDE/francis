@@ -8,6 +8,7 @@
   <name>Francis</name>
   <name xml:lang="ca">Francis</name>
   <name xml:lang="ca-valencia">Francis</name>
+  <name xml:lang="cs">Francis</name>
   <name xml:lang="de">Francis</name>
   <name xml:lang="es">Francis</name>
   <name xml:lang="fr">Francis</name>
@@ -66,6 +67,7 @@
       <caption>Main View</caption>
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
+      <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="de">Hauptansicht</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="fr">Vue principale</caption>
