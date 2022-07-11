@@ -19,6 +19,7 @@
   <name xml:lang="tr">Francis</name>
   <name xml:lang="uk">Francis</name>
   <name xml:lang="x-test">xxFrancisxx</name>
+  <name xml:lang="zh-TW">Francis</name>
   <summary>Track your time</summary>
   <summary xml:lang="ca">Seguiment del vostre temps</summary>
   <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
@@ -32,6 +33,7 @@
   <summary xml:lang="tr">Zamanınızı izleyin</summary>
   <summary xml:lang="uk">Керуйте вашим часом</summary>
   <summary xml:lang="x-test">xxTrack your timexx</summary>
+  <summary xml:lang="zh-TW">追蹤、掌控時間</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
@@ -47,6 +49,7 @@
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
+  <developer_name xml:lang="zh-TW">KDE Community, Felipe Kinoshita</developer_name>
   <description>
     <p>Francis uses the well-known pomodoro technique to help you get more productive.</p>
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
@@ -60,6 +63,7 @@
     <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
     <p xml:lang="uk">У Francis використано добре відому методику pomodoro, яка допоможе вам у підвищенні продуктивності.</p>
     <p xml:lang="x-test">xxFrancis uses the well-known pomodoro technique to help you get more productive.xx</p>
+    <p xml:lang="zh-TW">Francis 使用廣為人知的「番茄鐘工作法」，使您工作更有效率。</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -78,6 +82,7 @@
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Основне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
+      <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
   </screenshots>
   <requires>
