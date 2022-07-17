@@ -11,6 +11,7 @@
   <name xml:lang="cs">Francis</name>
   <name xml:lang="de">Francis</name>
   <name xml:lang="es">Francis</name>
+  <name xml:lang="fi">Francis</name>
   <name xml:lang="fr">Francis</name>
   <name xml:lang="it">Francis</name>
   <name xml:lang="ko">Francis</name>
@@ -26,6 +27,7 @@
   <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
   <summary xml:lang="de">Behalten Sie Ihre Zeit im Auge</summary>
   <summary xml:lang="es">Seguimiento de su tiempo</summary>
+  <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
   <summary xml:lang="ko">시간 추적</summary>
@@ -43,6 +45,7 @@
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
@@ -58,6 +61,7 @@
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
     <p xml:lang="ca-valencia">Francis utilitza la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
     <p xml:lang="es">Francis usa la ampliamente conocida técnica «pomodoro» para ayudarle a ser más productivo.</p>
+    <p xml:lang="fi">Francis hyödyntää tunnettua pomodorotekniikkaa auttaakseen sinut tuottavammaksi.</p>
     <p xml:lang="fr">Francis repose sur la technique « pomodoro » bien connue pour vous aider à devenir plus productif.</p>
     <p xml:lang="it">Francis usa la famosa tecnica del pomodoro per aiutarti a diventare più produttivo.</p>
     <p xml:lang="ko">Francis는 Pomodoro 테크닉을 사용하여 생산성을 향상시킬 수 있습니다.</p>
@@ -78,6 +82,7 @@
       <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="de">Hauptansicht</caption>
       <caption xml:lang="es">Vista principal</caption>
+      <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ko">주 보기</caption>
