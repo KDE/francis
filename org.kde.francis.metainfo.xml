@@ -17,6 +17,7 @@
   <name xml:lang="ko">Francis</name>
   <name xml:lang="nl">Francis</name>
   <name xml:lang="pt">Francis</name>
+  <name xml:lang="sk">Francis</name>
   <name xml:lang="sl">Francis</name>
   <name xml:lang="tr">Francis</name>
   <name xml:lang="uk">Francis</name>
@@ -33,6 +34,7 @@
   <summary xml:lang="ko">시간 추적</summary>
   <summary xml:lang="nl">Tijd schrijven</summary>
   <summary xml:lang="pt">Registe o seu tempo</summary>
+  <summary xml:lang="sk">Sledovanie vášho času</summary>
   <summary xml:lang="sl">Sledi vašemu času</summary>
   <summary xml:lang="tr">Zamanınızı izleyin</summary>
   <summary xml:lang="uk">Керуйте вашим часом</summary>
@@ -51,6 +53,7 @@
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
@@ -88,6 +91,7 @@
       <caption xml:lang="ko">주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Основне вікно</caption>
