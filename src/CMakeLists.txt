@@ -9,12 +9,12 @@ add_executable(${CMAKE_PROJECT_NAME}
     resources.qrc)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
-    Qt5::Core
-    Qt5::Gui
-    Qt5::Qml
-    Qt5::Quick
-    Qt5::QuickControls2
-    Qt5::Svg
+    Qt::Core
+    Qt::Gui
+    Qt::Qml
+    Qt::Quick
+    Qt::QuickControls2
+    Qt::Svg
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
