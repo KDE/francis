@@ -10,6 +10,7 @@
   <name xml:lang="ca-valencia">Francis</name>
   <name xml:lang="cs">Francis</name>
   <name xml:lang="de">Francis</name>
+  <name xml:lang="en-GB">Francis</name>
   <name xml:lang="es">Francis</name>
   <name xml:lang="fi">Francis</name>
   <name xml:lang="fr">Francis</name>
@@ -27,6 +28,7 @@
   <summary xml:lang="ca">Seguiment del vostre temps</summary>
   <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
   <summary xml:lang="de">Behalten Sie Ihre Zeit im Auge</summary>
+  <summary xml:lang="en-GB">Track your time</summary>
   <summary xml:lang="es">Seguimiento de su tiempo</summary>
   <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
@@ -46,6 +48,7 @@
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
@@ -63,6 +66,7 @@
     <p>Francis uses the well-known pomodoro technique to help you get more productive.</p>
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
     <p xml:lang="ca-valencia">Francis utilitza la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
+    <p xml:lang="en-GB">Francis uses the well-known pomodoro technique to help you get more productive.</p>
     <p xml:lang="es">Francis usa la ampliamente conocida técnica «pomodoro» para ayudarle a ser más productivo.</p>
     <p xml:lang="fi">Francis hyödyntää tunnettua pomodorotekniikkaa auttaakseen sinut tuottavammaksi.</p>
     <p xml:lang="fr">Francis repose sur la technique « pomodoro » bien connue pour vous aider à devenir plus productif.</p>
@@ -84,6 +88,7 @@
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="de">Hauptansicht</caption>
+      <caption xml:lang="en-GB">Main View</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
