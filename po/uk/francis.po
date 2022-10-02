@@ -1,0 +1,180 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the francis package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"PO-Revision-Date: 2022-06-25 08:44+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: src/main.cpp:36
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "Francis"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "Track your time"
+msgstr "Керуйте вашим часом"
+
+#: src/main.cpp:44
+#, kde-format
+msgid "© 2022"
+msgstr "© 2022"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Автор"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Файл"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "Пауза"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "Продовжити"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "Почати"
+
+#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "Скинути"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Вийти"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Довідка"
+
+#: src/ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Надіслати звіт про помилку…"
+
+#: src/ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "Про Francis"
+
+#: src/ui/main.qml:18
+#, kde-format
+msgid "Francis"
+msgstr "Francis"
+
+#: src/ui/main.qml:65
+#, kde-format
+msgid "Interval Ended"
+msgstr "Інтервал завершено"
+
+#: src/ui/main.qml:66
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "Насолоджуйтеся перервою, попийте водички."
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Break Ended"
+msgstr "Перерву завершено"
+
+#: src/ui/main.qml:76
+#, kde-format
+msgid "Get back to work."
+msgstr "Повертайтеся до роботи."
+
+#: src/ui/main.qml:99
+#, kde-format
+msgid "Lap 2"
+msgstr "Цикл 2"
+
+#: src/ui/main.qml:102
+#, kde-format
+msgid "Lap 3"
+msgstr "Цикл 3"
+
+#: src/ui/main.qml:105
+#, kde-format
+msgid "Lap 4"
+msgstr "Цикл 4"
+
+#: src/ui/main.qml:108
+#, kde-format
+msgid "Lap 1"
+msgstr "Цикл 1"
+
+#: src/ui/main.qml:136
+#, kde-format
+msgid "Taking a Break"
+msgstr "Як призупинити гру"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgid "Click to set a goal…"
+msgstr "Натисніть, щоб встановити мету…"
+
+#: src/ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr "Перемкнути таймер (S)"
+
+#: src/ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "Скинути (R)"
+
+#: src/ui/PageHeader.qml:59
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "Про Francis (F1)"

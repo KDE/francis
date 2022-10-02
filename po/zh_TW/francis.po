@@ -1,0 +1,182 @@
+# Chinese translations for francis package
+# francis 套件的正體中文翻譯.
+# Copyright (C) 2022 This file is copyright:
+# This file is distributed under the same license as the francis package.
+#
+# Yi-Jyun Pan <pan93412@gmail.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"PO-Revision-Date: 2022-07-02 09:28+0800\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Yi-Jyun Pan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pan93412@gmail.com"
+
+#: src/main.cpp:36
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "Francis"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "Track your time"
+msgstr "追蹤、掌控時間"
+
+#: src/main.cpp:44
+#, kde-format
+msgid "© 2022"
+msgstr "© 2022"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "作者"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "檔案"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "暫停"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "繼續"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "開始"
+
+#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "重設"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "結束"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "說明"
+
+#: src/ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "回報臭蟲⋯"
+
+#: src/ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "關於 Francis"
+
+#: src/ui/main.qml:18
+#, kde-format
+msgid "Francis"
+msgstr "Francis"
+
+#: src/ui/main.qml:65
+#, kde-format
+msgid "Interval Ended"
+msgstr "間隔結束"
+
+#: src/ui/main.qml:66
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "好好休息，多喝點水。"
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Break Ended"
+msgstr "休息結束"
+
+#: src/ui/main.qml:76
+#, kde-format
+msgid "Get back to work."
+msgstr "繼續工作。"
+
+#: src/ui/main.qml:99
+#, kde-format
+msgid "Lap 2"
+msgstr "第 2 輪"
+
+#: src/ui/main.qml:102
+#, kde-format
+msgid "Lap 3"
+msgstr "第 3 輪"
+
+#: src/ui/main.qml:105
+#, kde-format
+msgid "Lap 4"
+msgstr "第 4 輪"
+
+#: src/ui/main.qml:108
+#, kde-format
+msgid "Lap 1"
+msgstr "第 1 輪"
+
+#: src/ui/main.qml:136
+#, kde-format
+msgid "Taking a Break"
+msgstr "正在休息"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgid "Click to set a goal…"
+msgstr "點選設定目標⋯"
+
+#: src/ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr "切換計時器 (S)"
+
+#: src/ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "重設 (R)"
+
+#: src/ui/PageHeader.qml:59
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "關於 Francis (F1)"

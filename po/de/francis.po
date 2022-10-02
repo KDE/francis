@@ -1,0 +1,181 @@
+# German translations for francis package.
+# Copyright (C) 2022 This file is copyright:
+# This file is distributed under the same license as the francis package.
+# Frederik Schwarzer <schwarzer@kde.org>, 2022.
+#
+# Automatically generated, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"PO-Revision-Date: 2022-07-14 00:39+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Deutsches KDE-Übersetzerteam"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-i18n-de@kde.org"
+
+#: src/main.cpp:36
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "Francis"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "Track your time"
+msgstr "Behalten Sie Ihre Zeit im Auge"
+
+#: src/main.cpp:44
+#, kde-format
+msgid "© 2022"
+msgstr "Copyright © 2022"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Datei"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "Anhalten"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "Fortsetzen"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "Starten"
+
+#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Probleme oder Wünsche berichten ..."
+
+#: src/ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "Über Francis"
+
+#: src/ui/main.qml:18
+#, kde-format
+msgid "Francis"
+msgstr "Francis"
+
+#: src/ui/main.qml:65
+#, kde-format
+msgid "Interval Ended"
+msgstr "Interval ist beendet"
+
+#: src/ui/main.qml:66
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "Genießen Sie Ihre Pause, trinken Sie etwas Wasser."
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Break Ended"
+msgstr "Pause ist beendet"
+
+#: src/ui/main.qml:76
+#, kde-format
+msgid "Get back to work."
+msgstr "Zurück an die Arbeit."
+
+#: src/ui/main.qml:99
+#, kde-format
+msgid "Lap 2"
+msgstr ""
+
+#: src/ui/main.qml:102
+#, kde-format
+msgid "Lap 3"
+msgstr ""
+
+#: src/ui/main.qml:105
+#, kde-format
+msgid "Lap 4"
+msgstr ""
+
+#: src/ui/main.qml:108
+#, kde-format
+msgid "Lap 1"
+msgstr ""
+
+#: src/ui/main.qml:136
+#, kde-format
+msgid "Taking a Break"
+msgstr "Pause machen"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgid "Click to set a goal…"
+msgstr "Klicken, um ein Ziel festzulegen ..."
+
+#: src/ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr ""
+
+#: src/ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "Zurücksetzen (R)"
+
+#: src/ui/PageHeader.qml:59
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "Über Francis (F1)"

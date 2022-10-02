@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"PO-Revision-Date: 2022-09-20 01:57\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/francis/francis.pot\n"
+"X-Crowdin-File-ID: 40686\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Henry Hu"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/main.cpp:36
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "Francis"
+
+#: src/main.cpp:40
+#, kde-format
+msgid "Track your time"
+msgstr "跟踪您的时间"
+
+#: src/main.cpp:44
+#, kde-format
+msgid "© 2022"
+msgstr "© 2022"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "作者"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "文件"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "暂停"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "继续"
+
+#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "开始"
+
+#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "重置"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "退出"
+
+#: src/ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "帮助"
+
+#: src/ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "报告程序缺陷…"
+
+#: src/ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "关于 Francis"
+
+#: src/ui/main.qml:18
+#, kde-format
+msgid "Francis"
+msgstr "Francis"
+
+#: src/ui/main.qml:65
+#, kde-format
+msgid "Interval Ended"
+msgstr "间隔结束"
+
+#: src/ui/main.qml:66
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "享受您的休息，喝一些水。"
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Break Ended"
+msgstr "休息已结束"
+
+#: src/ui/main.qml:76
+#, kde-format
+msgid "Get back to work."
+msgstr "继续工作。"
+
+#: src/ui/main.qml:99
+#, kde-format
+msgid "Lap 2"
+msgstr "第2圈"
+
+#: src/ui/main.qml:102
+#, kde-format
+msgid "Lap 3"
+msgstr "第3圈"
+
+#: src/ui/main.qml:105
+#, kde-format
+msgid "Lap 4"
+msgstr "第4圈"
+
+#: src/ui/main.qml:108
+#, kde-format
+msgid "Lap 1"
+msgstr "第1圈"
+
+#: src/ui/main.qml:136
+#, kde-format
+msgid "Taking a Break"
+msgstr "正在休息"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgid "Click to set a goal…"
+msgstr "点击设置目标…"
+
+#: src/ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr "切换计时器 (S)"
+
+#: src/ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "重置 (R)"
+
+#: src/ui/PageHeader.qml:59
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "关于 Francis (F1)"
