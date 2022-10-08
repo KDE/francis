@@ -1,33 +1,32 @@
-# German translations for francis package.
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the francis package.
-# Frederik Schwarzer <schwarzer@kde.org>, 2022.
 #
-# Automatically generated, 2022.
+# Grzegorz Koryga <rehork@tutamail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-06 00:48+0000\n"
-"PO-Revision-Date: 2022-07-14 00:39+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
-"Language-Team: German <kde-i18n-de@kde.org>\n"
-"Language: de\n"
+"PO-Revision-Date: 2022-10-08 11:33+0200\n"
+"Last-Translator: Grzegorz Koryga <rehork@tutamail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.07.70\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Deutsches KDE-Übersetzerteam"
+msgstr "Grzegorz Koryga"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-i18n-de@kde.org"
+msgstr "rehork@tutamail.com"
 
 #: src/main.cpp:36
 #, kde-format
@@ -38,12 +37,12 @@ msgstr "Francis"
 #: src/main.cpp:40
 #, kde-format
 msgid "Track your time"
-msgstr "Behalten Sie Ihre Zeit im Auge"
+msgstr "Śledź swój czas"
 
 #: src/main.cpp:44
 #, kde-format
 msgid "© 2022"
-msgstr "Copyright © 2022"
+msgstr "© 2022"
 
 #: src/main.cpp:45
 #, kde-format
@@ -61,51 +60,51 @@ msgstr "Autor"
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Datei"
+msgstr "Plik"
 
 #: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
-msgstr "Anhalten"
+msgstr "Wstrzymaj"
 
 #: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
-msgstr "Fortsetzen"
+msgstr "Wznów"
 
 #: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
-msgstr "Starten"
+msgstr "Zacznij"
 
 #: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
-msgstr "Zurücksetzen"
+msgstr "Wyzeruj"
 
 #: src/ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Beenden"
+msgstr "Wyjdź"
 
 #: src/ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Hilfe"
+msgstr "Pomoc"
 
 #: src/ui/GlobalMenu.qml:43
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Probleme oder Wünsche berichten ..."
+msgstr "Zgłoś błąd…"
 
 #: src/ui/GlobalMenu.qml:49
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
-msgstr "Über Francis"
+msgstr "O programie Francis"
 
 #: src/ui/main.qml:18
 #, kde-format
@@ -115,67 +114,67 @@ msgstr "Francis"
 #: src/ui/main.qml:65
 #, kde-format
 msgid "Interval Ended"
-msgstr "Interval ist beendet"
+msgstr "Przedział czasu zakończony "
 
 #: src/ui/main.qml:66
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr "Genießen Sie Ihre Pause, trinken Sie etwas Wasser."
+msgstr "Ciesz się przerwą, napij się wody."
 
 #: src/ui/main.qml:75
 #, kde-format
 msgid "Break Ended"
-msgstr "Pause ist beendet"
+msgstr "Przerwa zakończona"
 
 #: src/ui/main.qml:76
 #, kde-format
 msgid "Get back to work."
-msgstr "Zurück an die Arbeit."
+msgstr "Wróć do pracy."
 
 #: src/ui/main.qml:99
 #, kde-format
 msgid "Lap 2"
-msgstr ""
+msgstr "Etap 2"
 
 #: src/ui/main.qml:102
 #, kde-format
 msgid "Lap 3"
-msgstr ""
+msgstr "Etap 3"
 
 #: src/ui/main.qml:105
 #, kde-format
 msgid "Lap 4"
-msgstr ""
+msgstr "Etap 4"
 
 #: src/ui/main.qml:108
 #, kde-format
 msgid "Lap 1"
-msgstr ""
+msgstr "Etap 1"
 
 #: src/ui/main.qml:136
 #, kde-format
 msgid "Taking a Break"
-msgstr "Pause machen"
+msgstr "Robienie przerwy"
 
 #: src/ui/main.qml:170
 #, kde-format
 msgid "Click to set a goal…"
-msgstr "Klicken, um ein Ziel festzulegen ..."
+msgstr "Kliknij, aby ustawić cel..."
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr ""
+msgstr "Przełącz czasomierz (S)"
 
 #: src/ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
-msgstr "Zurücksetzen (R)"
+msgstr "Wyzeruj (R)"
 
 #: src/ui/PageHeader.qml:59
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
-msgstr "Über Francis (F1)"
+msgstr "O programie Francis (F1)"
