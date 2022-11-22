@@ -167,7 +167,7 @@ Kirigami.ApplicationWindow {
 
                         Layout.alignment: Qt.AlignCenter
 
-                        text: i18n("Click to set a goal…")
+                        text: i18n("I need to focus on…")
                         horizontalAlignment: Qt.AlignHCenter
 
                         color: Kirigami.Theme.disabledTextColor
