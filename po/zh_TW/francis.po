@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"POT-Creation-Date: 2022-11-23 00:51+0000\n"
 "PO-Revision-Date: 2022-07-02 09:28+0800\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: none\n"
@@ -160,8 +160,8 @@ msgstr "正在休息"
 
 #: src/ui/main.qml:170
 #, kde-format
-msgid "Click to set a goal…"
-msgstr "點選設定目標⋯"
+msgid "I need to focus on…"
+msgstr ""
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
@@ -180,3 +180,6 @@ msgstr "重設 (R)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "關於 Francis (F1)"
+
+#~ msgid "Click to set a goal…"
+#~ msgstr "點選設定目標⋯"

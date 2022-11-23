@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"POT-Creation-Date: 2022-11-23 00:51+0000\n"
 "PO-Revision-Date: 2022-06-25 14:17+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -159,8 +159,8 @@ msgstr "Descansando"
 
 #: src/ui/main.qml:170
 #, kde-format
-msgid "Click to set a goal…"
-msgstr "Pulse para fijar un objetivo..."
+msgid "I need to focus on…"
+msgstr ""
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
@@ -179,3 +179,6 @@ msgstr "Reiniciar (R)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "Acerca de Francis (F1)"
+
+#~ msgid "Click to set a goal…"
+#~ msgstr "Pulse para fijar un objetivo..."

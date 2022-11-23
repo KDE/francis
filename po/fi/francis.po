@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"POT-Creation-Date: 2022-11-23 00:51+0000\n"
 "PO-Revision-Date: 2022-07-13 17:54+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -157,8 +157,8 @@ msgstr "Ollaan tauolla"
 
 #: src/ui/main.qml:170
 #, kde-format
-msgid "Click to set a goal…"
-msgstr "Aseta päämäärä napsauttamalla…"
+msgid "I need to focus on…"
+msgstr ""
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
@@ -177,3 +177,6 @@ msgstr "Nollaa (R)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "Tietoa Francisista (F1)"
+
+#~ msgid "Click to set a goal…"
+#~ msgstr "Aseta päämäärä napsauttamalla…"

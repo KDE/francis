@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-06 00:48+0000\n"
+"POT-Creation-Date: 2022-11-23 00:51+0000\n"
 "PO-Revision-Date: 2022-06-25 08:44+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -158,8 +158,8 @@ msgstr "Як призупинити гру"
 
 #: src/ui/main.qml:170
 #, kde-format
-msgid "Click to set a goal…"
-msgstr "Натисніть, щоб встановити мету…"
+msgid "I need to focus on…"
+msgstr ""
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
@@ -178,3 +178,6 @@ msgstr "Скинути (R)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "Про Francis (F1)"
+
+#~ msgid "Click to set a goal…"
+#~ msgstr "Натисніть, щоб встановити мету…"
