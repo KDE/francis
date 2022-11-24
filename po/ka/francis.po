@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-23 00:51+0000\n"
-"PO-Revision-Date: 2022-09-26 09:59+0200\n"
+"PO-Revision-Date: 2022-11-23 06:14+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -134,22 +134,22 @@ msgstr "სამსახურს დაუბრუნდით."
 #: src/ui/main.qml:99
 #, kde-format
 msgid "Lap 2"
-msgstr ""
+msgstr "Lap 2"
 
 #: src/ui/main.qml:102
 #, kde-format
 msgid "Lap 3"
-msgstr ""
+msgstr "Lap 3"
 
 #: src/ui/main.qml:105
 #, kde-format
 msgid "Lap 4"
-msgstr ""
+msgstr "Lap 4"
 
 #: src/ui/main.qml:108
 #, kde-format
 msgid "Lap 1"
-msgstr ""
+msgstr "Lap 1"
 
 #: src/ui/main.qml:136
 #, kde-format
@@ -159,19 +159,19 @@ msgstr "დასვენება"
 #: src/ui/main.qml:170
 #, kde-format
 msgid "I need to focus on…"
-msgstr ""
+msgstr "მჭირდება ფოკუსი…"
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr ""
+msgstr "წამმზომის გადართვა (S)"
 
 #: src/ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
-msgstr ""
+msgstr "საწყის მნიშვნელობებზე დაყენება (R)"
 
 #: src/ui/PageHeader.qml:59
 #, kde-format
