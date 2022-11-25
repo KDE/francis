@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-23 00:51+0000\n"
-"PO-Revision-Date: 2022-06-25 10:59+0200\n"
+"PO-Revision-Date: 2022-11-24 23:41+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -158,7 +158,7 @@ msgstr "Een pauze nemen"
 #: src/ui/main.qml:170
 #, kde-format
 msgid "I need to focus on…"
-msgstr ""
+msgstr "Ik moet mij focussen op…"
 
 #: src/ui/PageHeader.qml:32
 #, kde-format
