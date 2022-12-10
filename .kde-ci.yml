@@ -15,3 +15,5 @@ Dependencies:
     'frameworks/kdbusaddons': '@stable'
     'frameworks/knotifications': '@stable'
 
+Options:
+  require-passing-tests-on: [ '@all' ]
