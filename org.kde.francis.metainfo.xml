@@ -135,6 +135,7 @@
   <provides>
     <binary>francis</binary>
   </provides>
+  <launchable type="desktop-id">org.kde.francis.desktop</launchable>
   <url type="homepage">https://invent.kde.org/fhek/francis</url>
   <url type="bugtracker">https://invent.kde.org/fhek/francis/-/issues</url>
 </component>
