@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-23 00:51+0000\n"
-"PO-Revision-Date: 2022-07-14 00:39+0200\n"
+"PO-Revision-Date: 2022-12-19 10:17+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.07.70\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -135,22 +135,22 @@ msgstr "Zurück an die Arbeit."
 #: src/ui/main.qml:99
 #, kde-format
 msgid "Lap 2"
-msgstr ""
+msgstr "Runde 2"
 
 #: src/ui/main.qml:102
 #, kde-format
 msgid "Lap 3"
-msgstr ""
+msgstr "Runde 3"
 
 #: src/ui/main.qml:105
 #, kde-format
 msgid "Lap 4"
-msgstr ""
+msgstr "Runde 4"
 
 #: src/ui/main.qml:108
 #, kde-format
 msgid "Lap 1"
-msgstr ""
+msgstr "Runde 1"
 
 #: src/ui/main.qml:136
 #, kde-format
