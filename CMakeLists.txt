@@ -9,14 +9,14 @@ string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 include(FeatureSummary)
 
 set(QT5_MIN_VERSION 5.15)
-set(KF5_MIN_VERSION 5.92)
+set(KF_MIN_VERSION 5.92)
 set (KDE_COMPILERSETTINGS_LEVEL "5.82.0")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 
@@ -34,7 +34,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt${QT_MAJOR_VERSION} ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n DBusAddons Notifications)
+find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n DBusAddons Notifications)
 
 ecm_set_disabled_deprecation_versions(QT 5.15.2
     KF 5.102
