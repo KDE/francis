@@ -17,10 +17,10 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Francis")
 
-    width: Kirigami.Units.gridUnit * 33
-    height: Kirigami.Units.gridUnit * 15
+    width: Kirigami.Units.gridUnit * 25
+    height: Kirigami.Units.gridUnit * 25
     minimumWidth: Kirigami.Units.gridUnit * 20
-    minimumHeight: Kirigami.Units.gridUnit * 15
+    minimumHeight: Kirigami.Units.gridUnit * 20
 
     Timer {
         id: saveWindowGeometryTimer
@@ -82,101 +82,170 @@ Kirigami.ApplicationWindow {
 
         padding: 0
         titleDelegate: PageHeader {}
+        Shape {
+            anchors.centerIn: parent
 
-        ColumnLayout {
-            anchors.fill: parent
+            id: circle
+            implicitWidth: 600
+            implicitHeight: 600
+            anchors.horizontalCenter: parent.horizontalCenter
+            layer.enabled: true
+            layer.samples: 40
 
-            Item {
-                Layout.fillHeight: true
+            Kirigami.Theme.colorSet: Kirigami.Theme.Button
+
+            // base circle
+            ShapePath {
+                strokeColor: Kirigami.ColorUtils.linearInterpolation(Kirigami.Theme.disabledTextColor, "transparent", 0.6);
+                fillColor: "transparent"
+                strokeWidth: 3
+                capStyle: ShapePath.FlatCap
+                PathAngleArc {
+                    id: circleArc
+                    centerX: circle.width / 2; centerY: circle.height / 2;
+                    radiusX: 150
+                    radiusY: 150
+                    startAngle: -180
+                    sweepAngle: 360
+                }
             }
 
-            QQC2.Label {
-                Layout.alignment: Qt.AlignCenter
-
-                text: {
-                    switch (Controller.pomodoros) {
-                        case 1:
-                            return i18n("Lap 2")
-                            break
-                        case 2:
-                            return i18n("Lap 3")
-                            break
-                        case 3:
-                            return i18n("Lap 4")
-                            break
-                        default:
-                            return i18n("Lap 1")
-                            break
+            // progress circle
+            ShapePath {
+                strokeColor: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
+                fillColor: "transparent"
+                strokeWidth: 7
+                capStyle: ShapePath.RoundCap
+                PathAngleArc {
+                    id: arc
+                    centerX: circleArc.centerX; centerY: circleArc.centerY
+                    radiusX: circleArc.radiusX; radiusY: circleArc.radiusY
+                    startAngle: -90
+                    sweepAngle: 360*(Controller.percentage/100)
+                    Behavior on sweepAngle {
+                        NumberAnimation{
+                            duration: 1000
+                        }
                     }
                 }
-                font.pointSize: Math.floor(Kirigami.Theme.defaultFont.pointSize * 1.5)
-                color: Kirigami.Theme.disabledTextColor
             }
+            ShapePath {
+                strokeColor: Kirigami.ColorUtils.linearInterpolation(Kirigami.Theme.backgroundColor, "transparent", 0.4);
+                fillColor: "transparent"
+                strokeWidth: 5
+                capStyle: ShapePath.RoundCap
+                PathAngleArc {
+                    centerX: circleArc.centerX; centerY: circleArc.centerY
+                    radiusX: circleArc.radiusX; radiusY: circleArc.radiusY
+                    startAngle: -90
+                    sweepAngle: 360*(Controller.percentage/100)
 
-            QQC2.Label {
-                id: timeText
+                    Behavior on sweepAngle {
+                        NumberAnimation{
 
-                Layout.alignment: Qt.AlignCenter
-
-                text: Controller.text
-                color: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
-                font.pointSize: Kirigami.Theme.defaultFont.pointSize * 5
-                font.bold: true
-                font.family: "monospace"
-            }
-
-            QQC2.Label {
-                visible: Controller.onBreak
-
-                Layout.fillWidth: true
-                Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
-                Layout.preferredHeight: goalText.implicitHeight
-                Layout.alignment: Qt.AlignCenter
-
-                text: i18n("Taking a Break")
-                wrapMode: Text.Wrap
-                horizontalAlignment: Qt.AlignHCenter
-                font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
-            }
-
-            QQC2.TextField {
-                id: goalText
-
-                visible: !Controller.onBreak
-
-                Layout.fillWidth: true
-                Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
-                Layout.alignment: Qt.AlignCenter
-
-                wrapMode: Text.Wrap
-                horizontalAlignment: Qt.AlignHCenter
-                maximumLength: 78
-                font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
-
-                onEditingFinished: {
-                    text = text.trim()
-                    goalText.focus = false
-                }
-
-                background: Item {
-                    QQC2.Label {
-                        enabled: false
-                        visible: !goalText.text && !goalText.activeFocus
-
-                        anchors.centerIn: parent
-
-                        Layout.alignment: Qt.AlignCenter
-
-                        text: i18n("I need to focus on…")
-                        horizontalAlignment: Qt.AlignHCenter
-
-                        color: Kirigami.Theme.disabledTextColor
+                            duration: 1000
+                        }
                     }
                 }
             }
 
-            Item {
-                Layout.fillHeight: true
+
+
+            ColumnLayout {
+                anchors.fill: parent
+
+                Item {
+                    Layout.fillHeight: true
+                }
+
+                QQC2.Label {
+                    Layout.alignment: Qt.AlignCenter
+
+                    text: {
+                        switch (Controller.pomodoros) {
+                            case 1:
+                                return i18n("Lap 2")
+                                break
+                            case 2:
+                                return i18n("Lap 3")
+                                break
+                            case 3:
+                                return i18n("Lap 4")
+                                break
+                            default:
+                                return i18n("Lap 1")
+                                break
+                        }
+                    }
+                    font.pointSize: Math.floor(Kirigami.Theme.defaultFont.pointSize * 1.5)
+                    color: Kirigami.Theme.disabledTextColor
+                }
+
+                QQC2.Label {
+                    id: timeText
+
+                    Layout.alignment: Qt.AlignCenter
+
+                    text: Controller.text
+                    color: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
+                    font.pointSize: Kirigami.Theme.defaultFont.pointSize * 5
+                    font.bold: true
+                    font.family: "monospace"
+                }
+
+                QQC2.Label {
+                    visible: Controller.onBreak
+
+                    Layout.fillWidth: true
+                    Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
+                    Layout.preferredHeight: goalText.implicitHeight
+                    Layout.alignment: Qt.AlignCenter
+
+                    text: i18n("Taking a Break")
+                    wrapMode: Text.Wrap
+                    horizontalAlignment: Qt.AlignHCenter
+                    font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
+                }
+
+                QQC2.TextField {
+                    id: goalText
+
+                    visible: !Controller.onBreak
+
+                    Layout.fillWidth: true
+                    Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 4)
+                    Layout.alignment: Qt.AlignCenter
+
+                    wrapMode: Text.Wrap
+                    horizontalAlignment: Qt.AlignHCenter
+                    maximumLength: 78
+                    font.pointSize: Math.round(Kirigami.Theme.defaultFont.pointSize * 1.5)
+
+                    onEditingFinished: {
+                        text = text.trim()
+                        goalText.focus = false
+                    }
+
+                    background: Item {
+                        QQC2.Label {
+                            enabled: false
+                            visible: !goalText.text && !goalText.activeFocus
+
+                            anchors.centerIn: parent
+
+                            Layout.alignment: Qt.AlignCenter
+
+                            text: i18n("I need to focus on…")
+                            horizontalAlignment: Qt.AlignHCenter
+
+                            color: Kirigami.Theme.disabledTextColor
+                        }
+                    }
+                }
+
+                Item {
+                    Layout.fillHeight: true
+                }
             }
         }
     }
