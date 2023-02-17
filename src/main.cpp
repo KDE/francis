@@ -15,7 +15,6 @@
 
 constexpr auto APPLICATION_ID = "org.kde.francis";
 
-#include "about.h"
 #include "version-francis.h"
 #include "config.h"
 #include "app.h"

@@ -3,10 +3,10 @@
 
 #pragma once
 
-#include <QTimer>
 #include <QObject>
-
 #include "config.h"
+
+class QTimer;
 
 class Controller : public QObject
 {
@@ -21,19 +21,19 @@ public:
     explicit Controller(QObject* parent = nullptr);
     ~Controller() override;
 
-    QString text();
+    QString text() const;
     Q_SIGNAL void textChanged();
 
-    int pomodoros();
+    int pomodoros() const;
     Q_SIGNAL void pomodorosChanged();
 
-    bool running();
+    bool running() const;
     Q_SIGNAL void runningChanged();
 
-    bool hasStarted();
+    bool hasStarted() const;
     Q_SIGNAL void hasStartedChanged();
 
-    bool onBreak();
+    bool onBreak() const;
     Q_SIGNAL void breakChanged();
 
     Q_INVOKABLE void start();
