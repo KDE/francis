@@ -59,8 +59,9 @@ RowLayout {
             text: i18nc("keyboard shortcut", "About Francis (F1)")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents
-            onTriggered: pageStack.layers.push("About.qml")
-            enabled: pageStack.layers.depth <= 1
+            onTriggered: pageStack.pushDialogLayer(Qt.resolvedUrl("About.qml"), {}, {
+                maximumWidth: Kirigami.Units.gridUnit * 30
+            })
         }
 
         QQC2.ToolTip.visible: hovered

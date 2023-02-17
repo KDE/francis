@@ -28,6 +28,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #endif
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
+    KLocalizedString::setApplicationDomain("francis");
 
     KAboutData aboutData(
                          // The program name used internally.
@@ -52,17 +53,18 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     auto config = Config::self();
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
 
-    AboutType about;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
-
     App application;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
+
+    qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+            qDebug() << "called";
+        return engine->toScriptValue(KAboutData::applicationData());
+    });
 
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    KLocalizedString::setApplicationDomain("francis");
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
