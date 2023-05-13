@@ -15,6 +15,7 @@
   <name xml:lang="eu">Francis</name>
   <name xml:lang="fi">Francis</name>
   <name xml:lang="fr">Francis</name>
+  <name xml:lang="gl">Francis</name>
   <name xml:lang="it">Francis</name>
   <name xml:lang="ka">Francis</name>
   <name xml:lang="ko">Francis</name>
@@ -37,6 +38,7 @@
   <summary xml:lang="eu">Zure denboraren jarraipena</summary>
   <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
+  <summary xml:lang="gl">Controle o seu tempo</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
@@ -61,6 +63,7 @@
   <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
@@ -83,6 +86,7 @@
     <p xml:lang="eu">Francis-ek pomodoro teknika ezaguna erabiltzen du productiboago izaten laguntzeko.</p>
     <p xml:lang="fi">Francis hyödyntää tunnettua pomodorotekniikkaa auttaakseen sinut tuottavammaksi.</p>
     <p xml:lang="fr">Francis repose sur la technique « Pomodoro » bien connue pour vous aider à devenir plus productif.</p>
+    <p xml:lang="gl">Francis usa a famosa técnica pomodoro para axudarlle a mellorar a súa produtividade.</p>
     <p xml:lang="it">Francis usa la famosa tecnica del pomodoro per aiutarti a diventare più produttivo.</p>
     <p xml:lang="ka">Francis-ი თქვენი პროდუქტიულობის ასამაღლებლად ცნობილ პომოდოროს ტექნიკას იყენებს.</p>
     <p xml:lang="ko">Francis는 Pomodoro 테크닉을 사용하여 생산성을 향상시킬 수 있습니다.</p>
@@ -109,6 +113,7 @@
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
+      <caption xml:lang="gl">Vista principal</caption>
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
