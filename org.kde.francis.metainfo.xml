@@ -38,7 +38,7 @@
   <summary xml:lang="eu">Zure denboraren jarraipena</summary>
   <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
-  <summary xml:lang="gl">Controle o seu tempo</summary>
+  <summary xml:lang="gl">Controle o seu tempo.</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
@@ -113,7 +113,7 @@
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
-      <caption xml:lang="gl">Vista principal</caption>
+      <caption xml:lang="gl">Vista principal.</caption>
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
