@@ -22,6 +22,7 @@
   <name xml:lang="nl">Francis</name>
   <name xml:lang="pl">Francis</name>
   <name xml:lang="pt">Francis</name>
+  <name xml:lang="pt-BR">Francis</name>
   <name xml:lang="sk">Francis</name>
   <name xml:lang="sl">Francis</name>
   <name xml:lang="tr">Francis</name>
@@ -45,6 +46,7 @@
   <summary xml:lang="nl">Tijd schrijven</summary>
   <summary xml:lang="pl">Mierz swój czas</summary>
   <summary xml:lang="pt">Registe o seu tempo</summary>
+  <summary xml:lang="pt-BR">Acompanhe seu tempo</summary>
   <summary xml:lang="sk">Sledovanie vášho času</summary>
   <summary xml:lang="sl">Sledi vašemu času</summary>
   <summary xml:lang="tr">Zamanınızı izleyin</summary>
@@ -70,6 +72,7 @@
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
@@ -93,6 +96,7 @@
     <p xml:lang="nl">Francis gebruikt de welbekende pomodoro techniek om u te helpen productiever te worden.</p>
     <p xml:lang="pl">Francis wykorzystuje znaną technikę pomodoro, aby pomóc ci uzyskać większą produktywność.</p>
     <p xml:lang="pt">O Francis usa a famosa técnica 'pomodoro' para o ajudar a tornar mais produtivo.</p>
+    <p xml:lang="pt-BR">Francis usa a conhecida técnica pomodoro para ajudá-lo a ser mais produtivo.</p>
     <p xml:lang="sl">Francis uporablja znano tehniko pomodoro, da vam pomaga, da bi bili bolj produktivni.</p>
     <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
     <p xml:lang="uk">У Francis використано добре відому методику pomodoro, яка допоможе вам у підвищенні продуктивності.</p>
@@ -120,6 +124,7 @@
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pl">Widok główny</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="pt-BR">Vista principal</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
