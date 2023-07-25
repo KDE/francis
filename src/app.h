@@ -12,8 +12,8 @@ class App : public QObject
     Q_OBJECT
 
 public:
-    explicit App(QObject* parent = nullptr);
+    explicit App(QObject *parent = nullptr);
 
-    Q_INVOKABLE void restoreWindowGeometry(QQuickWindow* window);
-    Q_INVOKABLE void saveWindowGeometry(QQuickWindow* window);
+    Q_INVOKABLE void restoreWindowGeometry(QQuickWindow *window);
+    Q_INVOKABLE void saveWindowGeometry(QQuickWindow *window);
 };

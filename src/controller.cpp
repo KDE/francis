@@ -130,7 +130,8 @@ void Controller::generateText()
     const QString minutesText = minutes < 10 ? QString("0%1").arg(m_seconds / 60) : QString::number(m_seconds / 60);
     const QString secondsText = seconds < 10 ? QString("0%1").arg(m_seconds % 60) : QString::number(m_seconds % 60);
 
-    m_percentage = m_onBreak?((float(Config::breakTime()) * 60 - m_seconds))/(float(Config::breakTime()) * 60) * 100:((float(Config::intervalTime()) * 60 - m_seconds))/(float(Config::intervalTime()) * 60) * 100;
+    m_percentage = m_onBreak ? ((float(Config::breakTime()) * 60 - m_seconds)) / (float(Config::breakTime()) * 60) * 100
+                             : ((float(Config::intervalTime()) * 60 - m_seconds)) / (float(Config::intervalTime()) * 60) * 100;
     m_text = QString("%1:%2").arg(minutesText).arg(secondsText);
     Q_EMIT textChanged();
     Q_EMIT percentageChanged();

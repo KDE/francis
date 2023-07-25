@@ -4,10 +4,10 @@
 #include <QApplication>
 #include <QIcon>
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
+#include <QQuickWindow>
 #include <QUrl>
 #include <QtQml>
-#include <QQuickWindow>
-#include <QQuickStyle>
 
 #include <KAboutData>
 #include <KLocalizedContext>
@@ -22,10 +22,10 @@
 
 constexpr auto APPLICATION_ID = "org.kde.francis";
 
-#include "version-francis.h"
-#include "config.h"
 #include "app.h"
+#include "config.h"
 #include "controller.h"
+#include "version-francis.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -48,19 +48,22 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     KLocalizedString::setApplicationDomain("francis");
 
     KAboutData aboutData(
-                         // The program name used internally.
-                         QStringLiteral("francis"),
-                         // A displayable program name string.
-                         i18nc("@title", "Francis"),
-                         // The program version string.
-                         QStringLiteral(FRANCIS_VERSION_STRING),
-                         // Short description of what the app does.
-                         i18n("Track your time"),
-                         // The license this code is released under.
-                         KAboutLicense::GPL,
-                         // Copyright Statement.
-                         i18n("© 2022"));
-    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
+        // The program name used internally.
+        QStringLiteral("francis"),
+        // A displayable program name string.
+        i18nc("@title", "Francis"),
+        // The program version string.
+        QStringLiteral(FRANCIS_VERSION_STRING),
+        // Short description of what the app does.
+        i18n("Track your time"),
+        // The license this code is released under.
+        KAboutLicense::GPL,
+        // Copyright Statement.
+        i18n("© 2022"));
+    aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
+                        i18nc("@info:credit", "Author"),
+                        QStringLiteral("kinofhek@gmail.com"),
+                        QStringLiteral("https://fhek.gitlab.io"));
     aboutData.setBugAddress("https://invent.kde.org/fhek/francis/-/issues/new");
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.francis")));
@@ -74,7 +77,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
 
     qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-            qDebug() << "called";
+        qDebug() << "called";
         return engine->toScriptValue(KAboutData::applicationData());
     });
 

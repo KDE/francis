@@ -3,8 +3,8 @@
 
 #pragma once
 
-#include <QObject>
 #include "config.h"
+#include <QObject>
 
 class QTimer;
 
@@ -19,7 +19,7 @@ class Controller : public QObject
     Q_PROPERTY(bool onBreak MEMBER m_onBreak NOTIFY breakChanged)
 
 public:
-    explicit Controller(QObject* parent = nullptr);
+    explicit Controller(QObject *parent = nullptr);
     ~Controller() override;
 
     QString text() const;
@@ -53,10 +53,10 @@ private:
     QString m_text;
     float m_percentage;
 
-    int m_pomodoros { 0 };
-    int m_changes { 0 };
-    int m_seconds { Config::self()->intervalTime() * 60 };
-    bool m_running { false };
-    bool m_hasStarted { false };
-    bool m_onBreak { false };
+    int m_pomodoros{0};
+    int m_changes{0};
+    int m_seconds{Config::self()->intervalTime() * 60};
+    bool m_running{false};
+    bool m_hasStarted{false};
+    bool m_onBreak{false};
 };
