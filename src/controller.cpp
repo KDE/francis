@@ -46,9 +46,14 @@ bool Controller::onBreak() const
     return m_onBreak;
 }
 
+void Controller::setMinuteDuration(int duration)
+{
+    m_minuteDuration = duration;
+}
+
 void Controller::start()
 {
-    m_seconds = Config::self()->intervalTime() * 60;
+    m_seconds = Config::self()->intervalTime() * m_minuteDuration;
     m_timer->start(1000);
 
     m_running = true;
@@ -73,7 +78,7 @@ void Controller::toggle()
 
 void Controller::reset()
 {
-    m_seconds = Config::self()->intervalTime() * 60;
+    m_seconds = Config::self()->intervalTime() * m_minuteDuration;
     m_changes = 0;
     m_pomodoros = 0;
 
@@ -115,12 +120,12 @@ void Controller::update()
 
         const int breakTime = m_changes > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
 
-        m_seconds = m_onBreak ? breakTime * 60 : Config::self()->intervalTime() * 60;
+        m_seconds = m_onBreak ? breakTime * m_minuteDuration : Config::self()->intervalTime() * m_minuteDuration;
     }
 
-    generateText();
-
     m_seconds--;
+
+    generateText();
 }
 
 void Controller::generateText()

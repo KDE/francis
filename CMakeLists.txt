@@ -25,6 +25,7 @@ include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
+include(ECMAddTests)
 include(ECMPoQmTools)
 include(ECMDeprecationSettings)
 include(KDEClangFormat)
@@ -37,6 +38,10 @@ ecm_setup_version(${PROJECT_VERSION}
 
 find_package(Qt${QT_MAJOR_VERSION} ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
 find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n Notifications)
+
+if (BUILD_TESTING)
+    find_package(Qt${QT_MAJOR_VERSION}Test ${QT5_MIN_VERSION} REQUIRED)
+endif()
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
     find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF_MIN_VERSION} REQUIRED)

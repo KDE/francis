@@ -42,3 +42,4 @@ Dependencies:
 
 Options:
   require-passing-tests-on: [ '@all' ]
+  gcovr-arguments: "--exclude src/main.cpp --exclude '.*/include/KF.*'"

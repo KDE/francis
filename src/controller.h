@@ -48,11 +48,15 @@ public:
 
     void generateText();
 
+    /// Only useful for unit testing
+    void setMinuteDuration(int duration);
+
 private:
     QTimer *m_timer;
     QString m_text;
     float m_percentage;
 
+    int m_minuteDuration = 60;
     int m_pomodoros{0};
     int m_changes{0};
     int m_seconds{Config::self()->intervalTime() * 60};

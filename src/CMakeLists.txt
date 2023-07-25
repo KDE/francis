@@ -38,3 +38,7 @@ if (TARGET KF${QT_MAJOR_VERSION}::DBusAddons)
 endif()
 
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+
+if (BUILD_TESTING)
+    add_subdirectory(autotests)
+endif()

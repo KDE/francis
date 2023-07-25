@@ -5,6 +5,8 @@
 
 # Francis
 
+![coverage](https://invent.kde.org/utilities/francis/badges/master/coverage.svg?job=suse_tumbleweed_qt515)
+
 Track your time.
 
 ![francis window](.gitlab/francis.png)
