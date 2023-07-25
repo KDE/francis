@@ -77,7 +77,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
 
     qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-        qDebug() << "called";
         return engine->toScriptValue(KAboutData::applicationData());
     });
 
