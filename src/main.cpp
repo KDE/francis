@@ -7,11 +7,18 @@
 #include <QUrl>
 #include <QtQml>
 #include <QQuickWindow>
+#include <QQuickStyle>
 
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
+#endif
+
+#ifdef Q_OS_WINDOWS
+#include <Windows.h>
+#endif
 
 constexpr auto APPLICATION_ID = "org.kde.francis";
 
@@ -25,7 +32,18 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
+
+#ifdef Q_OS_ANDROID
+    QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
+#else
     QApplication app(argc, argv);
+    // Default to org.kde.desktop style unless the user forces another style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+
+#endif
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     KLocalizedString::setApplicationDomain("francis");
 
@@ -70,7 +88,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return -1;
     }
 
+#ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
+#endif
 
     // Restore window size and position
     const auto rootObjects = engine.rootObjects();
