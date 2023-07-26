@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-23 00:51+0000\n"
+"POT-Creation-Date: 2023-07-26 00:49+0000\n"
 "PO-Revision-Date: 2022-07-02 11:45-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -24,152 +24,152 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: src/main.cpp:36
+#: main.cpp:54
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
 msgstr ""
 
-#: src/main.cpp:40
+#: main.cpp:58
 #, kde-format
 msgid "Track your time"
 msgstr ""
 
-#: src/main.cpp:44
+#: main.cpp:62
 #, kde-format
 msgid "© 2022"
 msgstr ""
 
-#: src/main.cpp:45
+#: main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr ""
 
-#: src/main.cpp:45
+#: main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:43
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:49
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
 msgstr ""
 
-#: src/ui/main.qml:18
+#: ui/main.qml:18
 #, kde-format
 msgid "Francis"
 msgstr ""
 
-#: src/ui/main.qml:65
+#: ui/main.qml:65
 #, kde-format
 msgid "Interval Ended"
 msgstr ""
 
-#: src/ui/main.qml:66
+#: ui/main.qml:66
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr ""
 
-#: src/ui/main.qml:75
+#: ui/main.qml:75
 #, kde-format
 msgid "Break Ended"
 msgstr ""
 
-#: src/ui/main.qml:76
+#: ui/main.qml:76
 #, kde-format
 msgid "Get back to work."
 msgstr ""
 
-#: src/ui/main.qml:99
+#: ui/main.qml:174
 #, kde-format
 msgid "Lap 2"
 msgstr ""
 
-#: src/ui/main.qml:102
+#: ui/main.qml:177
 #, kde-format
 msgid "Lap 3"
 msgstr ""
 
-#: src/ui/main.qml:105
+#: ui/main.qml:180
 #, kde-format
 msgid "Lap 4"
 msgstr ""
 
-#: src/ui/main.qml:108
+#: ui/main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr ""
 
-#: src/ui/main.qml:136
+#: ui/main.qml:217
 #, kde-format
 msgid "Taking a Break"
 msgstr ""
 
-#: src/ui/main.qml:170
+#: ui/main.qml:251
 #, kde-format
 msgid "I need to focus on…"
 msgstr ""
 
-#: src/ui/PageHeader.qml:32
+#: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
 msgstr ""
 
-#: src/ui/PageHeader.qml:48
+#: ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
 msgstr ""
 
-#: src/ui/PageHeader.qml:59
+#: ui/PageHeader.qml:59
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"

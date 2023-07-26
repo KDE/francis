@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-23 00:51+0000\n"
+"POT-Creation-Date: 2023-07-26 00:49+0000\n"
 "PO-Revision-Date: 2022-07-13 15:18+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -27,152 +27,152 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: src/main.cpp:36
+#: main.cpp:54
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
 msgstr "Francis"
 
-#: src/main.cpp:40
+#: main.cpp:58
 #, kde-format
 msgid "Track your time"
 msgstr "시간 추적"
 
-#: src/main.cpp:44
+#: main.cpp:62
 #, kde-format
 msgid "© 2022"
 msgstr "© 2022"
 
-#: src/main.cpp:45
+#: main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:45
+#: main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "작성자"
 
-#: src/ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "파일"
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr "일시 정지"
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr "다시 시작"
 
-#: src/ui/GlobalMenu.qml:17 src/ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr "시작"
 
-#: src/ui/GlobalMenu.qml:25 src/ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr "초기화"
 
-#: src/ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "끝내기"
 
-#: src/ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "도움말"
 
-#: src/ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:43
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "버그 보고…"
 
-#: src/ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:49
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
 msgstr "Francis 정보"
 
-#: src/ui/main.qml:18
+#: ui/main.qml:18
 #, kde-format
 msgid "Francis"
 msgstr "Francis"
 
-#: src/ui/main.qml:65
+#: ui/main.qml:65
 #, kde-format
 msgid "Interval Ended"
 msgstr "간격 끝남"
 
-#: src/ui/main.qml:66
+#: ui/main.qml:66
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "잠시 휴식을 취하십시오."
 
-#: src/ui/main.qml:75
+#: ui/main.qml:75
 #, kde-format
 msgid "Break Ended"
 msgstr "쉬는 시간 끝남"
 
-#: src/ui/main.qml:76
+#: ui/main.qml:76
 #, kde-format
 msgid "Get back to work."
 msgstr "일터로 돌아오십시오."
 
-#: src/ui/main.qml:99
+#: ui/main.qml:174
 #, kde-format
 msgid "Lap 2"
 msgstr "랩 2"
 
-#: src/ui/main.qml:102
+#: ui/main.qml:177
 #, kde-format
 msgid "Lap 3"
 msgstr "랩 3"
 
-#: src/ui/main.qml:105
+#: ui/main.qml:180
 #, kde-format
 msgid "Lap 4"
 msgstr "랩 4"
 
-#: src/ui/main.qml:108
+#: ui/main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "랩 1"
 
-#: src/ui/main.qml:136
+#: ui/main.qml:217
 #, kde-format
 msgid "Taking a Break"
 msgstr "쉬는 시간 갖기"
 
-#: src/ui/main.qml:170
+#: ui/main.qml:251
 #, kde-format
 msgid "I need to focus on…"
 msgstr ""
 
-#: src/ui/PageHeader.qml:32
+#: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
 msgstr "타이머 전환(S)"
 
-#: src/ui/PageHeader.qml:48
+#: ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
 msgstr "초기화(R)"
 
-#: src/ui/PageHeader.qml:59
+#: ui/PageHeader.qml:59
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
