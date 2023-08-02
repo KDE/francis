@@ -21,6 +21,7 @@
   <name xml:lang="ka">Francis</name>
   <name xml:lang="ko">Francis</name>
   <name xml:lang="nl">Francis</name>
+  <name xml:lang="nn">Francis</name>
   <name xml:lang="pl">Francis</name>
   <name xml:lang="pt">Francis</name>
   <name xml:lang="pt-BR">Francis</name>
@@ -46,6 +47,7 @@
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
   <summary xml:lang="nl">Tijd schrijven</summary>
+  <summary xml:lang="nn">Styr tidsbruken din</summary>
   <summary xml:lang="pl">Mierz swój czas</summary>
   <summary xml:lang="pt">Registe o seu tempo</summary>
   <summary xml:lang="pt-BR">Acompanhe seu tempo</summary>
@@ -73,6 +75,7 @@
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
@@ -98,6 +101,7 @@
     <p xml:lang="ka">Francis-ი თქვენი პროდუქტიულობის ასამაღლებლად ცნობილ პომოდოროს ტექნიკას იყენებს.</p>
     <p xml:lang="ko">Francis는 Pomodoro 테크닉을 사용하여 생산성을 향상시킬 수 있습니다.</p>
     <p xml:lang="nl">Francis gebruikt de welbekende pomodoro techniek om u te helpen productiever te worden.</p>
+    <p xml:lang="nn">Francis brukar den kjende pomodoro-teknikken for å gjera deg meir produktiv.</p>
     <p xml:lang="pl">Francis wykorzystuje znaną technikę pomodoro, aby pomóc ci uzyskać większą produktywność.</p>
     <p xml:lang="pt">O Francis usa a famosa técnica 'pomodoro' para o ajudar a tornar mais produtivo.</p>
     <p xml:lang="pt-BR">Francis usa a conhecida técnica pomodoro para ajudá-lo a ser mais produtivo.</p>
@@ -127,6 +131,7 @@
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="nn">Hovudvising</caption>
       <caption xml:lang="pl">Widok główny</caption>
       <caption xml:lang="pt">Janela Principal</caption>
       <caption xml:lang="pt-BR">Vista principal</caption>
