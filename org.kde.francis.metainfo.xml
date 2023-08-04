@@ -27,6 +27,7 @@
   <name xml:lang="pt-BR">Francis</name>
   <name xml:lang="sk">Francis</name>
   <name xml:lang="sl">Francis</name>
+  <name xml:lang="sv">Francis</name>
   <name xml:lang="tr">Francis</name>
   <name xml:lang="uk">Francis</name>
   <name xml:lang="x-test">xxFrancisxx</name>
@@ -53,6 +54,7 @@
   <summary xml:lang="pt-BR">Acompanhe seu tempo</summary>
   <summary xml:lang="sk">Sledovanie vášho času</summary>
   <summary xml:lang="sl">Sledi vašemu času</summary>
+  <summary xml:lang="sv">Spåra din tid</summary>
   <summary xml:lang="tr">Zamanınızı izleyin</summary>
   <summary xml:lang="uk">Керуйте вашим часом</summary>
   <summary xml:lang="x-test">xxTrack your timexx</summary>
@@ -81,6 +83,7 @@
   <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
@@ -106,6 +109,7 @@
     <p xml:lang="pt">O Francis usa a famosa técnica 'pomodoro' para o ajudar a tornar mais produtivo.</p>
     <p xml:lang="pt-BR">Francis usa a conhecida técnica pomodoro para ajudá-lo a ser mais produtivo.</p>
     <p xml:lang="sl">Francis uporablja znano tehniko pomodoro, da vam pomaga, da bi bili bolj produktivni.</p>
+    <p xml:lang="sv">Francis använder den välkända pomodoro-tekniken för att hjälpa dig bli mer produktiv.</p>
     <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
     <p xml:lang="uk">У Francis використано добре відому методику pomodoro, яка допоможе вам у підвищенні продуктивності.</p>
     <p xml:lang="x-test">xxFrancis uses the well-known pomodoro technique to help you get more productive.xx</p>
@@ -137,6 +141,7 @@
       <caption xml:lang="pt-BR">Vista principal</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
+      <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Основне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
