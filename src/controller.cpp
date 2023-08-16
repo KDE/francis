@@ -137,7 +137,7 @@ void Controller::generateText()
 
     m_percentage = m_onBreak ? ((float(Config::breakTime()) * 60 - m_seconds)) / (float(Config::breakTime()) * 60) * 100
                              : ((float(Config::intervalTime()) * 60 - m_seconds)) / (float(Config::intervalTime()) * 60) * 100;
-    m_text = QString("%1:%2").arg(minutesText).arg(secondsText);
+    m_text = QString("%1:%2").arg(minutesText, secondsText);
     Q_EMIT textChanged();
     Q_EMIT percentageChanged();
 }
