@@ -47,6 +47,10 @@ if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
     find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
+if (NOT ANDROID)
+    find_package(Qt${QT_MAJOR_VERSION}Widgets REQUIRED)
+endif()
+
 find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.10 REQUIRED)
 
 ecm_set_disabled_deprecation_versions(QT 6.4.0

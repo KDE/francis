@@ -32,6 +32,10 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
     Qt::QuickControls2
 )
 
+if (NOT ANDROID)
+    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt::Widgets)
+endif()
+
 if (TARGET KF${QT_MAJOR_VERSION}::DBusAddons)
     target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF${QT_MAJOR_VERSION}::DBusAddons)
     target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
