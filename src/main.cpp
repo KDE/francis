@@ -64,7 +64,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("kinofhek@gmail.com"),
                         QStringLiteral("https://fhek.gitlab.io"));
-    aboutData.setBugAddress("https://invent.kde.org/fhek/francis/-/issues/new");
+    aboutData.addAuthor(i18nc("@info:credit", "Carl Schwan"),
+                        i18nc("@info:credit", "Maintainer"),
+                        QStringLiteral("carl@carlschwan.eu"),
+                        QStringLiteral("https://carlschwan.eu/"));
+    aboutData.setBugAddress("https://bugs.kde.org/enter_bug.cgi?product=Francis");
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.francis")));
 
