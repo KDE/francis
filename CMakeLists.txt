@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-project(francis VERSION 0.1)
+project(francis VERSION 1.0.0)
 string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 
 include(FeatureSummary)

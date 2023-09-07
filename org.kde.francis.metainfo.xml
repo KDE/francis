@@ -157,10 +157,17 @@
     <control>pointing</control>
     <control>touch</control>
   </recommends>
+  <releases>
+    <release version="1.0.0" date="2023-09-07">
+      <url>https://carlschwan.eu/2023/09/08/francis-1.0/</url>
+      <description>
+        <p>Initial release of Francis.</p>
+      </description>
+    </release>
   <provides>
     <binary>francis</binary>
   </provides>
   <launchable type="desktop-id">org.kde.francis.desktop</launchable>
-  <url type="homepage">https://invent.kde.org/fhek/francis</url>
-  <url type="bugtracker">https://invent.kde.org/fhek/francis/-/issues</url>
+  <url type="homepage">http://apps.kde.org/francis</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Francis</url>
 </component>
