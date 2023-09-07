@@ -59,7 +59,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         // The license this code is released under.
         KAboutLicense::GPL,
         // Copyright Statement.
-        i18n("© 2022"));
+        i18n("© 2022 KDE Community"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
                         i18nc("@info:credit", "Author"),
                         QStringLiteral("kinofhek@gmail.com"),
