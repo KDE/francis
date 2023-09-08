@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-26 00:49+0000\n"
+"POT-Creation-Date: 2023-09-08 00:48+0000\n"
 "PO-Revision-Date: 2023-06-26 16:49-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -27,33 +27,45 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "geraldosimiao@fedoraproject.org"
 
-#: main.cpp:54
+#: main.cpp:59
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
 msgstr "Francis"
 
-#: main.cpp:58
+#: main.cpp:63
 #, kde-format
 msgid "Track your time"
 msgstr "Acompanhe seu tempo"
 
-#: main.cpp:62
+#: main.cpp:67
 #, kde-format
-msgid "© 2022"
-msgstr "© 2022"
+msgid "© 2022 KDE Community"
+msgstr ""
 
-#: main.cpp:63
+#: main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:64
+#: main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
+
+#: main.cpp:72
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr ""
+
+#: main.cpp:73
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr ""
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
@@ -177,3 +189,6 @@ msgstr "Reiniciar (R)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "Sobre o Francis (F1)"
+
+#~ msgid "© 2022"
+#~ msgstr "© 2022"
