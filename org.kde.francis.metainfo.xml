@@ -164,6 +164,7 @@
         <p>Initial release of Francis.</p>
       </description>
     </release>
+  </releases>
   <provides>
     <binary>francis</binary>
   </provides>
