@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the francis package.
-# Vincenzo Reale <smart2128vr@gmail.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2023 Vincenzo Reale <smart2128vr@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-08 00:48+0000\n"
-"PO-Revision-Date: 2022-11-24 09:32+0100\n"
+"PO-Revision-Date: 2023-09-09 09:39+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 23.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,7 +41,7 @@ msgstr "Tieni traccia del tuo tempo"
 #: main.cpp:67
 #, kde-format
 msgid "© 2022 KDE Community"
-msgstr ""
+msgstr "© 2022 Comunità KDE"
 
 #: main.cpp:68
 #, kde-format
@@ -59,13 +59,13 @@ msgstr "Autore"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:73
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Responsabile"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
