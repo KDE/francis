@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-08 00:48+0000\n"
 "PO-Revision-Date: 2022-06-27 16:55+0200\n"
-"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -59,13 +59,13 @@ msgstr "Autor"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:73
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Správce"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
@@ -189,6 +189,3 @@ msgstr ""
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr ""
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
