@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-08 00:48+0000\n"
-"PO-Revision-Date: 2023-06-26 16:49-0300\n"
+"PO-Revision-Date: 2023-09-18 09:44-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -41,7 +41,7 @@ msgstr "Acompanhe seu tempo"
 #: main.cpp:67
 #, kde-format
 msgid "© 2022 KDE Community"
-msgstr ""
+msgstr "© 2022 Comunidade KDE"
 
 #: main.cpp:68
 #, kde-format
@@ -59,13 +59,13 @@ msgstr "Autor"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr ""
+msgstr "Carl Schwan"
 
 #: main.cpp:73
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Mantenedor"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
