@@ -120,33 +120,6 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/francis/main.png</image>
       <caption>Main view showing the timer going down</caption>
-      <caption xml:lang="ca">Vista principal</caption>
-      <caption xml:lang="ca-valencia">Vista principal</caption>
-      <caption xml:lang="cs">Hlavní pohled</caption>
-      <caption xml:lang="de">Hauptansicht</caption>
-      <caption xml:lang="en-GB">Main View</caption>
-      <caption xml:lang="eo">Ĉefa Vido</caption>
-      <caption xml:lang="es">Vista principal</caption>
-      <caption xml:lang="eu">Ikuspegi nagusia</caption>
-      <caption xml:lang="fi">Päänäkymä</caption>
-      <caption xml:lang="fr">Vue principale</caption>
-      <caption xml:lang="gl">Vista principal.</caption>
-      <caption xml:lang="it">Vista principale</caption>
-      <caption xml:lang="ka">მთავარი ხედი</caption>
-      <caption xml:lang="ko">주 보기</caption>
-      <caption xml:lang="nl">Hoofdweergave</caption>
-      <caption xml:lang="nn">Hovudvising</caption>
-      <caption xml:lang="pl">Widok główny</caption>
-      <caption xml:lang="pt">Janela Principal</caption>
-      <caption xml:lang="pt-BR">Vista principal</caption>
-      <caption xml:lang="sk">Hlavný pohľad</caption>
-      <caption xml:lang="sl">Glavni pogled</caption>
-      <caption xml:lang="sv">Huvudvy</caption>
-      <caption xml:lang="tr">Ana Görünüm</caption>
-      <caption xml:lang="uk">Основне вікно</caption>
-      <caption xml:lang="x-test">xxMain Viewxx</caption>
-      <caption xml:lang="zh-CN">主视图</caption>
-      <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
   </screenshots>
   <requires>
@@ -157,7 +130,7 @@
     <control>pointing</control>
     <control>touch</control>
   </recommends>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <releases>
     <release version="1.0.1" date="2023-09-15">
       <description>
