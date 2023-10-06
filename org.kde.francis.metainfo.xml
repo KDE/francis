@@ -125,7 +125,9 @@
       <caption xml:lang="es">Vista principal con la cuenta atrás del temporizador</caption>
       <caption xml:lang="fr">Affichage principal affichant le compteur en décroissance</caption>
       <caption xml:lang="nl">Hoofdweergave die de timer omlaag gaand toont</caption>
+      <caption xml:lang="pt-BR">Vista principal mostrando o cronômetro diminuindo</caption>
       <caption xml:lang="sl">Glavni pogled, ki prikazuje časovnik, ki se spušča</caption>
+      <caption xml:lang="sv">Huvudvy som visar när tidtagningen räknar ner</caption>
       <caption xml:lang="tr">Sayacın çalıştığı ana görünüm</caption>
       <caption xml:lang="uk">Основна панель перегляду з таймером, що веде зворотний відлік</caption>
       <caption xml:lang="x-test">xxMain view showing the timer going downxx</caption>
