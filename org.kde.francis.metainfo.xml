@@ -43,7 +43,7 @@
   <summary xml:lang="eu">Zure denboraren jarraipena</summary>
   <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
-  <summary xml:lang="gl">Controle o seu tempo.</summary>
+  <summary xml:lang="gl">Controla o seu tempo.</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
@@ -123,7 +123,10 @@
       <caption xml:lang="ca">Vista principal mostrant el temporitzador anant enrere</caption>
       <caption xml:lang="ca-valencia">Vista principal mostrant el temporitzador anant arrere</caption>
       <caption xml:lang="es">Vista principal con la cuenta atrás del temporizador</caption>
+      <caption xml:lang="eu">Tenporizadorea beherako joaten erakusten duen ikuspegi nagusia</caption>
       <caption xml:lang="fr">Affichage principal affichant le compteur en décroissance</caption>
+      <caption xml:lang="gl">Vista principal que amosa o temporizador decrecendo.</caption>
+      <caption xml:lang="it">Vista principale che mostra lo scadere del timer</caption>
       <caption xml:lang="nl">Hoofdweergave die de timer omlaag gaand toont</caption>
       <caption xml:lang="pt-BR">Vista principal mostrando o cronômetro diminuindo</caption>
       <caption xml:lang="sl">Glavni pogled, ki prikazuje časovnik, ki se spušča</caption>
