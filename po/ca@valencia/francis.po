@@ -190,4 +190,4 @@ msgstr "Reinicia (R)"
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
-msgstr "Quant a Francis (F1)"
+msgstr "Quant a Francis («F1»)"
