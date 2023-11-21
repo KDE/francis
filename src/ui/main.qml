@@ -87,8 +87,8 @@ Kirigami.ApplicationWindow {
             anchors.centerIn: parent
 
             Item {
-                implicitWidth: 320
-                implicitHeight: 320
+                implicitWidth: circleArc.radiusX * 2 + 10
+                implicitHeight: implicitWidth
 
                 Shape {
                     id: circle
@@ -97,9 +97,8 @@ Kirigami.ApplicationWindow {
                         enabled: true
                         samples: 8
                     }
-
                     anchors.fill: parent
-
+                    anchors.horizontalCenter: parent.horizontalCenter
                     Kirigami.Theme.colorSet: Kirigami.Theme.Button
 
                     // base circle
@@ -111,8 +110,7 @@ Kirigami.ApplicationWindow {
                         PathAngleArc {
                             id: circleArc
                             centerX: circle.width / 2; centerY: circle.height / 2;
-                            radiusX: 150
-                            radiusY: 150
+                            radiusX: Math.min(root.width * (Kirigami.Settings.isMobile ? 0.3 : 0.25), root.height * (Kirigami.Settings.isMobile ? 0.3 : 0.25)); radiusY: radiusX
                             startAngle: -180
                             sweepAngle: 360
                         }
@@ -172,16 +170,12 @@ Kirigami.ApplicationWindow {
                             switch (Controller.pomodoros) {
                                 case 1:
                                     return i18n("Lap 2")
-                                    break
                                 case 2:
                                     return i18n("Lap 3")
-                                    break
                                 case 3:
                                     return i18n("Lap 4")
-                                    break
                                 default:
                                     return i18n("Lap 1")
-                                    break
                             }
                         }
                         font.pointSize: Math.floor(Kirigami.Theme.defaultFont.pointSize * 1.5)
@@ -195,7 +189,7 @@ Kirigami.ApplicationWindow {
 
                         text: Controller.text
                         color: Controller.onBreak ? Kirigami.Theme.textColor : Kirigami.Theme.linkColor
-                        font.pointSize: Kirigami.Theme.defaultFont.pointSize * 5
+                        font.pointSize: Kirigami.Theme.defaultFont.pointSize * 4
                         font.bold: true
                         font.family: "monospace"
                     }
