@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:40+0000\n"
+"POT-Creation-Date: 2023-11-22 00:44+0000\n"
 "PO-Revision-Date: 2023-09-08 08:36+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -143,32 +143,32 @@ msgstr "Перерву завершено"
 msgid "Get back to work."
 msgstr "Повертайтеся до роботи."
 
-#: ui/main.qml:174
+#: ui/main.qml:172
 #, kde-format
 msgid "Lap 2"
 msgstr "Цикл 2"
 
-#: ui/main.qml:177
+#: ui/main.qml:174
 #, kde-format
 msgid "Lap 3"
 msgstr "Цикл 3"
 
-#: ui/main.qml:180
+#: ui/main.qml:176
 #, kde-format
 msgid "Lap 4"
 msgstr "Цикл 4"
 
-#: ui/main.qml:183
+#: ui/main.qml:178
 #, kde-format
 msgid "Lap 1"
 msgstr "Цикл 1"
 
-#: ui/main.qml:217
+#: ui/main.qml:211
 #, kde-format
 msgid "Taking a Break"
 msgstr "Як призупинити гру"
 
-#: ui/main.qml:251
+#: ui/main.qml:245
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Маю сконцентруватися…"
