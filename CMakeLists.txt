@@ -8,9 +8,9 @@ string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 
 include(FeatureSummary)
 
-set(QT5_MIN_VERSION 5.15)
-set(KF_MIN_VERSION 5.92)
-set(KDE_COMPILERSETTINGS_LEVEL "5.82.0")
+set(QT_MIN_VERSION 6.6)
+set(KF_MIN_VERSION 5.240)
+set(KDE_COMPILERSETTINGS_LEVEL "5.240.0")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -36,24 +36,24 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/version-${CMAKE_PROJECT_NAME}.h"
 )
 
-find_package(Qt${QT_MAJOR_VERSION} ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Quick Gui Qml QuickControls2 Svg)
-find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n Notifications)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Quick Gui Qml QuickControls2 Svg)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami CoreAddons Config I18n Notifications)
 
 if (BUILD_TESTING)
-    find_package(Qt${QT_MAJOR_VERSION}Test ${QT5_MIN_VERSION} REQUIRED)
+    find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
 endif()
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
-    find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF_MIN_VERSION} REQUIRED)
+    find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
 if (NOT ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION}Widgets REQUIRED)
+    find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
 
-find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.10 REQUIRED)
+find_package(KF6KirigamiAddons 0.10 REQUIRED)
 
-ecm_set_disabled_deprecation_versions(QT 6.4.0
+ecm_set_disabled_deprecation_versions(QT 6.6.0
     KF 5.102
 )
 

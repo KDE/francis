@@ -9,6 +9,8 @@
 
 #include "app.h"
 
+using namespace Qt::Literals::StringLiterals;
+
 App::App(QObject *parent)
     : QObject(parent)
 {
@@ -16,16 +18,16 @@ App::App(QObject *parent)
 
 void App::restoreWindowGeometry(QQuickWindow *window)
 {
-    KConfig dataResource("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
-    KConfigGroup windowGroup(&dataResource, "Window");
+    KConfig dataResource(u"data"_s, KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    KConfigGroup windowGroup(&dataResource, u"Window"_s);
     KWindowConfig::restoreWindowSize(window, windowGroup);
     KWindowConfig::restoreWindowPosition(window, windowGroup);
 }
 
 void App::saveWindowGeometry(QQuickWindow *window)
 {
-    KConfig dataResource("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
-    KConfigGroup windowGroup(&dataResource, "Window");
+    KConfig dataResource(u"data"_s, KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    KConfigGroup windowGroup(&dataResource, u"Window"_s);
     KWindowConfig::saveWindowPosition(window, windowGroup);
     KWindowConfig::saveWindowSize(window, windowGroup);
     dataResource.sync();

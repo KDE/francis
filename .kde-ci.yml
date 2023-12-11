@@ -21,25 +21,6 @@ Dependencies:
       'frameworks/kdbusaddons': '@latest-kf6'
       'frameworks/kwindowsystem': '@latest-kf6'
 
-  - 'on': [ 'Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5', 'Android/Qt5' ]
-    'require':
-      'frameworks/extra-cmake-modules': '@stable'
-      'frameworks/ki18n': '@stable'
-      'frameworks/kirigami': '@stable'
-      'frameworks/kcoreaddons': '@stable'
-      'frameworks/knotifications': '@stable'
-      'frameworks/kconfig': '@stable'
-      'libraries/kirigami-addons': '@latest'
-
-  - 'on': [ 'Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5' ]
-    'require':
-      'frameworks/qqc2-desktop-style': '@stable'
-
-  - 'on': [ 'Linux/Qt5', 'FreeBSD/Qt5' ]
-    'require':
-      'frameworks/kdbusaddons': '@stable'
-      'frameworks/kwindowsystem': '@stable'
-
 Options:
   require-passing-tests-on: [ '@all' ]
   gcovr-arguments: "--exclude src/main.cpp --exclude '.*/include/KF.*'"

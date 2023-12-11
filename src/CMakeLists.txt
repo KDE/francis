@@ -9,16 +9,16 @@ target_sources(${CMAKE_PROJECT_NAME}_static PUBLIC
 kconfig_add_kcfg_files(${CMAKE_PROJECT_NAME}_static GENERATE_MOC config.kcfgc)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}_static PUBLIC
-    Qt::Core
-    Qt::Gui
-    Qt::Qml
-    Qt::Quick
-    Qt::Svg
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
-    KF${QT_MAJOR_VERSION}::ConfigCore
-    KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::Notifications
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::Svg
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::Notifications
 )
 
 add_executable(${CMAKE_PROJECT_NAME}
@@ -32,13 +32,13 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
     Qt::QuickControls2
 )
 
-if (NOT ANDROID)
-    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt::Widgets)
+if (TARGET KF6::DBusAddons)
+    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF6::DBusAddons)
+    target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
 endif()
 
-if (TARGET KF${QT_MAJOR_VERSION}::DBusAddons)
-    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF${QT_MAJOR_VERSION}::DBusAddons)
-    target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
+if (TARGET Qt6::Widgets)
+    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt6::Widgets)
 endif()
 
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
