@@ -88,7 +88,7 @@
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="zh-TW">KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Francis uses the well-known pomodoro technique to help you get more productive.</p>
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per ajudar-vos a ser més productius.</p>
@@ -138,6 +138,7 @@
       <caption xml:lang="tr">Sayacın çalıştığı ana görünüm</caption>
       <caption xml:lang="uk">Основна панель перегляду з таймером, що веде зворотний відлік</caption>
       <caption xml:lang="x-test">xxMain view showing the timer going downxx</caption>
+      <caption xml:lang="zh-TW">主檢視，顯示正在倒數的計時器</caption>
     </screenshot>
   </screenshots>
   <requires>
