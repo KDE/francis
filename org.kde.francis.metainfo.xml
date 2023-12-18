@@ -17,6 +17,7 @@
   <name xml:lang="fi">Francis</name>
   <name xml:lang="fr">Francis</name>
   <name xml:lang="gl">Francis</name>
+  <name xml:lang="ia">Francis</name>
   <name xml:lang="it">Francis</name>
   <name xml:lang="ka">Francis</name>
   <name xml:lang="ko">Francis</name>
@@ -44,6 +45,7 @@
   <summary xml:lang="fi">Pidä kirjaa ajastasi</summary>
   <summary xml:lang="fr">Gérer votre temps</summary>
   <summary xml:lang="gl">Controla o seu tempo.</summary>
+  <summary xml:lang="ia">Tracia tu tempore</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
@@ -73,6 +75,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ia">Communitate de KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
