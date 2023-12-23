@@ -104,6 +104,7 @@
     <p xml:lang="fi">Francis hyödyntää tunnettua pomodorotekniikkaa auttaakseen sinut tuottavammaksi.</p>
     <p xml:lang="fr">Francis repose sur la technique « Pomodoro » bien connue pour vous aider à devenir plus productif.</p>
     <p xml:lang="gl">Francis usa a famosa técnica pomodoro para axudarlle a mellorar a súa produtividade.</p>
+    <p xml:lang="ia">Francis usa le ben cognoscite technica de pomodoro pro adjutar te a esser plus productive.</p>
     <p xml:lang="it">Francis usa la famosa tecnica del pomodoro per aiutarti a diventare più produttivo.</p>
     <p xml:lang="ka">Francis-ი თქვენი პროდუქტიულობის ასამაღლებლად ცნობილ პომოდოროს ტექნიკას იყენებს.</p>
     <p xml:lang="ko">Francis는 Pomodoro 테크닉을 사용하여 생산성을 향상시킬 수 있습니다.</p>
@@ -132,6 +133,7 @@
       <caption xml:lang="eu">Tenporizadorea beherako joaten erakusten duen ikuspegi nagusia</caption>
       <caption xml:lang="fr">Affichage principal affichant le compteur en décroissance</caption>
       <caption xml:lang="gl">Vista principal que amosa o temporizador decrecendo.</caption>
+      <caption xml:lang="ia">Vista principal monstrante le temporisator descendente</caption>
       <caption xml:lang="it">Vista principale che mostra lo scadere del timer</caption>
       <caption xml:lang="ka">მთავარი ხედი, რომელიც წამზომს აჩვენებს</caption>
       <caption xml:lang="ko">진행 중인 타이머를 표시하는 주 보기</caption>
