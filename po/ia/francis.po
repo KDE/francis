@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-15 01:38+0000\n"
-"PO-Revision-Date: 2023-12-17 21:36+0100\n"
+"PO-Revision-Date: 2023-12-22 10:17+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -125,22 +125,22 @@ msgstr "Francis"
 #: ui/main.qml:65
 #, kde-format
 msgid "Interval Ended"
-msgstr ""
+msgstr "Intervallo terminava"
 
 #: ui/main.qml:66
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr ""
+msgstr "Gaude tu pausa, bibe un pauc de aqua."
 
 #: ui/main.qml:75
 #, kde-format
 msgid "Break Ended"
-msgstr ""
+msgstr "Pausa terminava"
 
 #: ui/main.qml:76
 #, kde-format
 msgid "Get back to work."
-msgstr ""
+msgstr "Retorna al travalio."
 
 #: ui/main.qml:172
 #, kde-format
@@ -165,18 +165,18 @@ msgstr "Gyro 1"
 #: ui/main.qml:211
 #, kde-format
 msgid "Taking a Break"
-msgstr ""
+msgstr "Prender un pausa"
 
 #: ui/main.qml:245
 #, kde-format
 msgid "I need to focus on…"
-msgstr ""
+msgstr "Io necessita focalisar sur ..."
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr ""
+msgstr "Commuta Temporisator (S)"
 
 #: ui/PageHeader.qml:48
 #, kde-format
