@@ -58,7 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         // Short description of what the app does.
         i18n("Track your time"),
         // The license this code is released under.
-        KAboutLicense::GPL,
+        KAboutLicense::GPL_V3,
         // Copyright Statement.
         i18n("© 2022 KDE Community"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"),
