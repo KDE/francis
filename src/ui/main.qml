@@ -83,6 +83,10 @@ Kirigami.ApplicationWindow {
         padding: 0
         titleDelegate: PageHeader {}
 
+        TapHandler {
+            onTapped: Controller.hasStarted ? Controller.toggle() : Controller.start()
+        }
+
         ColumnLayout {
             anchors.centerIn: parent
 
