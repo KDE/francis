@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-15 01:38+0000\n"
+"POT-Creation-Date: 2024-02-09 00:40+0000\n"
 "PO-Revision-Date: 2023-12-13 18:01+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -43,8 +43,9 @@ msgid "Track your time"
 msgstr "追蹤、掌控時間"
 
 #: main.cpp:63
-#, kde-format
-msgid "© 2022 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2022 KDE Community"
+msgid "© KDE Community"
 msgstr "© 2022 KDE 社群"
 
 #: main.cpp:64
@@ -146,32 +147,32 @@ msgstr "休息結束"
 msgid "Get back to work."
 msgstr "繼續工作。"
 
-#: ui/main.qml:172
+#: ui/main.qml:176
 #, kde-format
 msgid "Lap 2"
 msgstr "第 2 輪"
 
-#: ui/main.qml:174
+#: ui/main.qml:178
 #, kde-format
 msgid "Lap 3"
 msgstr "第 3 輪"
 
-#: ui/main.qml:176
+#: ui/main.qml:180
 #, kde-format
 msgid "Lap 4"
 msgstr "第 4 輪"
 
-#: ui/main.qml:178
+#: ui/main.qml:182
 #, kde-format
 msgid "Lap 1"
 msgstr "第 1 輪"
 
-#: ui/main.qml:211
+#: ui/main.qml:215
 #, kde-format
 msgid "Taking a Break"
 msgstr "正在休息"
 
-#: ui/main.qml:245
+#: ui/main.qml:249
 #, kde-format
 msgid "I need to focus on…"
 msgstr "我需要專注於…"

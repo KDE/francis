@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-15 01:38+0000\n"
+"POT-Creation-Date: 2024-02-09 00:40+0000\n"
 "PO-Revision-Date: 2023-09-18 09:44-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -39,8 +39,9 @@ msgid "Track your time"
 msgstr "Acompanhe seu tempo"
 
 #: main.cpp:63
-#, kde-format
-msgid "© 2022 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2022 KDE Community"
+msgid "© KDE Community"
 msgstr "© 2022 Comunidade KDE"
 
 #: main.cpp:64
@@ -142,32 +143,32 @@ msgstr "Pausa encerrada"
 msgid "Get back to work."
 msgstr "Volte ao trabalho."
 
-#: ui/main.qml:172
+#: ui/main.qml:176
 #, kde-format
 msgid "Lap 2"
 msgstr "Volta 2"
 
-#: ui/main.qml:174
+#: ui/main.qml:178
 #, kde-format
 msgid "Lap 3"
 msgstr "Volta 3"
 
-#: ui/main.qml:176
+#: ui/main.qml:180
 #, kde-format
 msgid "Lap 4"
 msgstr "Volta 4"
 
-#: ui/main.qml:178
+#: ui/main.qml:182
 #, kde-format
 msgid "Lap 1"
 msgstr "Volta 1"
 
-#: ui/main.qml:211
+#: ui/main.qml:215
 #, kde-format
 msgid "Taking a Break"
 msgstr "Dando uma pausa"
 
-#: ui/main.qml:245
+#: ui/main.qml:249
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Eu preciso focar em..."
