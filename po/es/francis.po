@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the francis package.
 #
 # Automatically generated, 2022.
-# SPDX-FileCopyrightText: 2022, 2023 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 00:40+0000\n"
-"PO-Revision-Date: 2023-09-09 00:58+0200\n"
+"PO-Revision-Date: 2024-02-09 12:41+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.0\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,10 +41,9 @@ msgid "Track your time"
 msgstr "Seguimiento de su tiempo"
 
 #: main.cpp:63
-#, fuzzy, kde-format
-#| msgid "© 2022 KDE Community"
+#, kde-format
 msgid "© KDE Community"
-msgstr "© 2022 La comunidad KDE"
+msgstr "© La comunidad KDE"
 
 #: main.cpp:64
 #, kde-format

@@ -1,15 +1,15 @@
 # Translation of francis.po to Catalan
-# Copyright (C) 2022-2023 This_file_is_part_of_KDE
+# Copyright (C) 2022-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 00:40+0000\n"
-"PO-Revision-Date: 2023-09-08 12:05+0200\n"
+"PO-Revision-Date: 2024-02-09 09:57+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -41,10 +41,9 @@ msgid "Track your time"
 msgstr "Seguiment del vostre temps"
 
 #: main.cpp:63
-#, fuzzy, kde-format
-#| msgid "© 2022 KDE Community"
+#, kde-format
 msgid "© KDE Community"
-msgstr "© 2022 KDE Community"
+msgstr "© KDE Community"
 
 #: main.cpp:64
 #, kde-format
