@@ -39,10 +39,9 @@ msgid "Track your time"
 msgstr ""
 
 #: main.cpp:63
-#, fuzzy, kde-format
-#| msgid "© 2022 KDE Community"
+#, kde-format
 msgid "© KDE Community"
-msgstr "© 2022 Komunita KDE"
+msgstr ""
 
 #: main.cpp:64
 #, kde-format
