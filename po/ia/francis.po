@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the francis package.
 #
-# giovanni <g.sora@tiscali.it>, 2023.
+# giovanni <g.sora@tiscali.it>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 00:40+0000\n"
-"PO-Revision-Date: 2023-12-22 10:17+0100\n"
+"PO-Revision-Date: 2024-02-13 16:25+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -39,10 +39,9 @@ msgid "Track your time"
 msgstr "Tracia tu tempore"
 
 #: main.cpp:63
-#, fuzzy, kde-format
-#| msgid "© 2022 KDE Community"
+#, kde-format
 msgid "© KDE Community"
-msgstr "© 2022 Communitate de KDE"
+msgstr "©  Communitate de KDE"
 
 #: main.cpp:64
 #, kde-format
