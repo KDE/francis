@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the francis package.
-# Tommi Nieminen <translator@legisign.org>, 2022, 2023.
+# Tommi Nieminen <translator@legisign.org>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 00:40+0000\n"
-"PO-Revision-Date: 2023-09-27 17:53+0300\n"
+"PO-Revision-Date: 2024-02-23 19:41+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -39,10 +39,9 @@ msgid "Track your time"
 msgstr "Pidä kirjaa ajastasi"
 
 #: main.cpp:63
-#, fuzzy, kde-format
-#| msgid "© 2022 KDE Community"
+#, kde-format
 msgid "© KDE Community"
-msgstr "© 2022 KDE-yhteisö"
+msgstr "© KDE-yhteisö"
 
 #: main.cpp:64
 #, kde-format
