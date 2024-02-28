@@ -3,14 +3,14 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-project(francis VERSION 1.0.1)
+project(francis VERSION 1.1.0)
 string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 
 include(FeatureSummary)
 
 set(QT_MIN_VERSION 6.6)
-set(KF_MIN_VERSION 5.240)
-set(KDE_COMPILERSETTINGS_LEVEL "5.240.0")
+set(KF_MIN_VERSION 6.0)
+set(KDE_COMPILERSETTINGS_LEVEL "6.0.0")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -51,10 +51,10 @@ if (NOT ANDROID)
     find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
 
-find_package(KF6KirigamiAddons 0.10 REQUIRED)
+find_package(KF6KirigamiAddons 1.0 REQUIRED)
 
 ecm_set_disabled_deprecation_versions(QT 6.6.0
-    KF 5.102
+    KF 6.0
 )
 
 add_subdirectory(src)
