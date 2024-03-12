@@ -10,3 +10,7 @@ Files: org.kde.francis.json
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: CC0-1.0
 
+Files: .flatpak-manifest.json
+Copyright: 2024 Laurent Montel <montel@kde.org>
+License: LGPL-2.0-or-later
+
