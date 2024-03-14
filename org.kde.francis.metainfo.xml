@@ -188,4 +188,10 @@
   <launchable type="desktop-id">org.kde.francis.desktop</launchable>
   <url type="homepage">http://apps.kde.org/francis</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=Francis</url>
+  <url type="vcs-browser">https://invent.kde.org/utilities/francis</url>
+  <categories>
+    <category>Utility</category>
+    <category>Qt</category>
+    <category>KDE</category>
+  </categories>
 </component>
