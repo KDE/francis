@@ -1,191 +1,191 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the francis package.
+#
+# SPDX-FileCopyrightText: 2024 Enol P. <enolp@softastur.org>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 00:40+0000\n"
-"PO-Revision-Date: 2024-03-27 19:45\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-03-27 22:46+0100\n"
+"Last-Translator: Enol P. <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/francis/francis.pot\n"
-"X-Crowdin-File-ID: 48824\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.02.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Henry Hu, Tyson Tan"
+msgstr "Softastur"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "henryhu@kde.org, tds00@qq.com"
+msgstr "alministradores@softastur.org"
 
 #: main.cpp:55
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
-msgstr "Francis 番茄计时器"
+msgstr ""
 
 #: main.cpp:59
 #, kde-format
 msgid "Track your time"
-msgstr "使用番茄工作法掌握作息时间"
+msgstr ""
 
 #: main.cpp:63
 #, kde-format
 msgid "© KDE Community"
-msgstr "© KDE Community"
+msgstr ""
 
 #: main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "作者"
+msgstr ""
 
 #: main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr "Carl Schwan"
+msgstr ""
 
 #: main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "维护者"
+msgstr ""
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "文件"
+msgstr ""
 
 #: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
-msgstr "暂停"
+msgstr ""
 
 #: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
-msgstr "继续"
+msgstr ""
 
 #: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
-msgstr "开始"
+msgstr ""
 
 #: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
-msgstr "重置"
+msgstr ""
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "退出"
+msgstr ""
 
 #: ui/GlobalMenu.qml:40
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "帮助"
+msgstr ""
 
 #: ui/GlobalMenu.qml:43
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "报告程序缺陷…"
+msgstr ""
 
 #: ui/GlobalMenu.qml:49
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
-msgstr "关于 Francis 计时器"
+msgstr ""
 
 #: ui/main.qml:18
 #, kde-format
 msgid "Francis"
-msgstr "Francis 番茄计时器"
+msgstr ""
 
 #: ui/main.qml:65
 #, kde-format
 msgid "Interval Ended"
-msgstr "工作时段结束"
+msgstr ""
 
 #: ui/main.qml:66
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr "工作时段已结束。稍作休息，喝点水吧！"
+msgstr ""
 
 #: ui/main.qml:75
 #, kde-format
 msgid "Break Ended"
-msgstr "休息时段结束"
+msgstr ""
 
 #: ui/main.qml:76
 #, kde-format
 msgid "Get back to work."
-msgstr "休息时段已结束。赶快回去工作吧！"
+msgstr ""
 
 #: ui/main.qml:176
 #, kde-format
 msgid "Lap 2"
-msgstr "时段 2"
+msgstr ""
 
 #: ui/main.qml:178
 #, kde-format
 msgid "Lap 3"
-msgstr "时段 3"
+msgstr ""
 
 #: ui/main.qml:180
 #, kde-format
 msgid "Lap 4"
-msgstr "时段 4"
+msgstr ""
 
 #: ui/main.qml:182
 #, kde-format
 msgid "Lap 1"
-msgstr "时段 1"
+msgstr ""
 
 #: ui/main.qml:215
 #, kde-format
 msgid "Taking a Break"
-msgstr "休息时段进行中"
+msgstr ""
 
 #: ui/main.qml:249
 #, kde-format
 msgid "I need to focus on…"
-msgstr "点击输入此时段的工作内容…"
+msgstr ""
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr "开始/停止计时器 (S)"
+msgstr ""
 
 #: ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
-msgstr "重置 (R)"
+msgstr ""
 
 #: ui/PageHeader.qml:59
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
-msgstr "关于 Francis 计时器 (F1)"
+msgstr ""
