@@ -1,0 +1,191 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the francis package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-09 00:40+0000\n"
+"PO-Revision-Date: 2024-04-06 00:01+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: main.cpp:55
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "פרנסיס"
+
+#: main.cpp:59
+#, kde-format
+msgid "Track your time"
+msgstr "מעקב אחר הזמן שלך"
+
+#: main.cpp:63
+#, kde-format
+msgid "© KDE Community"
+msgstr "© קהילת KDE"
+
+#: main.cpp:64
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "פליפה קינושיטה"
+
+#: main.cpp:65
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "יוצר"
+
+#: main.cpp:68
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "קארל שוואן"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "מתחזק"
+
+#: ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "קובץ"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "השהיה"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "המשך"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "התחלה"
+
+#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "איפוס"
+
+#: ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "יציאה"
+
+#: ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "עזרה"
+
+#: ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "דיווח על תקלה…"
+
+#: ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "על פרנסיס"
+
+#: ui/main.qml:18
+#, kde-format
+msgid "Francis"
+msgstr "פרנסיס"
+
+#: ui/main.qml:65
+#, kde-format
+msgid "Interval Ended"
+msgstr "פרק הזמן הסתיים"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "הפסקה מהנה, אפשר לשתות קצת מים."
+
+#: ui/main.qml:75
+#, kde-format
+msgid "Break Ended"
+msgstr "ההפסקה הסתיימה"
+
+#: ui/main.qml:76
+#, kde-format
+msgid "Get back to work."
+msgstr "חזרה לעבודה."
+
+#: ui/main.qml:176
+#, kde-format
+msgid "Lap 2"
+msgstr "סיבוב 2"
+
+#: ui/main.qml:178
+#, kde-format
+msgid "Lap 3"
+msgstr "סיבוב 3"
+
+#: ui/main.qml:180
+#, kde-format
+msgid "Lap 4"
+msgstr "סיבוב 4"
+
+#: ui/main.qml:182
+#, kde-format
+msgid "Lap 1"
+msgstr "סיבוב 1"
+
+#: ui/main.qml:215
+#, kde-format
+msgid "Taking a Break"
+msgstr "לקיחת הפסקה"
+
+#: ui/main.qml:249
+#, kde-format
+msgid "I need to focus on…"
+msgstr "צריך להתמקד ב…"
+
+#: ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr "החלפת מצב מתזמן (ד)"
+
+#: ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "איפוס (ר)"
+
+#: ui/PageHeader.qml:59
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "על פרסיס (F1)"
