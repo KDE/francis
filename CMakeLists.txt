@@ -43,7 +43,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Quick Gui Qml QuickControls2 Svg)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami CoreAddons Config I18n Notifications)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami CoreAddons Config I18n)
 
 if (BUILD_TESTING)
     find_package(Qt6Test ${QT_MIN_VERSION} REQUIRED)
