@@ -22,7 +22,7 @@ SPDX-License-Identifier: LGPL-2.0-or-later
             <default>20</default>
         </entry>
         <entry name="CriticalUrgencyNotification" type="Bool">
-            <label>Whether notifications are high priority, bypassing Do Not Disturb</label>
+            <label>Whether notifications are critical urgency, bypassing Do Not Disturb</label>
             <default>true</default>
         </entry>
     </group>
