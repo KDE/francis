@@ -53,6 +53,25 @@ RowLayout {
         Layout.fillWidth: true
     }
 
+    QQC2.CheckBox {
+        checked: Config.criticalUrgencyNotification
+        action: Kirigami.Action {
+            text: i18n("Bypass do not disturb")
+            shortcut: "B"
+            onTriggered: {
+                if (checked) {
+                    Config.criticalUrgencyNotification = false;
+                } else {
+                    Config.criticalUrgencyNotification = true;
+                }
+            }
+        }
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Bypass do not disturb (B)")
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+    }
+
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
         action: Kirigami.Action {

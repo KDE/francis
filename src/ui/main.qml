@@ -61,7 +61,7 @@ Kirigami.ApplicationWindow {
         id: intervalEndedNotification
         componentName: "plasma_workspace"
         eventId: "notification"
-        urgency: Notification.LowUrgency
+        urgency: Config.criticalUrgencyNotification ? Notification.CriticalUrgency : Notification.LowUrgency
         title: i18n("Interval Ended")
         text: i18n("Enjoy your break, drink some water.")
         iconName: "appointment-reminder"
@@ -71,7 +71,7 @@ Kirigami.ApplicationWindow {
         id: breakEndedNotification
         componentName: "plasma_workspace"
         eventId: "notification"
-        urgency: Notification.LowUrgency
+        urgency: Config.criticalUrgencyNotification ? Notification.CriticalUrgency : Notification.LowUrgency
         title: i18n("Break Ended")
         text: i18n("Get back to work.")
         iconName: "appointment-reminder"

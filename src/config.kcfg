@@ -21,5 +21,9 @@ SPDX-License-Identifier: LGPL-2.0-or-later
             <label>How long is the long break.</label>
             <default>20</default>
         </entry>
+        <entry name="CriticalUrgencyNotification" type="Bool">
+            <label>Whether notifications are high priority, bypassing Do Not Disturb</label>
+            <default>true</default>
+        </entry>
     </group>
 </kcfg>
