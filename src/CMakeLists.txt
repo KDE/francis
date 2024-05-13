@@ -18,6 +18,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_static PUBLIC
     KF6::CoreAddons
     KF6::ConfigCore
     KF6::ConfigGui
+    KF6::Notifications
 )
 
 add_executable(${CMAKE_PROJECT_NAME}
