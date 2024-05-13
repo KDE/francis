@@ -56,7 +56,7 @@ RowLayout {
     QQC2.CheckBox {
         checked: Config.criticalUrgencyNotification
         action: Kirigami.Action {
-            text: i18n("Bypass do not disturb")
+            text: i18nc("@option:check", "Bypass do not disturb")
             shortcut: "B"
             onTriggered: {
                 Config.criticalUrgencyNotification = !checked;
