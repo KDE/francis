@@ -60,7 +60,7 @@ RowLayout {
             shortcut: "B"
             onTriggered: {
                 Config.criticalUrgencyNotification = !checked;
-            Config.save();
+                Config.save();
             }
         }
 
