@@ -59,11 +59,7 @@ RowLayout {
             text: i18n("Bypass do not disturb")
             shortcut: "B"
             onTriggered: {
-                if (checked) {
-                    Config.criticalUrgencyNotification = false;
-                } else {
-                    Config.criticalUrgencyNotification = true;
-                }
+                Config.criticalUrgencyNotification = !checked;
             Config.save();
             }
         }
