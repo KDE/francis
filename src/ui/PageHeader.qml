@@ -64,6 +64,7 @@ RowLayout {
                 } else {
                     Config.criticalUrgencyNotification = true;
                 }
+            Config.save();
             }
         }
 
