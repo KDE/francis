@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-09 00:40+0000\n"
+"POT-Creation-Date: 2024-05-18 00:41+0000\n"
 "PO-Revision-Date: 2024-02-19 05:46+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -189,6 +189,18 @@ msgid "Reset (R)"
 msgstr "重設 (R)"
 
 #: ui/PageHeader.qml:59
+#, kde-format
+msgctxt "@option:check"
+msgid "Bypass do not disturb"
+msgstr ""
+
+#: ui/PageHeader.qml:68
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Bypass do not disturb (B)"
+msgstr ""
+
+#: ui/PageHeader.qml:75
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"

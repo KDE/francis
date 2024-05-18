@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-09 00:40+0000\n"
+"POT-Creation-Date: 2024-05-18 00:41+0000\n"
 "PO-Revision-Date: 2024-02-09 05:58+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -186,6 +186,18 @@ msgid "Reset (R)"
 msgstr "საწყის მნიშვნელობებზე დაყენება (R)"
 
 #: ui/PageHeader.qml:59
+#, kde-format
+msgctxt "@option:check"
+msgid "Bypass do not disturb"
+msgstr ""
+
+#: ui/PageHeader.qml:68
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Bypass do not disturb (B)"
+msgstr ""
+
+#: ui/PageHeader.qml:75
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
