@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-18 00:41+0000\n"
-"PO-Revision-Date: 2024-04-06 00:01+0300\n"
+"PO-Revision-Date: 2024-05-18 07:18+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -189,13 +189,13 @@ msgstr "איפוס (ר)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "מעקף מצב ‚לא להפריע’"
 
 #: ui/PageHeader.qml:68
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "מעקף מצב ‚לא להפריע’ (ב׳)"
 
 #: ui/PageHeader.qml:75
 #, kde-format

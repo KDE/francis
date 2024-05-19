@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-18 00:41+0000\n"
-"PO-Revision-Date: 2024-02-09 20:54+0100\n"
+"PO-Revision-Date: 2024-05-19 00:25+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -188,13 +188,13 @@ msgstr "Restabelecer (R)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "Ignorar «non molestar»."
 
 #: ui/PageHeader.qml:68
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "Ignorar «non molestar» (B)."
 
 #: ui/PageHeader.qml:75
 #, kde-format
