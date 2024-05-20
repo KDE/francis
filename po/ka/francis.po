@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-18 00:41+0000\n"
-"PO-Revision-Date: 2024-02-09 05:58+0100\n"
+"PO-Revision-Date: 2024-05-19 05:26+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -189,13 +189,13 @@ msgstr "საწყის მნიშვნელობებზე დაყ�
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "'არ შემაწუხოთ'-ის გამოტოვება"
 
 #: ui/PageHeader.qml:68
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "'არ შემაწუხოთ'-ის გამოტოვება (B)"
 
 #: ui/PageHeader.qml:75
 #, kde-format
