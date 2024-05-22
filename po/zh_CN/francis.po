@@ -188,13 +188,13 @@ msgstr "重置 (R)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "绕过“勿扰模式”"
 
 #: ui/PageHeader.qml:68
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "绕过“勿扰模式”(B)"
 
 #: ui/PageHeader.qml:75
 #, kde-format
