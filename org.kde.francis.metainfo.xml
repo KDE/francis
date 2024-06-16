@@ -24,6 +24,7 @@
   <name xml:lang="ka">Francis</name>
   <name xml:lang="ko">Francis</name>
   <name xml:lang="lt">Francis</name>
+  <name xml:lang="lv">Francis</name>
   <name xml:lang="nl">Francis</name>
   <name xml:lang="nn">Francis</name>
   <name xml:lang="pl">Francis</name>
@@ -55,6 +56,7 @@
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
   <summary xml:lang="lt">Sekite savo laiką</summary>
+  <summary xml:lang="lv">Sekojiet savam laikam</summary>
   <summary xml:lang="nl">Tijd schrijven</summary>
   <summary xml:lang="nn">Styr tidsbruken din</summary>
   <summary xml:lang="pl">Mierz swój czas</summary>
@@ -88,6 +90,7 @@
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="lt">KDE bendruomenė, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="lv">KDE kopiena, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
@@ -120,6 +123,7 @@
     <p xml:lang="ka">Francis-ი თქვენი პროდუქტიულობის ასამაღლებლად ცნობილ პომოდოროს ტექნიკას იყენებს.</p>
     <p xml:lang="ko">Francis는 Pomodoro 테크닉을 사용하여 생산성을 향상시킬 수 있습니다.</p>
     <p xml:lang="lt">Francis naudoja gerai žinomą „Pomodoro“ techniką, kad padėtų jums išlikti produktyviems.</p>
+    <p xml:lang="lv">„Francis“ izmanto labi zināmo „pomodoro“ tehniku, lai palīdzētu strādāt produktīvāk.</p>
     <p xml:lang="nl">Francis gebruikt de welbekende pomodoro techniek om u te helpen productiever te worden.</p>
     <p xml:lang="nn">Francis brukar den kjende pomodoro-teknikken for å gjera deg meir produktiv.</p>
     <p xml:lang="pl">Francis wykorzystuje znaną technikę pomodoro, aby pomóc ci uzyskać większą produktywność.</p>
@@ -154,6 +158,7 @@
       <caption xml:lang="ka">მთავარი ხედი, რომელიც წამზომს აჩვენებს</caption>
       <caption xml:lang="ko">진행 중인 타이머를 표시하는 주 보기</caption>
       <caption xml:lang="lt">Pagrindinis rodinys atvaizduojantis laikmatį</caption>
+      <caption xml:lang="lv">Pamatskats ar taimeri</caption>
       <caption xml:lang="nl">Hoofdweergave die de timer omlaag gaand toont</caption>
       <caption xml:lang="pl">Główni widok pokazujący odliczanie czasu</caption>
       <caption xml:lang="pt-BR">Vista principal mostrando o cronômetro diminuindo</caption>
