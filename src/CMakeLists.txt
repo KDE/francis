@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: BSD-2-Clause
 
 add_library(${CMAKE_PROJECT_NAME}_static STATIC)
-target_sources(${CMAKE_PROJECT_NAME}_static PUBLIC
+target_sources(${CMAKE_PROJECT_NAME}_static PRIVATE
     controller.cpp
     controller.h
 )
