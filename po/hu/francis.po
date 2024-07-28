@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-18 00:41+0000\n"
-"PO-Revision-Date: 2024-07-01 13:01+0200\n"
+"PO-Revision-Date: 2024-07-27 21:49+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -188,13 +188,13 @@ msgstr "Visszaállítás (R)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "Ne zavarjanak megkerülése"
 
 #: ui/PageHeader.qml:68
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "Ne zavarjanak megkerülése (B)"
 
 #: ui/PageHeader.qml:75
 #, kde-format
