@@ -48,7 +48,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "About Francis")
             icon.name: "help-about"
-            onTriggered: pageStack.layers.push("About.qml")
+            onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
             enabled: pageStack.layers.depth <= 1
         }
     }
