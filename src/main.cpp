@@ -27,7 +27,6 @@
 
 constexpr auto APPLICATION_ID = "org.kde.francis";
 
-#include "app.h"
 #include "config.h"
 #include "controller.h"
 #include "version-francis.h"
@@ -78,9 +77,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     auto config = Config::self();
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
 
-    App application;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
-
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
@@ -94,18 +90,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
 #endif
-
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                application.restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
 
     return app.exec();
 }
