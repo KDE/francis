@@ -70,14 +70,16 @@ RowLayout {
     }
 
     QQC2.CheckBox {
-        checked: Config.criticalUrgencyNotification
-        action: Kirigami.Action {
-            text: i18nc("@option:check", "Bypass do not disturb")
+        text: i18nc("@option:check", "Bypass do not disturb")
+        action: QQC2.Action {
             shortcut: "B"
-            onTriggered: {
-                Config.criticalUrgencyNotification = !checked;
-                Config.save();
-            }
+        }
+        checked: Config.criticalUrgencyNotification
+        checkable: true
+        onClicked: {
+            checked = !checked;
+            Config.criticalUrgencyNotification = checked;
+            Config.save();
         }
 
         QQC2.ToolTip.visible: hovered
