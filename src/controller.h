@@ -43,9 +43,9 @@ public:
     Q_INVOKABLE void start();
     Q_INVOKABLE void toggle();
     Q_INVOKABLE void reset();
+    Q_INVOKABLE void skip();
 
     void update();
-
     void generateText();
 
     /// Only useful for unit testing
@@ -63,4 +63,9 @@ private:
     bool m_running{false};
     bool m_hasStarted{false};
     bool m_onBreak{false};
+
+    void startTimer();
+    void stopTimer();
+    void goToNextRound();
+    void resetInternal();
 };

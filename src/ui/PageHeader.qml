@@ -49,6 +49,22 @@ RowLayout {
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
 
+    QQC2.ToolButton {
+        visible: Controller.hasStarted
+
+        action: Kirigami.Action {
+            text: i18nc("@action:button", "Skip")
+            icon.name: "go-next-skip-symbolic"
+            shortcut: "N"
+            enabled: Controller.hasStarted
+            onTriggered: Controller.skip()
+        }
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: i18nc("keyboard shortcut", "Skip (N)")
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+    }
+
     Item {
         Layout.fillWidth: true
     }

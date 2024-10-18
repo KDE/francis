@@ -55,73 +55,106 @@ void Controller::setMinuteDuration(int duration)
 void Controller::start()
 {
     m_seconds = Config::self()->intervalTime() * m_minuteDuration;
-    m_timer->start(1000);
 
-    m_running = true;
-    Q_EMIT runningChanged();
-
-    m_hasStarted = true;
-    Q_EMIT hasStartedChanged();
+    startTimer();
 }
 
 void Controller::toggle()
 {
-    if (m_timer->isActive()) {
-        m_timer->stop();
-        m_running = false;
-        Q_EMIT runningChanged();
-    } else {
-        m_timer->start(1000);
-        m_running = true;
-        Q_EMIT runningChanged();
-    }
+    m_timer->isActive() ? stopTimer() : startTimer();
 }
 
 void Controller::reset()
 {
+    resetInternal();
+    generateText();
+}
+
+void Controller::skip()
+{
+    stopTimer();
+    goToNextRound();
+    generateText();
+}
+
+void Controller::startTimer()
+{
+    if (!m_timer->isActive()) {
+        m_timer->start(1000);
+    }
+
+    if (!m_running) {
+        m_running = true;
+        Q_EMIT runningChanged();
+    }
+
+    if (!m_hasStarted) {
+        m_hasStarted = true;
+        Q_EMIT hasStartedChanged();
+    }
+}
+
+void Controller::stopTimer()
+{
+    if (m_timer->isActive()) {
+        m_timer->stop();
+    }
+
+    if (m_running) {
+        m_running = false;
+        Q_EMIT runningChanged();
+    }
+}
+
+void Controller::goToNextRound()
+{
+    if (m_changes == 7) {
+        resetInternal();
+        return;
+    }
+
+    m_changes++;
+
+    if (m_onBreak) {
+        m_pomodoros++;
+        Q_EMIT pomodorosChanged();
+    }
+
+    m_onBreak = !m_onBreak;
+    Q_EMIT breakChanged();
+
+    const int breakTime = m_changes > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
+
+    m_seconds = m_onBreak ? breakTime * m_minuteDuration : Config::self()->intervalTime() * m_minuteDuration;
+}
+
+void Controller::resetInternal()
+{
+    stopTimer();
+
     m_seconds = Config::self()->intervalTime() * m_minuteDuration;
     m_changes = 0;
-    m_pomodoros = 0;
 
-    m_hasStarted = false;
-    Q_EMIT hasStartedChanged();
+    if (m_pomodoros > 0) {
+        m_pomodoros = 0;
+        Q_EMIT pomodorosChanged();
+    }
 
-    m_running = false;
-    Q_EMIT runningChanged();
+    if (m_hasStarted) {
+        m_hasStarted = false;
+        Q_EMIT hasStartedChanged();
+    }
 
-    m_timer->stop();
-
-    generateText();
+    if (m_onBreak) {
+        m_onBreak = false;
+        Q_EMIT breakChanged();
+    }
 }
 
 void Controller::update()
 {
     if (m_seconds == 0) {
-        if (m_changes == 7) {
-            m_changes = 0;
-
-            m_hasStarted = false;
-            Q_EMIT hasStartedChanged();
-
-            m_running = false;
-            Q_EMIT runningChanged();
-
-            m_timer->stop();
-        }
-
-        m_changes++;
-
-        if (m_onBreak) {
-            m_pomodoros++;
-            Q_EMIT pomodorosChanged();
-        }
-
-        m_onBreak = !m_onBreak;
-        Q_EMIT breakChanged();
-
-        const int breakTime = m_changes > 5 ? Config::self()->longBreakTime() : Config::self()->breakTime();
-
-        m_seconds = m_onBreak ? breakTime * m_minuteDuration : Config::self()->intervalTime() * m_minuteDuration;
+        goToNextRound();
     }
 
     m_seconds--;
