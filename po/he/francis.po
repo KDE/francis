@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-18 00:41+0000\n"
+"POT-Creation-Date: 2024-10-19 00:42+0000\n"
 "PO-Revision-Date: 2024-05-18 07:18+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -185,19 +185,31 @@ msgctxt "keyboard shortcut"
 msgid "Reset (R)"
 msgstr "איפוס (ר)"
 
-#: ui/PageHeader.qml:59
+#: ui/PageHeader.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr ""
+
+#: ui/PageHeader.qml:64
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Skip (N)"
+msgstr ""
+
+#: ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
 msgstr "מעקף מצב ‚לא להפריע’"
 
-#: ui/PageHeader.qml:68
+#: ui/PageHeader.qml:86
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
 msgstr "מעקף מצב ‚לא להפריע’ (ב׳)"
 
-#: ui/PageHeader.qml:75
+#: ui/PageHeader.qml:93
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
