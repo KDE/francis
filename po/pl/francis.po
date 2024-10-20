@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-19 00:42+0000\n"
-"PO-Revision-Date: 2024-06-16 11:01+0200\n"
+"PO-Revision-Date: 2024-10-19 12:36+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -190,13 +190,13 @@ msgstr "Wyzeruj (R)"
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
-msgstr ""
+msgstr "Pomiń"
 
 #: ui/PageHeader.qml:64
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Skip (N)"
-msgstr ""
+msgstr "Pomiń (N)"
 
 #: ui/PageHeader.qml:73
 #, kde-format
