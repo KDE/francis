@@ -1,9 +1,9 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-import QtQuick 2.15
-import Qt.labs.platform 1.1 as Labs
-import org.kde.kirigami 2.19 as Kirigami
+import QtQuick
+import Qt.labs.platform as Labs
+import org.kde.kirigami as Kirigami
 
 import org.kde.francis 1.0
 
