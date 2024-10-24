@@ -25,11 +25,9 @@
 #include <Windows.h>
 #endif
 
-constexpr auto APPLICATION_ID = "org.kde.francis";
-
-#include "config.h"
-#include "controller.h"
 #include "version-francis.h"
+
+using namespace Qt::StringLiterals;
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -74,14 +72,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    auto config = Config::self();
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
-    Controller controller;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
-
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.loadFromModule(u"org.kde.francis"_s, u"Main"_s);
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

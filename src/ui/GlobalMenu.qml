@@ -5,7 +5,7 @@ import QtQuick
 import Qt.labs.platform as Labs
 import org.kde.kirigami as Kirigami
 
-import org.kde.francis 1.0
+import org.kde.francis
 
 Labs.MenuBar {
     id: menuBar

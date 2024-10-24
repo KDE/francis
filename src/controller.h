@@ -5,12 +5,15 @@
 
 #include "config.h"
 #include <QObject>
+#include <qqmlregistration.h>
 
 class QTimer;
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
     Q_PROPERTY(QString text MEMBER m_text NOTIFY textChanged)
     Q_PROPERTY(float percentage MEMBER m_percentage NOTIFY percentageChanged)
     Q_PROPERTY(int pomodoros MEMBER m_pomodoros NOTIFY pomodorosChanged)

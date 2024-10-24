@@ -2,6 +2,17 @@
 # SPDX-License-Identifier: BSD-2-Clause
 
 add_library(${CMAKE_PROJECT_NAME}_static STATIC)
+ecm_add_qml_module(${CMAKE_PROJECT_NAME}_static
+    URI "org.kde.${CMAKE_PROJECT_NAME}"
+    GENERATE_PLUGIN_SOURCE
+)
+
+ecm_target_qml_sources(${CMAKE_PROJECT_NAME}_static SOURCES
+    ui/Main.qml
+    ui/PageHeader.qml
+    ui/GlobalMenu.qml
+)
+
 target_sources(${CMAKE_PROJECT_NAME}_static PRIVATE
     controller.cpp
     controller.h
@@ -22,11 +33,11 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_static PUBLIC
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    resources.qrc
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_PROJECT_NAME}_static
+    ${CMAKE_PROJECT_NAME}_staticplugin
     Qt::QuickControls2
 )
 
