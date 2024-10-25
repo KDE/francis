@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-19 00:42+0000\n"
+"POT-Creation-Date: 2024-10-25 00:42+0000\n"
 "PO-Revision-Date: 2024-10-19 07:17+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,41 +28,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: main.cpp:55
+#: main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
 msgstr "Francis"
 
-#: main.cpp:59
+#: main.cpp:56
 #, kde-format
 msgid "Track your time"
 msgstr "Sledi vašemu času"
 
-#: main.cpp:63
+#: main.cpp:60
 #, kde-format
 msgid "© KDE Community"
 msgstr "© Skupnost KDE"
 
-#: main.cpp:64
+#: main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:65
+#: main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Avtor"
 
-#: main.cpp:68
+#: main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:69
+#: main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
@@ -118,57 +118,57 @@ msgctxt "@menu-action"
 msgid "About Francis"
 msgstr "O programu Francis"
 
-#: ui/main.qml:18
+#: ui/Main.qml:19
 #, kde-format
 msgid "Francis"
 msgstr "Francis"
 
-#: ui/main.qml:65
+#: ui/Main.qml:52
 #, kde-format
 msgid "Interval Ended"
 msgstr "Interval se je končal"
 
-#: ui/main.qml:66
+#: ui/Main.qml:53
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "Uživajte v odmoru, popijte malo vode."
 
-#: ui/main.qml:75
+#: ui/Main.qml:62
 #, kde-format
 msgid "Break Ended"
 msgstr "Odmor je končan"
 
-#: ui/main.qml:76
+#: ui/Main.qml:63
 #, kde-format
 msgid "Get back to work."
 msgstr "Pojdite nazaj na delo."
 
-#: ui/main.qml:176
+#: ui/Main.qml:163
 #, kde-format
 msgid "Lap 2"
 msgstr "Del 2"
 
-#: ui/main.qml:178
+#: ui/Main.qml:165
 #, kde-format
 msgid "Lap 3"
 msgstr "Del 3"
 
-#: ui/main.qml:180
+#: ui/Main.qml:167
 #, kde-format
 msgid "Lap 4"
 msgstr "Del 4"
 
-#: ui/main.qml:182
+#: ui/Main.qml:169
 #, kde-format
 msgid "Lap 1"
 msgstr "Del 1"
 
-#: ui/main.qml:215
+#: ui/Main.qml:202
 #, kde-format
 msgid "Taking a Break"
 msgstr "Na odmoru"
 
-#: ui/main.qml:249
+#: ui/Main.qml:236
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Moram se osredotočiti na…"
