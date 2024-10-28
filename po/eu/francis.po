@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-25 00:42+0000\n"
-"PO-Revision-Date: 2024-07-02 21:30+0200\n"
+"PO-Revision-Date: 2024-10-27 05:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.1\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -191,13 +191,13 @@ msgstr "Berrezarri (R)"
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
-msgstr ""
+msgstr "Jauzi"
 
 #: ui/PageHeader.qml:64
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Skip (N)"
-msgstr ""
+msgstr "Jauzi (N)"
 
 #: ui/PageHeader.qml:73
 #, kde-format
