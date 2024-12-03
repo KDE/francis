@@ -220,4 +220,8 @@
     <category>Qt</category>
     <category>KDE</category>
   </categories>
+  <branding>
+    <color type="primary" scheme_preference="light">#fde6be</color>
+    <color type="primary" scheme_preference="dark">#714903</color>
+  </branding>
 </component>
