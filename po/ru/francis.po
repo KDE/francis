@@ -1,0 +1,216 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the francis package.
+#
+# SPDX-FileCopyrightText: 2024 Olesya Gerasimenko <translation-team@basealt.ru>
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-10-25 00:42+0000\n"
+"PO-Revision-Date: 2024-12-06 12:57+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Олеся Герасименко"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translation-team@basealt.ru"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr "Francis"
+
+#: main.cpp:56
+#, kde-format
+msgid "Track your time"
+msgstr "Управление временем"
+
+#: main.cpp:60
+#, kde-format
+msgid "© KDE Community"
+msgstr "© Сообщество KDE"
+
+#: main.cpp:61
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: main.cpp:62
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Автор"
+
+#: main.cpp:65
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:66
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Сопровождающий"
+
+#: ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Файл"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr "Приостановить"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr "Продолжить"
+
+#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr "Запустить"
+
+#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Выйти"
+
+#: ui/GlobalMenu.qml:40
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Справка"
+
+#: ui/GlobalMenu.qml:43
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Сообщить об ошибке…"
+
+#: ui/GlobalMenu.qml:49
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr "О Francis"
+
+#: ui/Main.qml:19
+#, kde-format
+msgid "Francis"
+msgstr "Francis"
+
+#: ui/Main.qml:52
+#, kde-format
+msgid "Interval Ended"
+msgstr "Конец интервала"
+
+#: ui/Main.qml:53
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr "Сделайте перерыв, выпейте немного воды."
+
+#: ui/Main.qml:62
+#, kde-format
+msgid "Break Ended"
+msgstr "Конец перерыва"
+
+#: ui/Main.qml:63
+#, kde-format
+msgid "Get back to work."
+msgstr "Вернитесь к работе."
+
+#: ui/Main.qml:163
+#, kde-format
+msgid "Lap 2"
+msgstr "Блок 2"
+
+#: ui/Main.qml:165
+#, kde-format
+msgid "Lap 3"
+msgstr "Блок 3"
+
+#: ui/Main.qml:167
+#, kde-format
+msgid "Lap 4"
+msgstr "Блок 4"
+
+#: ui/Main.qml:169
+#, kde-format
+msgid "Lap 1"
+msgstr "Блок 1"
+
+#: ui/Main.qml:202
+#, kde-format
+msgid "Taking a Break"
+msgstr "Перерыв"
+
+#: ui/Main.qml:236
+#, kde-format
+msgid "I need to focus on…"
+msgstr "Мне нужно сосредоточиться на…"
+
+#: ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr "Включить или отключить таймер (S)"
+
+#: ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr "Сбросить (R)"
+
+#: ui/PageHeader.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr "Пропустить"
+
+#: ui/PageHeader.qml:64
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Skip (N)"
+msgstr "Пропустить (N)"
+
+#: ui/PageHeader.qml:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Bypass do not disturb"
+msgstr "Обходить «Не беспокоить»"
+
+#: ui/PageHeader.qml:86
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Bypass do not disturb (B)"
+msgstr "Обходить «Не беспокоить» (B)"
+
+#: ui/PageHeader.qml:93
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr "О Francis1 (F1)"
