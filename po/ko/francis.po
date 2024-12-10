@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-25 00:42+0000\n"
-"PO-Revision-Date: 2024-08-19 22:33+0200\n"
+"PO-Revision-Date: 2024-12-09 23:11+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -188,13 +188,13 @@ msgstr "초기화(R)"
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
-msgstr ""
+msgstr "건너뛰기"
 
 #: ui/PageHeader.qml:64
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Skip (N)"
-msgstr ""
+msgstr "건너뛰기 (N)"
 
 #: ui/PageHeader.qml:73
 #, kde-format
