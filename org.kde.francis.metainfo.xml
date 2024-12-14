@@ -33,6 +33,7 @@
   <name xml:lang="pt-BR">Francis</name>
   <name xml:lang="ro">Francis</name>
   <name xml:lang="ru">Francis</name>
+  <name xml:lang="sa">फ्रांसिस्</name>
   <name xml:lang="sk">Francis</name>
   <name xml:lang="sl">Francis</name>
   <name xml:lang="sv">Francis</name>
@@ -67,6 +68,7 @@
   <summary xml:lang="pt-BR">Acompanhe seu tempo</summary>
   <summary xml:lang="ro">Duceți evidența timpului</summary>
   <summary xml:lang="ru">Управление временем</summary>
+  <summary xml:lang="sa">स्वस्य समयस्य निरीक्षणं कुर्वन्तु</summary>
   <summary xml:lang="sk">Sledovanie vášho času</summary>
   <summary xml:lang="sl">Sledi vašemu času</summary>
   <summary xml:lang="sv">Spåra din tid</summary>
@@ -103,6 +105,7 @@
   <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ro">Comunitatea KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ru">Сообщество KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
@@ -138,6 +141,7 @@
     <p xml:lang="pt-BR">Francis usa a conhecida técnica pomodoro para ajudá-lo a ser mais produtivo.</p>
     <p xml:lang="ro">Francis folosește tehnica binecunoscută pomodoro pentru a vă ajuta să fiți mai productiv.</p>
     <p xml:lang="ru">Программа Francis позволяет использовать знаменитый «метод помидора» для повышения продуктивности.</p>
+    <p xml:lang="sa">फ्रांसिस् भवतः अधिकं उत्पादकत्वं प्राप्तुं सुप्रसिद्धस्य पोमोडोरो-प्रविधिस्य उपयोगं करोति ।</p>
     <p xml:lang="sl">Francis uporablja znano tehniko pomodoro, da vam pomaga, da bi bili bolj produktivni.</p>
     <p xml:lang="sv">Francis använder den välkända pomodoro-tekniken för att hjälpa dig bli mer produktiv.</p>
     <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
@@ -174,6 +178,7 @@
       <caption xml:lang="pt-BR">Vista principal mostrando o cronômetro diminuindo</caption>
       <caption xml:lang="ro">Vizualizarea principală arătând temporizatorul ce descrește</caption>
       <caption xml:lang="ru">Главное окно с отсчётом таймера</caption>
+      <caption xml:lang="sa">मुख्यदृश्यं यत् समयनिर्धारकं अधः गच्छति इति दर्शयति</caption>
       <caption xml:lang="sl">Glavni pogled, ki prikazuje časovnik, ki se spušča</caption>
       <caption xml:lang="sv">Huvudvy som visar när tidtagningen räknar ner</caption>
       <caption xml:lang="tr">Sayacın çalıştığı ana görünüm</caption>
