@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-25 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-10-20 11:02+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -64,51 +64,51 @@ msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Mainteneur"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Fichier"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr "Pause"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr "Reprendre"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr "Démarrer"
 
-#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Quitter"
 
-#: ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:41
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Aide"
 
-#: ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Signaler un bogue…"
 
-#: ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:50
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-25 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-12-09 23:11+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -67,51 +67,51 @@ msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "관리자"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "파일"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr "일시 정지"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr "다시 시작"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr "시작"
 
-#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr "초기화"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "끝내기"
 
-#: ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:41
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "도움말"
 
-#: ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "버그 보고…"
 
-#: ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:50
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"

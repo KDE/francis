@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-25 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2023-12-20 22:00+0100\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -71,51 +71,51 @@ msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Betreuer"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Datei"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr "Anhalten"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr "Fortsetzen"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr "Starten"
 
-#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Beenden"
 
-#: ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:41
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Hilfe"
 
-#: ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Probleme oder Wünsche berichten ..."
 
-#: ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:50
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"

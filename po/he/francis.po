@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-25 00:42+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-10-19 07:29+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -68,51 +68,51 @@ msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "מתחזק"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "קובץ"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Pause"
 msgstr "השהיה"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
 msgstr "המשך"
 
-#: ui/GlobalMenu.qml:17 ui/PageHeader.qml:25
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
 msgstr "התחלה"
 
-#: ui/GlobalMenu.qml:25 ui/PageHeader.qml:40
+#: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
 msgstr "איפוס"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "יציאה"
 
-#: ui/GlobalMenu.qml:40
+#: ui/GlobalMenu.qml:41
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "עזרה"
 
-#: ui/GlobalMenu.qml:43
+#: ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "דיווח על תקלה…"
 
-#: ui/GlobalMenu.qml:49
+#: ui/GlobalMenu.qml:50
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
