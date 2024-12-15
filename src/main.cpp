@@ -7,15 +7,12 @@
 #else
 #include <QApplication>
 #endif
-#include <QIcon>
-#include <QQmlApplicationEngine>
 #include <QQuickStyle>
 #include <QQuickWindow>
-#include <QUrl>
 #include <QtQml>
 
 #include <KAboutData>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
@@ -71,8 +68,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.francis")));
 
     QQmlApplicationEngine engine;
-
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule(u"org.kde.francis"_s, u"Main"_s);
 
     if (engine.rootObjects().isEmpty()) {

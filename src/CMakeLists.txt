@@ -26,6 +26,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_static PUBLIC
     Qt6::Quick
     Qt6::Svg
     KF6::I18n
+    KF6::I18nQml
     KF6::CoreAddons
     KF6::ConfigCore
     KF6::ConfigGui
