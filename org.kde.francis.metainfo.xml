@@ -19,6 +19,7 @@
   <name xml:lang="fr">Francis</name>
   <name xml:lang="gl">Francis</name>
   <name xml:lang="he">פרנסיס</name>
+  <name xml:lang="hi">फ्रांसिस</name>
   <name xml:lang="hu">Francis</name>
   <name xml:lang="ia">Francis</name>
   <name xml:lang="it">Francis</name>
@@ -54,6 +55,7 @@
   <summary xml:lang="fr">Gérer votre temps</summary>
   <summary xml:lang="gl">Controla o seu tempo.</summary>
   <summary xml:lang="he">מעקב אחר הזמן שלך</summary>
+  <summary xml:lang="hi">अपना समय ट्रैक करें</summary>
   <summary xml:lang="hu">Kövesse nyomon az idejét</summary>
   <summary xml:lang="ia">Tracia tu tempore</summary>
   <summary xml:lang="it">Tieni traccia del tuo tempo</summary>
@@ -91,6 +93,7 @@
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="he">קהילת KDE, פליפה קינושיטה</developer_name>
+  <developer_name xml:lang="hi">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="hu">KDE közösség, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ia">Communitate de KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
@@ -127,6 +130,7 @@
     <p xml:lang="fr">Francis repose sur la technique « Pomodoro » bien connue pour vous aider à devenir plus productif.</p>
     <p xml:lang="gl">Francis usa a famosa técnica pomodoro para axudarlle a mellorar a súa produtividade.</p>
     <p xml:lang="he">פרנסיס משתמש בטכניקה המפורסמת פומודורו כדי לסייע לך בשמירה על היעילות שלך.</p>
+    <p xml:lang="hi">फ्रांसिस आपको अधिक उत्पादक बनने में मदद करने के लिए प्रसिद्ध पोमोडोरो तकनीक का उपयोग करते हैं।</p>
     <p xml:lang="hu">A Francis a jól ismert pomodoro technikát használja, hogy segítse Önt a produktívabb munkavégzésben.</p>
     <p xml:lang="ia">Francis usa le ben cognoscite technica de pomodoro pro adjutar te a esser plus productive.</p>
     <p xml:lang="it">Francis usa la famosa tecnica del pomodoro per aiutarti a diventare più produttivo.</p>
@@ -165,6 +169,7 @@
       <caption xml:lang="fr">Affichage principal affichant le compteur en décroissance</caption>
       <caption xml:lang="gl">Vista principal que amosa o temporizador decrecendo.</caption>
       <caption xml:lang="he">תצוגה ראשית שמציגה את הזמן במתזמן יורד</caption>
+      <caption xml:lang="hi">मुख्य दृश्य में टाइमर नीचे जाता हुआ दिखाया गया है</caption>
       <caption xml:lang="hu">Az időzítót megjelenítő fő nézet</caption>
       <caption xml:lang="ia">Vista principal monstrante le temporisator descendente</caption>
       <caption xml:lang="it">Vista principale che mostra lo scadere del timer</caption>
