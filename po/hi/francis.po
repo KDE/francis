@@ -1,4 +1,4 @@
-# Sanskrit translations for francis package.
+# Hindi translations for francis package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the francis package.
 # Kali <EMAIL@ADDRESS>, 2024.
@@ -9,41 +9,41 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
-"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
-"Language: sa\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "आपके ईमेल"
 
 #: main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
-msgstr "फ्रांसिस्"
+msgstr "फ्रांसिस"
 
 #: main.cpp:56
 #, kde-format
 msgid "Track your time"
-msgstr "स्वस्य समयस्य निरीक्षणं कुर्वन्तु"
+msgstr "अपना समय ट्रैक करें"
 
 #: main.cpp:60
 #, kde-format
 msgid "© KDE Community"
-msgstr "© KDE समुदाय"
+msgstr "© केडीई समुदाय"
 
 #: main.cpp:61
 #, kde-format
@@ -55,25 +55,25 @@ msgstr "फेलिप किनोशिता"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "लेखकः"
+msgstr "लेखक"
 
 #: main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
-msgstr "कार्ल स्वान्"
+msgstr "कार्ल स्वान"
 
 #: main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "परिपालकः"
+msgstr "मेंटेनर"
 
 #: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "संचिका"
+msgstr "फ़ाइल"
 
 #: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
@@ -83,135 +83,135 @@ msgstr "विराम"
 #: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Resume"
-msgstr "पुनर्प्रारम्भय"
+msgstr "फिर शुरू करना"
 
 #: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
 #, kde-format
 msgid "Start"
-msgstr "प्रारंभः"
+msgstr "शुरू"
 
 #: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
-msgstr "पुनः सेट् करें"
+msgstr "रीसेट करें"
 
 #: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "परिजहातु"
+msgstr "छोड़ना"
 
 #: ui/GlobalMenu.qml:41
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "साहाय्यम्‌"
+msgstr "मदद"
 
 #: ui/GlobalMenu.qml:44
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "बगस्य सूचनां ददातु…"
+msgstr "रिपोर्ट बग…"
 
 #: ui/GlobalMenu.qml:50
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
-msgstr "फ्रांसिस् विषये"
+msgstr "फ्रांसिस के बारे में"
 
 #: ui/Main.qml:19
 #, kde-format
 msgid "Francis"
-msgstr "फ्रांसिस्"
+msgstr "फ्रांसिस"
 
 #: ui/Main.qml:52
 #, kde-format
 msgid "Interval Ended"
-msgstr "अन्तराल समाप्त"
+msgstr "अंतराल समाप्त"
 
 #: ui/Main.qml:53
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr "विरामस्य आनन्दं लभत, किञ्चित् जलं पिबन्तु।"
+msgstr "अपने ब्रेक का आनंद लें, थोड़ा पानी पीएं।"
 
 #: ui/Main.qml:62
 #, kde-format
 msgid "Break Ended"
-msgstr "विरामः समाप्तः"
+msgstr "ब्रेक समाप्त"
 
 #: ui/Main.qml:63
 #, kde-format
 msgid "Get back to work."
-msgstr "पुनः कार्ये आगच्छन्तु।"
+msgstr "काम पर वापस आओ।"
 
 #: ui/Main.qml:163
 #, kde-format
 msgid "Lap 2"
-msgstr "गोदः २"
+msgstr "लैप 2"
 
 #: ui/Main.qml:165
 #, kde-format
 msgid "Lap 3"
-msgstr "गोदः ३"
+msgstr "लैप 3"
 
 #: ui/Main.qml:167
 #, kde-format
 msgid "Lap 4"
-msgstr "गोदः ४"
+msgstr "लैप 4"
 
 #: ui/Main.qml:169
 #, kde-format
 msgid "Lap 1"
-msgstr "गोदः १"
+msgstr "लैप 1"
 
 #: ui/Main.qml:202
 #, kde-format
 msgid "Taking a Break"
-msgstr "विरामं गृहीत्वा"
+msgstr "एक ब्रेक ले रही है"
 
 #: ui/Main.qml:236
 #, kde-format
 msgid "I need to focus on…"
-msgstr "मया ध्यानं दातव्यं…"
+msgstr "मुझे ध्यान केंद्रित करने की जरूरत है…"
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr "टॉगल टाइमर (S) 1.1."
+msgstr "टॉगल टाइमर (S)"
 
 #: ui/PageHeader.qml:48
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Reset (R)"
-msgstr "पुनः सेट् (R) ."
+msgstr "रीसेट (आर)"
 
 #: ui/PageHeader.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
-msgstr "क्षिपते"
+msgstr "छोडना"
 
 #: ui/PageHeader.qml:64
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Skip (N)"
-msgstr "Skip (N) ९."
+msgstr "छोड़ें (एन)"
 
 #: ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr "बाईपास न बाधते"
+msgstr "बायपास डू नॉट डिस्टर्ब"
 
 #: ui/PageHeader.qml:86
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr "बाईपास न बाधन्ते (B) ."
+msgstr "बायपास डू नॉट डिस्टर्ब (बी)"
 
 #: ui/PageHeader.qml:93
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
-msgstr "फ्रांसिस् (F1) इत्यस्य विषये"
+msgstr "फ्रांसिस (F1) के बारे में"
