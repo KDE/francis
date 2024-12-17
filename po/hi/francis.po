@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:43+0000\n"
+"POT-Creation-Date: 2024-12-17 00:43+0000\n"
 "PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -29,41 +29,41 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "आपके ईमेल"
 
-#: main.cpp:52
+#: main.cpp:49
 #, kde-format
 msgctxt "@title"
 msgid "Francis"
 msgstr "फ्रांसिस"
 
-#: main.cpp:56
+#: main.cpp:53
 #, kde-format
 msgid "Track your time"
 msgstr "अपना समय ट्रैक करें"
 
-#: main.cpp:60
+#: main.cpp:57
 #, kde-format
 msgid "© KDE Community"
 msgstr "© केडीई समुदाय"
 
-#: main.cpp:61
+#: main.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "फेलिप किनोशिता"
 
-#: main.cpp:62
+#: main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "लेखक"
 
-#: main.cpp:65
+#: main.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr "कार्ल स्वान"
 
-#: main.cpp:66
+#: main.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
