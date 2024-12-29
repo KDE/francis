@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-17 00:43+0000\n"
-"PO-Revision-Date: 2024-05-20 13:35+0100\n"
+"PO-Revision-Date: 2024-12-28 17:41+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -188,25 +188,25 @@ msgstr "Restarigi (R)"
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip"
-msgstr ""
+msgstr "Preterlasi"
 
 #: ui/PageHeader.qml:64
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Skip (N)"
-msgstr ""
+msgstr "Preterlasi (N)"
 
 #: ui/PageHeader.qml:73
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr "Preterpasi 'ne geni'"
+msgstr "Preterpasi 'ne ĝeni'"
 
 #: ui/PageHeader.qml:86
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr "Preterpasi 'ne geni' (B)"
+msgstr "Preterpasi 'ne ĝeni' (B)"
 
 #: ui/PageHeader.qml:93
 #, kde-format
