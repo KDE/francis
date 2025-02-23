@@ -43,6 +43,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
 )
 
 if (TARGET KF6::DBusAddons)
+    target_link_libraries(${CMAKE_PROJECT_NAME}_static PUBLIC Qt6::DBus)
+    target_compile_definitions(${CMAKE_PROJECT_NAME}_static PUBLIC -DHAVE_KDBUSADDONS)
     target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF6::DBusAddons)
     target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
 endif()

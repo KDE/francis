@@ -117,8 +117,8 @@ Kirigami.ApplicationWindow {
                             id: arc
                             centerX: circleArc.centerX; centerY: circleArc.centerY
                             radiusX: circleArc.radiusX; radiusY: circleArc.radiusY
-                            startAngle: -90 + 360 * Controller.percentage / 100
-                            sweepAngle: 360 * (1 - Controller.percentage/100)
+                            startAngle: -90 + 360 * Controller.percentage
+                            sweepAngle: 360 * (1 - Controller.percentage)
                             Behavior on sweepAngle {
                                 NumberAnimation{
                                     duration: 1000
@@ -134,8 +134,8 @@ Kirigami.ApplicationWindow {
                         PathAngleArc {
                             centerX: circleArc.centerX; centerY: circleArc.centerY
                             radiusX: circleArc.radiusX; radiusY: circleArc.radiusY
-                            startAngle: -90 + 360 * Controller.percentage / 100
-                            sweepAngle: 360 * (1 - Controller.percentage/100)
+                            startAngle: -90 + 360 * Controller.percentage
+                            sweepAngle: 360 * (1 - Controller.percentage)
 
                             Behavior on sweepAngle {
                                 NumberAnimation{

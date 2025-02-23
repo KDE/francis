@@ -6,6 +6,9 @@
 #include "config.h"
 #include <QObject>
 #include <qqmlregistration.h>
+#ifdef HAVE_KDBUSADDONS
+#include <QDBusMessage>
+#endif
 
 class QTimer;
 
@@ -15,7 +18,7 @@ class Controller : public QObject
     QML_ELEMENT
     QML_SINGLETON
     Q_PROPERTY(QString text MEMBER m_text NOTIFY textChanged)
-    Q_PROPERTY(float percentage MEMBER m_percentage NOTIFY percentageChanged)
+    Q_PROPERTY(double percentage MEMBER m_percentage NOTIFY percentageChanged)
     Q_PROPERTY(int pomodoros MEMBER m_pomodoros NOTIFY pomodorosChanged)
     Q_PROPERTY(bool running MEMBER m_running NOTIFY runningChanged)
     Q_PROPERTY(bool hasStarted MEMBER m_hasStarted NOTIFY hasStartedChanged)
@@ -31,7 +34,7 @@ public:
     int pomodoros() const;
     Q_SIGNAL void pomodorosChanged();
 
-    float percentage();
+    double percentage();
     Q_SIGNAL void percentageChanged();
 
     bool running() const;
@@ -55,17 +58,22 @@ public:
     void setMinuteDuration(int duration);
 
 private:
+    void updateTaskbarProgress(bool forceUpdate = false);
+
     QTimer *m_timer;
     QString m_text;
-    float m_percentage;
+    double m_percentage = 0.0;
 
     int m_minuteDuration = 60;
     int m_pomodoros{0};
     int m_changes{0};
-    int m_seconds{Config::self()->intervalTime() * 60};
+    int m_seconds = 0;
     bool m_running{false};
     bool m_hasStarted{false};
     bool m_onBreak{false};
+#ifdef HAVE_KDBUSADDONS
+    QDBusMessage m_progressIndicatorSignal;
+#endif
 
     void startTimer();
     void stopTimer();

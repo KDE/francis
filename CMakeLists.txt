@@ -50,6 +50,7 @@ if (BUILD_TESTING)
 endif()
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE AND NOT HAIKU)
+    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS DBus)
     find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 

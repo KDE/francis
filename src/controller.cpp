@@ -5,14 +5,24 @@
 
 #include <QDebug>
 #include <QTimer>
-#include <qstringliteral.h>
+
+#ifdef HAVE_KDBUSADDONS
+#include <QDBusConnection>
+#endif
+
+using namespace Qt::StringLiterals;
 
 Controller::Controller(QObject *parent)
     : QObject(parent)
+    , m_timer(new QTimer(this))
+    , m_seconds(Config::self()->intervalTime() * 60)
+#ifdef HAVE_KDBUSADDONS
+    , m_progressIndicatorSignal(QDBusMessage::createSignal(u"/org/kde/francis"_s, u"com.canonical.Unity.LauncherEntry"_s, u"Update"_s))
+#endif
 {
-    m_timer = new QTimer(this);
     connect(m_timer, &QTimer::timeout, this, &Controller::update);
     generateText();
+    updateTaskbarProgress();
 }
 
 Controller::~Controller() = default;
@@ -27,7 +37,7 @@ int Controller::pomodoros() const
     return m_pomodoros;
 }
 
-float Controller::percentage()
+double Controller::percentage()
 {
     return m_percentage;
 }
@@ -68,6 +78,7 @@ void Controller::reset()
 {
     resetInternal();
     generateText();
+    updateTaskbarProgress(true);
 }
 
 void Controller::skip()
@@ -75,6 +86,7 @@ void Controller::skip()
     stopTimer();
     goToNextRound();
     generateText();
+    updateTaskbarProgress(true);
 }
 
 void Controller::startTimer()
@@ -160,6 +172,7 @@ void Controller::update()
     m_seconds--;
 
     generateText();
+    updateTaskbarProgress();
 }
 
 void Controller::generateText()
@@ -169,9 +182,29 @@ void Controller::generateText()
     const QString minutesText = minutes < 10 ? QStringLiteral("0%1").arg(m_seconds / 60) : QString::number(m_seconds / 60);
     const QString secondsText = seconds < 10 ? QStringLiteral("0%1").arg(m_seconds % 60) : QString::number(m_seconds % 60);
 
-    m_percentage = m_onBreak ? ((float(Config::breakTime()) * 60 - m_seconds)) / (float(Config::breakTime()) * 60) * 100
-                             : ((float(Config::intervalTime()) * 60 - m_seconds)) / (float(Config::intervalTime()) * 60) * 100;
+    m_percentage = m_onBreak ? (Config::breakTime() * 60 - m_seconds) / double(Config::breakTime() * 60)
+                             : (Config::intervalTime() * 60 - m_seconds) / double(Config::intervalTime() * 60);
     m_text = QStringLiteral("%1:%2").arg(minutesText, secondsText);
     Q_EMIT textChanged();
     Q_EMIT percentageChanged();
+}
+
+void Controller::updateTaskbarProgress(bool forceUpdate)
+{
+#ifdef HAVE_KDBUSADDONS
+    QVariantMap parameters;
+    if (m_running) {
+        if (!forceUpdate && m_seconds > 0 && m_seconds % 10 != 9) {
+            return;
+        }
+        parameters.insert(u"progress-visible"_s, true);
+        parameters.insert(u"progress"_s, m_percentage);
+    } else {
+        parameters.insert(u"progress-visible"_s, false);
+        parameters.insert(u"progress"_s, 0.0);
+    }
+    m_progressIndicatorSignal.setArguments({u"application://org.kde.francis.desktop"_s, std::move(parameters)});
+    QDBusConnection::sessionBus().send(m_progressIndicatorSignal);
+#endif
+    // TODO Implement on other platforms: https://bugreports.qt.io/browse/QTBUG-94009
 }
