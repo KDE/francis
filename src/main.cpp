@@ -65,8 +65,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                         QStringLiteral("https://carlschwan.eu/"));
     aboutData.setBugAddress("https://bugs.kde.org/enter_bug.cgi?product=Francis");
     KAboutData::setApplicationData(aboutData);
-    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.francis")));
 
+#ifdef HAVE_KDBUSADDONS
+    KDBusService service(KDBusService::Unique);
+#endif
+
+    QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.francis")));
     QQmlApplicationEngine engine;
     KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule(u"org.kde.francis"_s, u"Main"_s);
@@ -74,10 +78,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }
-
-#ifdef HAVE_KDBUSADDONS
-    KDBusService service(KDBusService::Unique);
-#endif
 
     return app.exec();
 }
