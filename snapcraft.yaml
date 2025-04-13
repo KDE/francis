@@ -5,7 +5,7 @@
 name: francis
 confinement: strict
 grade: stable
-base: core22
+base: core24
 adopt-info: francis
 apps:
   francis:
@@ -15,21 +15,12 @@ apps:
     desktop: usr/share/applications/org.kde.francis.desktop
     command: usr/bin/francis
     plugs:
-      - audio-record
+      - audio-playback
 slots:
   session-dbus-interface:
     interface: dbus
     name: org.kde.francis
     bus: session
-package-repositories:
-  - type: apt
-    components:
-      - main
-    suites:
-      - jammy
-    key-id: 444DABCF3667D0283F894EDDE6D4736255751E5D
-    url: http://origin.archive.neon.kde.org/user
-    key-server: keyserver.ubuntu.com
 parts:
   francis:
     parse-info:
@@ -66,11 +57,11 @@ parts:
       - francis
     plugin: nil
     build-snaps:
-      - core22
-      - kf6-core22
+      - core24
+      - kf6-core24
     override-prime: |
       set -eux
-      for snap in "core22" "kf6-core22"; do
+      for snap in "core24" "kf6-core24"; do
           cd "/snap/$snap/current" && find . -type f,l -exec rm -rf "${CRAFT_PRIME}/{}" \;
       done
 
