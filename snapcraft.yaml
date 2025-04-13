@@ -24,7 +24,7 @@ slots:
 parts:
   francis:
     parse-info:
-      - usr/share/metainfo/org.kde.francis.appdata.xml
+      - usr/share/metainfo/org.kde.francis.metainfo.xml
     plugin: cmake
     source: .
     source-type: local
