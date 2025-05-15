@@ -6,6 +6,7 @@
   -->
   <id>org.kde.francis</id>
   <name>Francis</name>
+  <name xml:lang="ar">فرنسيس</name>
   <name xml:lang="ast">Francis</name>
   <name xml:lang="ca">Francis</name>
   <name xml:lang="ca-valencia">Francis</name>
@@ -44,6 +45,7 @@
   <name xml:lang="zh-CN">Francis 番茄计时器</name>
   <name xml:lang="zh-TW">Francis</name>
   <summary>Track your time</summary>
+  <summary xml:lang="ar">تتبع وقتك</summary>
   <summary xml:lang="ca">Seguiment del vostre temps</summary>
   <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
   <summary xml:lang="de">Behalten Sie Ihre Zeit im Auge</summary>
@@ -82,6 +84,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ar">فيليبي كينوشيتا، مجتمع كيدي</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
@@ -119,6 +122,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Francis uses the well-known pomodoro technique to help you get more productive.</p>
+    <p xml:lang="ar">يستخدم فرانسيس تقنية بومودورو المعروفة لمساعدتك على تحقيق المزيد من الإنتاجية.</p>
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per a ajudar-vos a ser més productiu.</p>
     <p xml:lang="ca-valencia">Francis utilitza la força coneguda tècnica del pomodoro per a ajudar-vos a ser més productiu.</p>
     <p xml:lang="de">Francis verwendet die sehr bekannte Pomodoro-Technik für mehr Produktivität.</p>
@@ -158,6 +162,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/francis/main.png</image>
       <caption>Main view showing the timer going down</caption>
+      <caption xml:lang="ar">العرض الرئيسي يظهر الموقت ينخفض</caption>
       <caption xml:lang="ca">Vista principal mostrant el temporitzador anant enrere</caption>
       <caption xml:lang="ca-valencia">Vista principal mostrant el temporitzador anant arrere</caption>
       <caption xml:lang="de">Hauptansicht mit einem herunter zählenden Zeitmesser</caption>
