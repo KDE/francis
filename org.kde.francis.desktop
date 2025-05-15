@@ -3,6 +3,7 @@
 
 [Desktop Entry]
 Name=Francis
+Name[ar]=إد فرنسيس
 Name[ast]=Francis
 Name[ca]=Francis
 Name[ca@valencia]=Francis
@@ -41,6 +42,7 @@ Name[x-test]=xxFrancisxx
 Name[zh_CN]=Francis 番茄计时器
 Name[zh_TW]=Francis
 GenericName=Pomodoro Application
+GenericName[ar]=تطبيق بومودورو
 GenericName[ca]=Aplicació del Pomodoro
 GenericName[ca@valencia]=Aplicació de Pomodoro
 GenericName[cs]=Aplikace pro Pomodoro
@@ -78,6 +80,7 @@ GenericName[x-test]=xxPomodoro Applicationxx
 GenericName[zh_CN]=番茄工作法计时器
 GenericName[zh_TW]=Pomodoro 應用程式
 Comment=Track your time
+Comment[ar]=تتبع وقتك
 Comment[ca]=Seguiment del vostre temps
 Comment[ca@valencia]=Seguiment del vostre temps
 Comment[cs]=Sledujte svůj čas
@@ -119,6 +122,7 @@ Icon=org.kde.francis
 Type=Application
 Terminal=false
 Keywords=pomodoro;timer;productivity;
+Keywords[ar]=بومودورو;مؤقت;إنتاجية;
 Keywords[ca]=pomodoro;temporitzador;productivitat;
 Keywords[ca@valencia]=pomodoro;temporitzador;productivitat;
 Keywords[cs]=pomodoro;časovač;produktivita;
