@@ -92,7 +92,7 @@ msgstr "გაშვება"
 #: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
 #, kde-format
 msgid "Reset"
-msgstr "საწყისი მნიშვნელობებზე დაბრუნება"
+msgstr "ჩამოყრა"
 
 #: ui/GlobalMenu.qml:34
 #, kde-format
