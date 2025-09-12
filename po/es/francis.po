@@ -1,15 +1,15 @@
 # Spanish translations for francis.po package.
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) 2022-2025 This file is copyright:
 # This file is distributed under the same license as the francis package.
-#
 # Automatically generated, 2022.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+#
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-17 00:43+0000\n"
-"PO-Revision-Date: 2024-10-19 12:51+0200\n"
+"PO-Revision-Date: 2025-09-11 12:22+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -111,7 +111,7 @@ msgstr "Ayuda"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Informar de fallo..."
+msgstr "Informar de fallo…"
 
 #: ui/GlobalMenu.qml:50
 #, kde-format
@@ -172,7 +172,7 @@ msgstr "Descansando"
 #: ui/Main.qml:236
 #, kde-format
 msgid "I need to focus on…"
-msgstr "Necesito concentrarme..."
+msgstr "Necesito concentrarme…"
 
 #: ui/PageHeader.qml:32
 #, kde-format
@@ -215,9 +215,3 @@ msgstr "Ignorar «No molestar» (B)"
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
 msgstr "Acerca de Francis (F1)"
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
-
-#~ msgid "Click to set a goal…"
-#~ msgstr "Pulse para fijar un objetivo..."
