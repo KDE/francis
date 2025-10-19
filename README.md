@@ -22,5 +22,5 @@ $ git clone https://invent.kde.org/utilities/francis.git
 $ cd francis
 
 $ flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-$ flatpak-builder --user --install-deps-from=flathub --force-clean --ccache --install build org.kde.francis.json
+$ flatpak-builder --user --install-deps-from=flathub --force-clean --ccache --install build .flatpak-manifest.json
 ```
