@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the francis package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: francis\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:49
+#, kde-format
+msgctxt "@title"
+msgid "Francis"
+msgstr ""
+
+#: main.cpp:53
+#, kde-format
+msgid "Track your time"
+msgstr ""
+
+#: main.cpp:57
+#, kde-format
+msgid "© KDE Community"
+msgstr ""
+
+#: main.cpp:58
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr ""
+
+#: main.cpp:59
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: main.cpp:62
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr ""
+
+#: main.cpp:63
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr ""
+
+#: ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr ""
+
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
+#, kde-format
+msgid "Resume"
+msgstr ""
+
+#: ui/GlobalMenu.qml:18 ui/PageHeader.qml:25
+#, kde-format
+msgid "Start"
+msgstr ""
+
+#: ui/GlobalMenu.qml:26 ui/PageHeader.qml:40
+#, kde-format
+msgid "Reset"
+msgstr ""
+
+#: ui/GlobalMenu.qml:34
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr ""
+
+#: ui/GlobalMenu.qml:41
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr ""
+
+#: ui/GlobalMenu.qml:44
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr ""
+
+#: ui/GlobalMenu.qml:50
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Francis"
+msgstr ""
+
+#: ui/Main.qml:19
+#, kde-format
+msgid "Francis"
+msgstr ""
+
+#: ui/Main.qml:52
+#, kde-format
+msgid "Interval Ended"
+msgstr ""
+
+#: ui/Main.qml:53
+#, kde-format
+msgid "Enjoy your break, drink some water."
+msgstr ""
+
+#: ui/Main.qml:62
+#, kde-format
+msgid "Break Ended"
+msgstr ""
+
+#: ui/Main.qml:63
+#, kde-format
+msgid "Get back to work."
+msgstr ""
+
+#: ui/Main.qml:163
+#, kde-format
+msgid "Lap 2"
+msgstr ""
+
+#: ui/Main.qml:165
+#, kde-format
+msgid "Lap 3"
+msgstr ""
+
+#: ui/Main.qml:167
+#, kde-format
+msgid "Lap 4"
+msgstr ""
+
+#: ui/Main.qml:169
+#, kde-format
+msgid "Lap 1"
+msgstr ""
+
+#: ui/Main.qml:202
+#, kde-format
+msgid "Taking a Break"
+msgstr ""
+
+#: ui/Main.qml:236
+#, kde-format
+msgid "I need to focus on…"
+msgstr ""
+
+#: ui/PageHeader.qml:32
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Toggle Timer (S)"
+msgstr ""
+
+#: ui/PageHeader.qml:48
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Reset (R)"
+msgstr ""
+
+#: ui/PageHeader.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr ""
+
+#: ui/PageHeader.qml:64
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Skip (N)"
+msgstr ""
+
+#: ui/PageHeader.qml:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Bypass do not disturb"
+msgstr ""
+
+#: ui/PageHeader.qml:86
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "Bypass do not disturb (B)"
+msgstr ""
+
+#: ui/PageHeader.qml:93
+#, kde-format
+msgctxt "keyboard shortcut"
+msgid "About Francis (F1)"
+msgstr ""
