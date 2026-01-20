@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 14:42+0000\n"
-"PO-Revision-Date: 2026-01-01 23:34+0200\n"
+"PO-Revision-Date: 2026-01-19 15:45+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -99,7 +99,7 @@ msgstr "Atstatyti"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Išeiti"
+msgstr "Išjungti"
 
 #: ui/GlobalMenu.qml:41
 #, kde-format
@@ -172,7 +172,7 @@ msgstr "Pertrauka"
 #: ui/Main.qml:236
 #, kde-format
 msgid "I need to focus on…"
-msgstr "Man reikia susitelkti į…"
+msgstr "Man reikia sutelkti dėmesį į…"
 
 #: ui/PageHeader.qml:32
 #, kde-format
