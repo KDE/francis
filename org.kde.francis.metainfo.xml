@@ -231,24 +231,30 @@
     <release version="1.0.1" date="2023-09-15">
       <description>
         <p>Fix an issue in the appstream file.</p>
+        <p xml:lang="ar">إصلاح مشكلة في ملف appstream.</p>
         <p xml:lang="ca">Corregeix un problema en el fitxer «appstream».</p>
         <p xml:lang="ca-valencia">Corregix un problema en el fitxer «appstream».</p>
         <p xml:lang="es">Se ha corregido un problema en el archivo appstream.</p>
         <p xml:lang="he">תוקנה תקלה בקובץ ה־appstream.</p>
+        <p xml:lang="nl">Een probleem in het appstream-bestand opgelost.</p>
         <p xml:lang="pt-BR">Corrige um problema no arquivo appstream.</p>
         <p xml:lang="ru">Исправлена проблема в файле AppStream.</p>
+        <p xml:lang="zh-CN">修复 appstream 文件中的一个问题。</p>
       </description>
     </release>
     <release version="1.0.0" date="2023-09-07">
       <url>https://carlschwan.eu/2023/09/08/francis-1.0/</url>
       <description>
         <p>Initial release of Francis.</p>
+        <p xml:lang="ar">الإصدار الأول لفرنسيس.</p>
         <p xml:lang="ca">Versió inicial del Francis.</p>
         <p xml:lang="ca-valencia">Versió inicial de Francis.</p>
         <p xml:lang="es">Versión inicial de Francis.</p>
         <p xml:lang="he">המהדורה הראשונית של Francis.</p>
+        <p xml:lang="nl">Initiële uitgave van Francis.</p>
         <p xml:lang="pt-BR">Lançamento inicial do Francis.</p>
         <p xml:lang="ru">Первый выпуск Francis.</p>
+        <p xml:lang="zh-CN">Francis 的首个正式版本。</p>
       </description>
     </release>
   </releases>
