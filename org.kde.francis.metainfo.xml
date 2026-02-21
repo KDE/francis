@@ -241,8 +241,10 @@
         <p xml:lang="ka">გასწორდა პრობლემა ფაილში appstream.</p>
         <p xml:lang="nl">Een probleem in het appstream-bestand opgelost.</p>
         <p xml:lang="pt-BR">Corrige um problema no arquivo appstream.</p>
+        <p xml:lang="ro">Reparat un defect în fișierul „appstream”.</p>
         <p xml:lang="ru">Исправлена проблема в файле AppStream.</p>
         <p xml:lang="sl">Odpravi težavo v datoteki appstream.</p>
+        <p xml:lang="tr">Appstream dosyasındaki bir hata düzeltildi.</p>
         <p xml:lang="uk">Виправлено ваду у файлі appstream.</p>
         <p xml:lang="zh-CN">修复 appstream 文件中的一个问题。</p>
       </description>
@@ -260,8 +262,10 @@
         <p xml:lang="ka">Francis-ის პირველი ვერსია.</p>
         <p xml:lang="nl">Initiële uitgave van Francis.</p>
         <p xml:lang="pt-BR">Lançamento inicial do Francis.</p>
+        <p xml:lang="ro">Ediția inițială de Francis.</p>
         <p xml:lang="ru">Первый выпуск Francis.</p>
         <p xml:lang="sl">Začetna izdaja Francisa.</p>
+        <p xml:lang="tr">Francis uygulamasının ilk yayımı.</p>
         <p xml:lang="uk">Початковий випуск Francis.</p>
         <p xml:lang="zh-CN">Francis 的首个正式版本。</p>
       </description>
