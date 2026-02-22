@@ -236,8 +236,10 @@
         <p xml:lang="ca">Corregeix un problema en el fitxer «appstream».</p>
         <p xml:lang="ca-valencia">Corregix un problema en el fitxer «appstream».</p>
         <p xml:lang="es">Se ha corregido un problema en el archivo appstream.</p>
+        <p xml:lang="fr">Correction d'un problème dans le fichier « appstream ».</p>
         <p xml:lang="he">תוקנה תקלה בקובץ ה־appstream.</p>
         <p xml:lang="ia">Corrige un problema in l efile de appstream.</p>
+        <p xml:lang="lt">Ištaisyta klaida „appstream“ faile.</p>
         <p xml:lang="nl">Een probleem in het appstream-bestand opgelost.</p>
         <p xml:lang="pt-BR">Corrige um problema no arquivo appstream.</p>
         <p xml:lang="ru">Исправлена проблема в файле AppStream.</p>
@@ -255,8 +257,10 @@
         <p xml:lang="ca">Versió inicial del Francis.</p>
         <p xml:lang="ca-valencia">Versió inicial de Francis.</p>
         <p xml:lang="es">Versión inicial de Francis.</p>
+        <p xml:lang="fr">Première version de Francis.</p>
         <p xml:lang="he">המהדורה הראשונית של Francis.</p>
         <p xml:lang="ia">Version initial di Francis.</p>
+        <p xml:lang="lt">Pradinė Francis laida.</p>
         <p xml:lang="nl">Initiële uitgave van Francis.</p>
         <p xml:lang="pt-BR">Lançamento inicial do Francis.</p>
         <p xml:lang="ru">Первый выпуск Francis.</p>
