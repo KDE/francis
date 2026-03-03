@@ -242,6 +242,7 @@
         <p xml:lang="he">תוקנה תקלה בקובץ ה־appstream.</p>
         <p xml:lang="ia">Corrige un problema in l efile de appstream.</p>
         <p xml:lang="it">Risolve un problema nel file appstream.</p>
+        <p xml:lang="ka">გასწორდა პრობლემა ფაილში appstream.</p>
         <p xml:lang="lt">Ištaisyta klaida „appstream“ faile.</p>
         <p xml:lang="nl">Een probleem in het appstream-bestand opgelost.</p>
         <p xml:lang="nn">Retta ein feil in AppStream-fila.</p>
@@ -268,6 +269,7 @@
         <p xml:lang="he">המהדורה הראשונית של Francis.</p>
         <p xml:lang="ia">Version initial di Francis.</p>
         <p xml:lang="it">Rilascio iniziale di Francis.</p>
+        <p xml:lang="ka">Francis-ის პირველი გამოცემა.</p>
         <p xml:lang="lt">Pradinė Francis laida.</p>
         <p xml:lang="nl">Initiële uitgave van Francis.</p>
         <p xml:lang="nn">Første utgåve av Francis.</p>
