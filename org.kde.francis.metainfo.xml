@@ -65,7 +65,7 @@
   <summary xml:lang="ka">თვალყური ადევნეთ თქვენს დროს</summary>
   <summary xml:lang="ko">시간 추적</summary>
   <summary xml:lang="lt">Sekite savo laiką</summary>
-  <summary xml:lang="lv">Sekojiet savam laikam</summary>
+  <summary xml:lang="lv">Sekojiet, kā izmantojat savu laiku.</summary>
   <summary xml:lang="nl">Tijd schrijven</summary>
   <summary xml:lang="nn">Styr tidsbruken din</summary>
   <summary xml:lang="pl">Mierz swój czas</summary>
@@ -244,6 +244,7 @@
         <p xml:lang="it">Risolve un problema nel file appstream.</p>
         <p xml:lang="ka">გასწორდა პრობლემა ფაილში appstream.</p>
         <p xml:lang="lt">Ištaisyta klaida „appstream“ faile.</p>
+        <p xml:lang="lv">Labota kļūda „appstream“ datnē.</p>
         <p xml:lang="nl">Een probleem in het appstream-bestand opgelost.</p>
         <p xml:lang="nn">Retta ein feil in AppStream-fila.</p>
         <p xml:lang="pt-BR">Corrige um problema no arquivo appstream.</p>
@@ -271,6 +272,7 @@
         <p xml:lang="it">Rilascio iniziale di Francis.</p>
         <p xml:lang="ka">Francis-ის პირველი ვერსია.</p>
         <p xml:lang="lt">Pradinė Francis laida.</p>
+        <p xml:lang="lv">„Francis“ pirmā relīze.</p>
         <p xml:lang="nl">Initiële uitgave van Francis.</p>
         <p xml:lang="nn">Første utgåve av Francis.</p>
         <p xml:lang="pt-BR">Lançamento inicial do Francis.</p>
