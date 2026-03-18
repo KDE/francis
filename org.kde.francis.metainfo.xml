@@ -254,6 +254,7 @@
         <p xml:lang="tr">Appstream dosyasındaki bir hata düzeltildi.</p>
         <p xml:lang="uk">Виправлено ваду у файлі appstream.</p>
         <p xml:lang="zh-CN">修复 appstream 文件中的一个问题。</p>
+        <p xml:lang="zh-TW">修正 appstream 檔案中的一個問題。</p>
       </description>
     </release>
     <release version="1.0.0" date="2023-09-07">
@@ -282,6 +283,7 @@
         <p xml:lang="tr">Francis uygulamasının ilk yayımı.</p>
         <p xml:lang="uk">Початковий випуск Francis.</p>
         <p xml:lang="zh-CN">Francis 的首个正式版本。</p>
+        <p xml:lang="zh-TW">Francis 的初始版本。</p>
       </description>
     </release>
   </releases>
