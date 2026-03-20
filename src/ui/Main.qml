@@ -121,8 +121,15 @@ Kirigami.ApplicationWindow {
                             radiusX: circleArc.radiusX; radiusY: circleArc.radiusY
                             startAngle: -90 + 360 * Controller.percentage
                             sweepAngle: 360 * (1 - Controller.percentage)
+                            
+                            Behavior on startAngle {
+                                NumberAnimation {
+                                    duration: 1000
+                                }
+                            }
+                            
                             Behavior on sweepAngle {
-                                NumberAnimation{
+                                NumberAnimation {
                                     duration: 1000
                                 }
                             }
@@ -139,9 +146,14 @@ Kirigami.ApplicationWindow {
                             startAngle: -90 + 360 * Controller.percentage
                             sweepAngle: 360 * (1 - Controller.percentage)
 
+                            Behavior on startAngle {
+                                NumberAnimation {
+                                    duration: 1000
+                                }
+                            }
+                            
                             Behavior on sweepAngle {
-                                NumberAnimation{
-
+                                NumberAnimation {
                                     duration: 1000
                                 }
                             }
