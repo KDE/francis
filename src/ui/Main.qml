@@ -18,6 +18,8 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Francis")
 
+    pageStack.popHiddenPages: true
+
     width: Kirigami.Units.gridUnit * 25
     height: Kirigami.Units.gridUnit * 25
     minimumWidth: Kirigami.Units.gridUnit * 20

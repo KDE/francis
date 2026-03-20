@@ -93,7 +93,7 @@ RowLayout {
             text: i18nc("keyboard shortcut", "About Francis (F1)")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents
-            onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
+            onTriggered: pageStack.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
         }
 
         QQC2.ToolTip.visible: hovered
