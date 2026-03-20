@@ -104,6 +104,8 @@ void Controller::startTimer()
         m_hasStarted = true;
         Q_EMIT hasStartedChanged();
     }
+
+    updateTaskbarProgress(true);
 }
 
 void Controller::stopTimer()
@@ -116,6 +118,8 @@ void Controller::stopTimer()
         m_running = false;
         Q_EMIT runningChanged();
     }
+
+    updateTaskbarProgress(true);
 }
 
 void Controller::goToNextRound()
@@ -200,9 +204,15 @@ void Controller::updateTaskbarProgress(bool forceUpdate)
         }
         parameters.insert(u"progress-visible"_s, true);
         parameters.insert(u"progress"_s, m_percentage);
+        parameters.insert(u"urgent"_s, false);
+    } else if (m_hasStarted) {
+        parameters.insert(u"progress-visible"_s, true);
+        parameters.insert(u"progress"_s, m_percentage);
+        parameters.insert(u"urgent"_s, true);
     } else {
         parameters.insert(u"progress-visible"_s, false);
         parameters.insert(u"progress"_s, 0.0);
+        parameters.insert(u"urgent"_s, false);
     }
     m_progressIndicatorSignal.setArguments({u"application://org.kde.francis.desktop"_s, std::move(parameters)});
     QDBusConnection::sessionBus().send(m_progressIndicatorSignal);
