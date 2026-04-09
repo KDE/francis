@@ -151,6 +151,7 @@
     <p xml:lang="ro">Francis folosește tehnica binecunoscută pomodoro pentru a vă ajuta să fiți mai productiv.</p>
     <p xml:lang="ru">Программа Francis позволяет использовать знаменитый «метод помидора» для повышения продуктивности.</p>
     <p xml:lang="sa">फ्रांसिस् भवतः अधिकं उत्पादकत्वं प्राप्तुं सुप्रसिद्धस्य पोमोडोरो-प्रविधिस्य उपयोगं करोति ।</p>
+    <p xml:lang="sk">Francis používa známu techniku pomodoro, ktorá vám pomôže byť produktívnejší.</p>
     <p xml:lang="sl">Francis uporablja znano tehniko pomodoro, da vam pomaga, da bi bili bolj produktivni.</p>
     <p xml:lang="sv">Francis använder den välkända pomodoro-tekniken för att hjälpa dig bli mer produktiv.</p>
     <p xml:lang="tr">Francis, yaygın olarak bilinen pomodoro tekniğini kullanarak daha üretken olmanıza yardımcı olur.</p>
@@ -189,6 +190,7 @@
       <caption xml:lang="ro">Vizualizarea principală arătând temporizatorul ce descrește</caption>
       <caption xml:lang="ru">Главное окно с отсчётом таймера</caption>
       <caption xml:lang="sa">मुख्यदृश्यं यत् समयनिर्धारकं अधः गच्छति इति दर्शयति</caption>
+      <caption xml:lang="sk">Hlavné zobrazenie s odpočítavajúcim časovačom</caption>
       <caption xml:lang="sl">Glavni pogled, ki prikazuje časovnik, ki se spušča</caption>
       <caption xml:lang="sv">Huvudvy som visar när tidtagningen räknar ner</caption>
       <caption xml:lang="tr">Sayacın çalıştığı ana görünüm</caption>
@@ -251,6 +253,7 @@
         <p xml:lang="pt-BR">Corrige um problema no arquivo appstream.</p>
         <p xml:lang="ro">Reparat un defect în fișierul „appstream”.</p>
         <p xml:lang="ru">Исправлена проблема в файле AppStream.</p>
+        <p xml:lang="sk">Oprava problému v súbore appstream.</p>
         <p xml:lang="sl">Odpravi težavo v datoteki appstream.</p>
         <p xml:lang="tr">Appstream dosyasındaki bir hata düzeltildi.</p>
         <p xml:lang="uk">Виправлено ваду у файлі appstream.</p>
@@ -280,6 +283,7 @@
         <p xml:lang="pt-BR">Lançamento inicial do Francis.</p>
         <p xml:lang="ro">Ediția inițială de Francis.</p>
         <p xml:lang="ru">Первый выпуск Francis.</p>
+        <p xml:lang="sk">Prvé vydanie aplikácie Francis.</p>
         <p xml:lang="sl">Začetna izdaja Francisa.</p>
         <p xml:lang="tr">Francis uygulamasının ilk yayımı.</p>
         <p xml:lang="uk">Початковий випуск Francis.</p>
