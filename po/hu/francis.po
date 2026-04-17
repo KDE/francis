@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-17 00:47+0000\n"
 "PO-Revision-Date: 2024-11-15 20:13+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -122,52 +122,52 @@ msgstr "A Francis névjegye"
 msgid "Francis"
 msgstr "Francis"
 
-#: ui/Main.qml:52
+#: ui/Main.qml:54
 #, kde-format
 msgid "Interval Ended"
 msgstr "Befejeződött az időköz"
 
-#: ui/Main.qml:53
+#: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "Élvezze a szünetet, igyon egy kis vizet."
 
-#: ui/Main.qml:62
+#: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
 msgstr "Vége a szünetnek"
 
-#: ui/Main.qml:63
+#: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
 msgstr "Vissza a munkához."
 
-#: ui/Main.qml:163
+#: ui/Main.qml:177
 #, kde-format
 msgid "Lap 2"
 msgstr "2. kör"
 
-#: ui/Main.qml:165
+#: ui/Main.qml:179
 #, kde-format
 msgid "Lap 3"
 msgstr "3. kör"
 
-#: ui/Main.qml:167
+#: ui/Main.qml:181
 #, kde-format
 msgid "Lap 4"
 msgstr "4. kör"
 
-#: ui/Main.qml:169
+#: ui/Main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "1. kör"
 
-#: ui/Main.qml:202
+#: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
 msgstr "Szünet tartása"
 
-#: ui/Main.qml:236
+#: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Koncentrálnom kell…"

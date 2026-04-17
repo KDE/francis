@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-17 00:47+0000\n"
 "PO-Revision-Date: 2024-12-06 12:57+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -123,52 +123,52 @@ msgstr "О Francis"
 msgid "Francis"
 msgstr "Francis"
 
-#: ui/Main.qml:52
+#: ui/Main.qml:54
 #, kde-format
 msgid "Interval Ended"
 msgstr "Конец интервала"
 
-#: ui/Main.qml:53
+#: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "Сделайте перерыв, выпейте немного воды."
 
-#: ui/Main.qml:62
+#: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
 msgstr "Конец перерыва"
 
-#: ui/Main.qml:63
+#: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
 msgstr "Вернитесь к работе."
 
-#: ui/Main.qml:163
+#: ui/Main.qml:177
 #, kde-format
 msgid "Lap 2"
 msgstr "Блок 2"
 
-#: ui/Main.qml:165
+#: ui/Main.qml:179
 #, kde-format
 msgid "Lap 3"
 msgstr "Блок 3"
 
-#: ui/Main.qml:167
+#: ui/Main.qml:181
 #, kde-format
 msgid "Lap 4"
 msgstr "Блок 4"
 
-#: ui/Main.qml:169
+#: ui/Main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "Блок 1"
 
-#: ui/Main.qml:202
+#: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
 msgstr "Перерыв"
 
-#: ui/Main.qml:236
+#: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Мне нужно сосредоточиться на…"

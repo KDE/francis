@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-17 00:47+0000\n"
 "PO-Revision-Date: 2024-10-20 18:10+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -122,52 +122,52 @@ msgstr "A proposito de Francis"
 msgid "Francis"
 msgstr "Francis"
 
-#: ui/Main.qml:52
+#: ui/Main.qml:54
 #, kde-format
 msgid "Interval Ended"
 msgstr "Intervallo terminava"
 
-#: ui/Main.qml:53
+#: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "Gaude tu pausa, bibe un pauc de aqua."
 
-#: ui/Main.qml:62
+#: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
 msgstr "Pausa terminava"
 
-#: ui/Main.qml:63
+#: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
 msgstr "Retorna al travalio."
 
-#: ui/Main.qml:163
+#: ui/Main.qml:177
 #, kde-format
 msgid "Lap 2"
 msgstr "Gyro 2"
 
-#: ui/Main.qml:165
+#: ui/Main.qml:179
 #, kde-format
 msgid "Lap 3"
 msgstr "Gyro 3"
 
-#: ui/Main.qml:167
+#: ui/Main.qml:181
 #, kde-format
 msgid "Lap 4"
 msgstr "Gyro 4"
 
-#: ui/Main.qml:169
+#: ui/Main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "Gyro 1"
 
-#: ui/Main.qml:202
+#: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
 msgstr "Prender un pausa"
 
-#: ui/Main.qml:236
+#: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
 msgstr "Io necessita focalisar sur ..."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-17 00:47+0000\n"
 "PO-Revision-Date: 2024-10-20 11:02+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -119,52 +119,52 @@ msgstr "À propos de Francis"
 msgid "Francis"
 msgstr "Francis"
 
-#: ui/Main.qml:52
+#: ui/Main.qml:54
 #, kde-format
 msgid "Interval Ended"
 msgstr "Fin de l'intervalle"
 
-#: ui/Main.qml:53
+#: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "Profitez de votre pause, buvez un peu d'eau."
 
-#: ui/Main.qml:62
+#: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
 msgstr "Fin de la pause"
 
-#: ui/Main.qml:63
+#: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
 msgstr "Retournez au travail."
 
-#: ui/Main.qml:163
+#: ui/Main.qml:177
 #, kde-format
 msgid "Lap 2"
 msgstr "Tour 2"
 
-#: ui/Main.qml:165
+#: ui/Main.qml:179
 #, kde-format
 msgid "Lap 3"
 msgstr "Tour 3"
 
-#: ui/Main.qml:167
+#: ui/Main.qml:181
 #, kde-format
 msgid "Lap 4"
 msgstr "Tour 4"
 
-#: ui/Main.qml:169
+#: ui/Main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "Tour 1"
 
-#: ui/Main.qml:202
+#: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
 msgstr "En pause"
 
-#: ui/Main.qml:236
+#: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
 msgstr "J'ai besoin de me concentrer sur..."

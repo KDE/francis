@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-17 00:47+0000\n"
 "PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -124,52 +124,52 @@ msgstr "फ्रांसिस के बारे में"
 msgid "Francis"
 msgstr "फ्रांसिस"
 
-#: ui/Main.qml:52
+#: ui/Main.qml:54
 #, kde-format
 msgid "Interval Ended"
 msgstr "अंतराल समाप्त"
 
-#: ui/Main.qml:53
+#: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
 msgstr "अपने ब्रेक का आनंद लें, थोड़ा पानी पीएं।"
 
-#: ui/Main.qml:62
+#: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
 msgstr "ब्रेक समाप्त"
 
-#: ui/Main.qml:63
+#: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
 msgstr "काम पर वापस आओ।"
 
-#: ui/Main.qml:163
+#: ui/Main.qml:177
 #, kde-format
 msgid "Lap 2"
 msgstr "लैप 2"
 
-#: ui/Main.qml:165
+#: ui/Main.qml:179
 #, kde-format
 msgid "Lap 3"
 msgstr "लैप 3"
 
-#: ui/Main.qml:167
+#: ui/Main.qml:181
 #, kde-format
 msgid "Lap 4"
 msgstr "लैप 4"
 
-#: ui/Main.qml:169
+#: ui/Main.qml:183
 #, kde-format
 msgid "Lap 1"
 msgstr "लैप 1"
 
-#: ui/Main.qml:202
+#: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
 msgstr "एक ब्रेक ले रही है"
 
-#: ui/Main.qml:236
+#: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
 msgstr "मुझे ध्यान केंद्रित करने की जरूरत है…"
