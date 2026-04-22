@@ -166,7 +166,7 @@
       <caption xml:lang="ar">العرض الرئيسي يظهر الموقت ينخفض</caption>
       <caption xml:lang="ca">Vista principal mostrant el temporitzador anant enrere</caption>
       <caption xml:lang="ca-valencia">Vista principal mostrant el temporitzador anant arrere</caption>
-      <caption xml:lang="de">Hauptansicht mit einem herunter zählenden Zeitmesser</caption>
+      <caption xml:lang="de">Hauptansicht mit einem herunterzählenden Timer</caption>
       <caption xml:lang="en-GB">Main view showing the timer going down</caption>
       <caption xml:lang="eo">Ĉefa vido montranta la tempigilon malkreskante</caption>
       <caption xml:lang="es">Vista principal con la cuenta atrás del temporizador</caption>
@@ -239,6 +239,7 @@
         <p xml:lang="ar">إصلاح مشكلة في ملف appstream.</p>
         <p xml:lang="ca">Corregeix un problema en el fitxer «appstream».</p>
         <p xml:lang="ca-valencia">Corregix un problema en el fitxer «appstream».</p>
+        <p xml:lang="de">Fehler in der Appstream-Datei behoben.</p>
         <p xml:lang="es">Se ha corregido un problema en el archivo appstream.</p>
         <p xml:lang="eu">Appstream fitxategian arazo bat konpondu.</p>
         <p xml:lang="fr">Correction d'un problème dans le fichier « appstream ».</p>
@@ -269,6 +270,7 @@
         <p xml:lang="ca">Versió inicial del Francis.</p>
         <p xml:lang="ca-valencia">Versió inicial de Francis.</p>
         <p xml:lang="cs">Úvodní vydání aplikace Francis.</p>
+        <p xml:lang="de">Erste Veröffentlichung von Francis.</p>
         <p xml:lang="es">Versión inicial de Francis.</p>
         <p xml:lang="eu">Francis-en hasierako askapena.</p>
         <p xml:lang="fr">Première version de Francis.</p>
