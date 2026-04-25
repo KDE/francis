@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: francis\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-17 00:47+0000\n"
-"PO-Revision-Date: 2026-03-12 08:20+0000\n"
+"PO-Revision-Date: 2026-04-15 08:20+0100\n"
 "Last-Translator: charlotte <altronic25@protonmail.com>\n"
 "Language-Team: Irish\n"
 "Language: ga\n"
@@ -116,7 +116,7 @@ msgstr "Seol tuairisc ar fhabht..."
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Francis"
-msgstr "Maidir Le Francis"
+msgstr "Maidir le Francis"
 
 #: ui/Main.qml:19
 #, kde-format
@@ -131,17 +131,17 @@ msgstr ""
 #: ui/Main.qml:55
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr ""
+msgstr "Bain sult as do shos, ól roinnt uisce."
 
 #: ui/Main.qml:64
 #, kde-format
 msgid "Break Ended"
-msgstr ""
+msgstr "Sos Críochnaithe"
 
 #: ui/Main.qml:65
 #, kde-format
 msgid "Get back to work."
-msgstr ""
+msgstr "Tar do chúram ar ais."
 
 #: ui/Main.qml:177
 #, kde-format
@@ -166,18 +166,18 @@ msgstr "Cuairt 1"
 #: ui/Main.qml:216
 #, kde-format
 msgid "Taking a Break"
-msgstr ""
+msgstr "Ag Glacadh Sos"
 
 #: ui/Main.qml:250
 #, kde-format
 msgid "I need to focus on…"
-msgstr ""
+msgstr "Tá orm a dhírigh m'aird ar..."
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Toggle Timer (S)"
-msgstr ""
+msgstr "Scoránaigh Uaineadóir (S)"
 
 #: ui/PageHeader.qml:48
 #, kde-format
@@ -201,16 +201,16 @@ msgstr "Léim (N)"
 #, kde-format
 msgctxt "@option:check"
 msgid "Bypass do not disturb"
-msgstr ""
+msgstr "Neamhaird a thabhairt ar ná cuir isteach orm"
 
 #: ui/PageHeader.qml:86
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "Bypass do not disturb (B)"
-msgstr ""
+msgstr "Neamhaird a thabhairt ar ná cuir isteach orm (B)"
 
 #: ui/PageHeader.qml:93
 #, kde-format
 msgctxt "keyboard shortcut"
 msgid "About Francis (F1)"
-msgstr "Maidir Le Francis (F1)"
+msgstr "Maidir le Francis (F1)"
