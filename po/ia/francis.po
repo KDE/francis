@@ -130,7 +130,7 @@ msgstr "Intervallo terminava"
 #: ui/Main.qml:53
 #, kde-format
 msgid "Enjoy your break, drink some water."
-msgstr "Gaude tu pausa, bibe un pauc de aqua."
+msgstr "Gaude tu pausa, bibe un pauco de aqua."
 
 #: ui/Main.qml:62
 #, kde-format
