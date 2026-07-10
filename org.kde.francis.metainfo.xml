@@ -48,6 +48,7 @@
   <summary xml:lang="ar">تتبع وقتك</summary>
   <summary xml:lang="ca">Seguiment del vostre temps</summary>
   <summary xml:lang="ca-valencia">Seguiment del vostre temps</summary>
+  <summary xml:lang="cs">Sledujte svůj čas</summary>
   <summary xml:lang="de">Behalten Sie Ihre Zeit im Auge</summary>
   <summary xml:lang="en-GB">Track your time</summary>
   <summary xml:lang="eo">Spuru vian tempon</summary>
@@ -128,6 +129,7 @@
     <p xml:lang="ar">يستخدم فرانسيس تقنية بومودورو المعروفة لمساعدتك على تحقيق المزيد من الإنتاجية.</p>
     <p xml:lang="ca">Francis usa la força coneguda tècnica del pomodoro per a ajudar-vos a ser més productiu.</p>
     <p xml:lang="ca-valencia">Francis utilitza la força coneguda tècnica del pomodoro per ajudar-vos a ser més productiu.</p>
+    <p xml:lang="cs">Francis využívá známou techniku pomodoro, která vám pomůže zvýšit produktivitu.</p>
     <p xml:lang="de">Francis verwendet die sehr bekannte Pomodoro-Technik für mehr Produktivität.</p>
     <p xml:lang="en-GB">Francis uses the well-known pomodoro technique to help you get more productive.</p>
     <p xml:lang="eo">Francis uzas la vastkonatan pomodoro-teknikon por helpi vin iĝi pli produktiva.</p>
@@ -168,6 +170,7 @@
       <caption xml:lang="ar">العرض الرئيسي يظهر الموقت ينخفض</caption>
       <caption xml:lang="ca">Vista principal mostrant el temporitzador anant enrere</caption>
       <caption xml:lang="ca-valencia">Vista principal mostrant el temporitzador anant arrere</caption>
+      <caption xml:lang="cs">Hlavní zobrazení s odpočítáváním času</caption>
       <caption xml:lang="de">Hauptansicht mit einem herunterzählenden Timer</caption>
       <caption xml:lang="en-GB">Main view showing the timer going down</caption>
       <caption xml:lang="eo">Ĉefa vido montranta la tempigilon malkreskante</caption>
@@ -244,6 +247,7 @@
         <p xml:lang="ar">إصلاح مشكلة في ملف appstream.</p>
         <p xml:lang="ca">Corregeix un problema en el fitxer «appstream».</p>
         <p xml:lang="ca-valencia">Corregix un problema en el fitxer «appstream».</p>
+        <p xml:lang="cs">Opravena chyba v souboru appstream.</p>
         <p xml:lang="de">Fehler in der Appstream-Datei behoben.</p>
         <p xml:lang="es">Se ha corregido un problema en el archivo appstream.</p>
         <p xml:lang="eu">Appstream fitxategian arazo bat konpondu.</p>
