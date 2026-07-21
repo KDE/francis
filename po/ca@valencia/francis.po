@@ -43,7 +43,7 @@ msgstr "Seguiment del vostre temps"
 #: main.cpp:57
 #, kde-format
 msgid "© KDE Community"
-msgstr "© Comunitat KDE"
+msgstr "© La comunitat KDE"
 
 #: main.cpp:58
 #, kde-format
