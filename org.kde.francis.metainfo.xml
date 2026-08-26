@@ -252,6 +252,7 @@
         <p xml:lang="de">Fehler in der Appstream-Datei behoben.</p>
         <p xml:lang="es">Se ha corregido un problema en el archivo appstream.</p>
         <p xml:lang="eu">Appstream fitxategian arazo bat konpondu.</p>
+        <p xml:lang="fi">Korjaa ongelma appstream-tiedostossa.</p>
         <p xml:lang="fr">Correction d'un problème dans le fichier « appstream ».</p>
         <p xml:lang="he">תוקנה תקלה בקובץ ה־appstream.</p>
         <p xml:lang="hu">Hibajavítás az appstream fájlban.</p>
@@ -286,6 +287,7 @@
         <p xml:lang="de">Erste Veröffentlichung von Francis.</p>
         <p xml:lang="es">Versión inicial de Francis.</p>
         <p xml:lang="eu">Francis-en hasierako askapena.</p>
+        <p xml:lang="fi">Francisin ensijulkaisu.</p>
         <p xml:lang="fr">Première version de Francis.</p>
         <p xml:lang="he">המהדורה הראשונית של Francis.</p>
         <p xml:lang="hu">A Francis első kiadása.</p>
