@@ -15,7 +15,7 @@ RowLayout {
     spacing: 0
 
     Shortcut {
-        sequence: StandardKey.Cancel
+        sequences: [ StandardKey.Cancel ]
         enabled: Controller.running
         onActivated: Controller.toggle()
     }
